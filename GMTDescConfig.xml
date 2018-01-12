@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UIDesc_config>
+  <UIDesc idx="ID|||id(int32)" desc_kr="韩文|desc_kr(string)" desc_cn="中文|desc_cn(string)" />
+  <UIDesc idx="1" desc_kr="메인" desc_cn="首页" />
+  <UIDesc idx="2" desc_kr="게임버전" desc_cn="对应游戏版本" />
+  <UIDesc idx="3" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="4" desc_kr="전부추가" desc_cn="全部添加" />
+  <UIDesc idx="5" desc_kr="한개추가" desc_cn="单个添加" />
+  <UIDesc idx="6" desc_kr="한개삭제" desc_cn="单个移除" />
+  <UIDesc idx="7" desc_kr="전부삭제" desc_cn="全部移除" />
+  <UIDesc idx="8" desc_kr="유저ID" desc_cn="玩家ID" />
+  <UIDesc idx="9" desc_kr="유저명" desc_cn="玩家名称" />
+  <UIDesc idx="10" desc_kr="현재서버상태" desc_cn="服务器当前状态" />
+  <UIDesc idx="11" desc_kr="유저확인" desc_cn="确认玩家" />
+  <UIDesc idx="12" desc_kr="아이템발송" desc_cn="发送道具" />
+  <UIDesc idx="13" desc_kr="유형" desc_cn="类型" />
+  <UIDesc idx="14" desc_kr="선택" desc_cn="选择" />
+  <UIDesc idx="15" desc_kr="수량" desc_cn="数量" />
+  <UIDesc idx="16" desc_kr="발송" desc_cn="确认发放" />
+  <UIDesc idx="17" desc_kr="캐릭터정리" desc_cn="清理角色" />
+  <UIDesc idx="18" desc_kr="튜토리얼스킵" desc_cn="跳过引导" />
+  <UIDesc idx="19" desc_kr="패키지발송" desc_cn="礼包发放" />
+  <UIDesc idx="20" desc_kr="선택" desc_cn="选择" />
+  <UIDesc idx="21" desc_kr="한개발송" desc_cn="单人发放" />
+  <UIDesc idx="22" desc_kr="전부발송" desc_cn="全员发放" />
+  <UIDesc idx="23" desc_kr="화이트리스트" desc_cn="白名单" />
+  <UIDesc idx="24" desc_kr="입력" desc_cn="输入" />
+  <UIDesc idx="25" desc_kr="추가" desc_cn="确认添加" />
+  <UIDesc idx="26" desc_kr="모든유저진입막기" desc_cn="阻止所有玩家进入" />
+  <UIDesc idx="27" desc_kr="모든유저진입허용" desc_cn="允许所有玩家进入" />
+  <UIDesc idx="28" desc_kr="고급명령" desc_cn="高级指令" />
+  <UIDesc idx="29" desc_kr="입력" desc_cn="输入" />
+  <UIDesc idx="30" desc_kr="명령" desc_cn="确认指令" />
+  <UIDesc idx="31" desc_kr="전투력검증오픈" desc_cn="开启战力校验" />
+  <UIDesc idx="32" desc_kr="전투력검증닫기" desc_cn="关闭战力校验" />
+  <UIDesc idx="33" desc_kr="재태크계획인원수초기화" desc_cn="清空理财计划人数" />
+  <UIDesc idx="34" desc_kr="서버닫기" desc_cn="关服" />
+  <UIDesc idx="35" desc_kr="로그문서다운로드" desc_cn="下载日志文件" />
+  <UIDesc idx="36" desc_kr="등록(이벤트 불포함)" desc_cn="载入（不包括活动）" />
+  <UIDesc idx="37" desc_kr="모든설정다시등록" desc_cn="重新载入所有配置" />
+  <UIDesc idx="38" desc_kr="유저정보검색" desc_cn="玩家信息查询" />
+  <UIDesc idx="39" desc_kr="유저검색" desc_cn="玩家查询" />
+  <UIDesc idx="40" desc_kr="게임버전" desc_cn="对应游戏版本" />
+  <UIDesc idx="41" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="42" desc_kr="전부추가" desc_cn="全部添加" />
+  <UIDesc idx="43" desc_kr="한개추가" desc_cn="单个添加" />
+  <UIDesc idx="44" desc_kr="한개삭제" desc_cn="单个移除" />
+  <UIDesc idx="45" desc_kr="전부삭제" desc_cn="全部移除" />
+  <UIDesc idx="46" desc_kr="유저명" desc_cn="玩家名称" />
+  <UIDesc idx="47" desc_kr="유저ID" desc_cn="玩家ID" />
+  <UIDesc idx="48" desc_kr="플랫폼ID" desc_cn="平台ID" />
+  <UIDesc idx="49" desc_kr="유저검색" desc_cn="查询玩家" />
+  <UIDesc idx="50" desc_kr="정보표시" desc_cn="显示信息" />
+  <UIDesc idx="51" desc_kr="채팅금지" desc_cn="禁言" />
+  <UIDesc idx="52" desc_kr="금지해제" desc_cn="解禁" />
+  <UIDesc idx="53" desc_kr="계정정지" desc_cn="封号" />
+  <UIDesc idx="54" desc_kr="정지해제" desc_cn="解封" />
+  <UIDesc idx="55" desc_kr="강제퇴장" desc_cn="踢人" />
+  <UIDesc idx="56" desc_kr="로그문서다운로드" desc_cn="下载日志文件" />
+  <UIDesc idx="57" desc_kr="계정정보" desc_cn="账号信息" />
+  <UIDesc idx="58" desc_kr="유저ID" desc_cn="玩家ID" />
+  <UIDesc idx="59" desc_kr="현재상태" desc_cn="当前状态" />
+  <UIDesc idx="60" desc_kr="VIP레벨" desc_cn="VIP等级" />
+  <UIDesc idx="61" desc_kr="부대레벨" desc_cn="团队等级" />
+  <UIDesc idx="62" desc_kr="충전금액" desc_cn="充值金额" />
+  <UIDesc idx="63" desc_kr="남은다이아" desc_cn="剩余元宝" />
+  <UIDesc idx="64" desc_kr="남은금화" desc_cn="剩余铜钱" />
+  <UIDesc idx="65" desc_kr="현재체력" desc_cn="当前体力" />
+  <UIDesc idx="66" desc_kr="보물수량" desc_cn="灵玉数量" />
+  <UIDesc idx="67" desc_kr="장수수량" desc_cn="武将数量" />
+  <UIDesc idx="68" desc_kr="던전진행도" desc_cn="副本进度" />
+  <UIDesc idx="69" desc_kr="소속길드" desc_cn="所属军团" />
+  <UIDesc idx="70" desc_kr="생성시간" desc_cn="创建时间" />
+  <UIDesc idx="71" desc_kr="마지막접속시간" desc_cn="最后登录时间" />
+  <UIDesc idx="72" desc_kr="접속시간" desc_cn="在线时长" />
+  <UIDesc idx="73" desc_kr="수퍼월정액" desc_cn="超值月卡" />
+  <UIDesc idx="74" desc_kr="지존월정액" desc_cn="至尊卡" />
+  <UIDesc idx="75" desc_kr="활성화코드" desc_cn="游戏激活码" />
+  <UIDesc idx="76" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="77" desc_kr="마켓선택" desc_cn="选择渠道" />
+  <UIDesc idx="78" desc_kr="유효기간" desc_cn="失效日期" />
+  <UIDesc idx="79" desc_kr="생성개수" desc_cn="生成个数" />
+  <UIDesc idx="80" desc_kr="생성" desc_cn="生成" />
+  <UIDesc idx="81" desc_kr="쿠폰코드" desc_cn="游戏礼包码" />
+  <UIDesc idx="82" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="83" desc_kr="마켓선택" desc_cn="选择渠道" />
+  <UIDesc idx="84" desc_kr="쿠폰유형" desc_cn="礼包类型" />
+  <UIDesc idx="85" desc_kr="쿠폰선택" desc_cn="选择礼包" />
+  <UIDesc idx="86" desc_kr="생성개수" desc_cn="生成个数" />
+  <UIDesc idx="87" desc_kr="생성일자" desc_cn="生效日期" />
+  <UIDesc idx="88" desc_kr="사용횟수" desc_cn="使用次数" />
+  <UIDesc idx="89" desc_kr="생성" desc_cn="确认生成" />
+  <UIDesc idx="90" desc_kr="줄공지" desc_cn="滚屏公告" />
+  <UIDesc idx="91" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="92" desc_kr="공지내용" desc_cn="跑马灯内容" />
+  <UIDesc idx="93" desc_kr="간격" desc_cn="间隔时间" />
+  <UIDesc idx="94" desc_kr="초" desc_cn="秒" />
+  <UIDesc idx="95" desc_kr="추가" desc_cn="确认添加" />
+  <UIDesc idx="96" desc_kr="현재줄공지" desc_cn="当前跑马灯" />
+  <UIDesc idx="97" desc_kr="삭제" desc_cn="移除该条" />
+  <UIDesc idx="98" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="99" desc_kr="전부추가" desc_cn="全部添加" />
+  <UIDesc idx="100" desc_kr="한개추가" desc_cn="单个添加" />
+  <UIDesc idx="101" desc_kr="한개삭제" desc_cn="单个移除" />
+  <UIDesc idx="102" desc_kr="전부삭제" desc_cn="全部移除" />
+  <UIDesc idx="103" desc_kr="공지복사" desc_cn="复制跑马灯" />
+  <UIDesc idx="104" desc_kr="공지삭제" desc_cn="删除跑马灯" />
+  <UIDesc idx="105" desc_kr="아이템대량지급" desc_cn="批量给予物品" />
+  <UIDesc idx="106" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="107" desc_kr="유저ID" desc_cn="玩家ID" />
+  <UIDesc idx="108" desc_kr="ID추가" desc_cn="添加ID" />
+  <UIDesc idx="109" desc_kr="삭제" desc_cn="移除" />
+  <UIDesc idx="110" desc_kr="제거" desc_cn="清除" />
+  <UIDesc idx="111" desc_kr="패키지선택" desc_cn="选择礼包" />
+  <UIDesc idx="112" desc_kr="선택추가" desc_cn="添加给予" />
+  <UIDesc idx="113" desc_kr="서버오픈이벤트설정" desc_cn="开服活动设置" />
+  <UIDesc idx="114" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="115" desc_kr="시간설정" desc_cn="设置时间" />
+  <UIDesc idx="116" desc_kr="설정확인" desc_cn="确认设置" />
+  <UIDesc idx="117" desc_kr="서버오픈이벤트시간리스트" desc_cn="服务器开服活动时间列表" />
+  <UIDesc idx="118" desc_kr="운영이벤트설정" desc_cn="运营活动设置" />
+  <UIDesc idx="119" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="120" desc_kr="갱신" desc_cn="刷新" />
+  <UIDesc idx="121" desc_kr="현재이벤트시작시간" desc_cn="当前活动开始时间" />
+  <UIDesc idx="122" desc_kr="다음이벤트시작시간" desc_cn="下次活动开始时间" />
+  <UIDesc idx="123" desc_kr="추가" desc_cn="添加" />
+  <UIDesc idx="124" desc_kr="삭제" desc_cn="删除" />
+  <UIDesc idx="125" desc_kr="제거" desc_cn="清除" />
+  <UIDesc idx="126" desc_kr="유저이벤트데이터삭제" desc_cn="清除玩家活动数据" />
+  <UIDesc idx="127" desc_kr="서버오픈이벤트추가" desc_cn="添加开服活动" />
+  <UIDesc idx="128" desc_kr="다음이벤트시간설정" desc_cn="设置下次活动时间" />
+  <UIDesc idx="129" desc_kr="일자확인" desc_cn="确认日期" />
+  <UIDesc idx="130" desc_kr="취소" desc_cn="取消" />
+  <UIDesc idx="131" desc_kr="현재보유이벤트" desc_cn="当前拥有的活动" />
+  <UIDesc idx="132" desc_kr="지속" desc_cn="持续" />
+  <UIDesc idx="133" desc_kr="일" desc_cn="天" />
+  <UIDesc idx="134" desc_kr="연기" desc_cn="推迟" />
+  <UIDesc idx="135" desc_kr="값" desc_cn="参数" />
+  <UIDesc idx="136" desc_kr="영구" desc_cn="永久" />
+  <UIDesc idx="137" desc_kr="이벤트설정활용" desc_cn="应用以上活动设置" />
+  <UIDesc idx="138" desc_kr="이벤트편집" desc_cn="活动编辑" />
+  <UIDesc idx="139" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="140" desc_kr="ZIP발송" desc_cn="发送ZIP包" />
+  <UIDesc idx="141" desc_kr="ZIP다운" desc_cn="下载ZIP包" />
+  <UIDesc idx="142" desc_kr="이벤트제목" desc_cn="活动标题" />
+  <UIDesc idx="143" desc_kr="이벤트내용" desc_cn="活动内容" />
+  <UIDesc idx="144" desc_kr="업적미리보기" desc_cn="成就预览" />
+  <UIDesc idx="145" desc_kr="업적설명" desc_cn="成就描述" />
+  <UIDesc idx="146" desc_kr="중첩표시" desc_cn="叠加显示" />
+  <UIDesc idx="147" desc_kr="이벤트유형" desc_cn="活动类型" />
+  <UIDesc idx="148" desc_kr="이벤트형식" desc_cn="活动形式" />
+  <UIDesc idx="149" desc_kr="조건완성" desc_cn="完成条件" />
+  <UIDesc idx="150" desc_kr="순서표시" desc_cn="显示顺序" />
+  <UIDesc idx="151" desc_kr="첫번째빨간점" desc_cn="首次红点" />
+  <UIDesc idx="152" desc_kr="보상추가" desc_cn="添加奖励" />
+  <UIDesc idx="153" desc_kr="아이템유형" desc_cn="物品类型" />
+  <UIDesc idx="154" desc_kr="아이템ID" desc_cn="物品ID" />
+  <UIDesc idx="155" desc_kr="아이템수량" desc_cn="物品数量" />
+  <UIDesc idx="156" desc_kr="추가" desc_cn="添加" />
+  <UIDesc idx="157" desc_kr="보상미리보기" desc_cn="奖励预览" />
+  <UIDesc idx="158" desc_kr="삭제" desc_cn="删除" />
+  <UIDesc idx="159" desc_kr="전부삭제" desc_cn="清空" />
+  <UIDesc idx="160" desc_kr="업적제출" desc_cn="提交成就" />
+  <UIDesc idx="161" desc_kr="이벤트저장" desc_cn="保存活动" />
+  <UIDesc idx="162" desc_kr="편집완료후저장클릭" desc_cn="全部编辑完后点击保存" />
+  <UIDesc idx="163" desc_kr="이미 이벤트가 있습니다" desc_cn="已有活动" />
+  <UIDesc idx="164" desc_kr="이벤트상세" desc_cn="活动详情" />
+  <UIDesc idx="165" desc_kr="이벤트삭제" desc_cn="删除活动" />
+  <UIDesc idx="166" desc_kr="이벤트보기" desc_cn="查看活动" />
+  <UIDesc idx="167" desc_kr="이벤트모두삭제" desc_cn="清空活动" />
+  <UIDesc idx="168" desc_kr="현재서버발송" desc_cn="发送当前服务器" />
+  <UIDesc idx="169" desc_kr="이벤트저장" desc_cn="保存活动到本机" />
+  <UIDesc idx="170" desc_kr="패키지편집" desc_cn="礼包编辑" />
+  <UIDesc idx="171" desc_kr="우편제목" desc_cn="邮件标题" />
+  <UIDesc idx="172" desc_kr="내용" desc_cn="描述内容" />
+  <UIDesc idx="173" desc_kr="현재우편" desc_cn="当前邮件" />
+  <UIDesc idx="174" desc_kr="추가" desc_cn="添加" />
+  <UIDesc idx="175" desc_kr="수정" desc_cn="修改" />
+  <UIDesc idx="176" desc_kr="삭제" desc_cn="删除" />
+  <UIDesc idx="177" desc_kr="서버발송" desc_cn="发送服务器" />
+  <UIDesc idx="178" desc_kr="표발송" desc_cn="发送表格" />
+  <UIDesc idx="179" desc_kr="버전번호" desc_cn="版本号" />
+  <UIDesc idx="180" desc_kr="패키지저장" desc_cn="保存礼包到本机" />
+  <UIDesc idx="181" desc_kr="보상설정" desc_cn="奖励设置" />
+  <UIDesc idx="182" desc_kr="아이템유형" desc_cn="物品类型" />
+  <UIDesc idx="183" desc_kr="아이템ID" desc_cn="物品ID" />
+  <UIDesc idx="184" desc_kr="수량" desc_cn="数量" />
+  <UIDesc idx="185" desc_kr="저장" desc_cn="保存修改" />
+  <UIDesc idx="186" desc_kr="공지편집" desc_cn="公告编辑" />
+  <UIDesc idx="187" desc_kr="GMT로돌아가기" desc_cn="返回gm工具" />
+  <UIDesc idx="188" desc_kr="제목" desc_cn="标题" />
+  <UIDesc idx="189" desc_kr="내용" desc_cn="内容" />
+  <UIDesc idx="190" desc_kr="이벤트ID귀속" desc_cn="绑定活动ID" />
+  <UIDesc idx="191" desc_kr="모든표바로발송" desc_cn="直接发送所有表格" />
+  <UIDesc idx="192" desc_kr="ZIP발송" desc_cn="发送ZIP包" />
+  <UIDesc idx="193" desc_kr="ZIP다운" desc_cn="下载ZIP包" />
+  <UIDesc idx="194" desc_kr="공지저장" desc_cn="保存公告到本机" />
+  <UIDesc idx="195" desc_kr="공지업로드" desc_cn="上传公告" />
+  <UIDesc idx="196" desc_kr="문서선택" desc_cn="选择文件" />
+  <UIDesc idx="197" desc_kr="업로드" desc_cn="上传" />
+  <UIDesc idx="198" desc_kr="서버목록" desc_cn="服务器列表" />
+  <UIDesc idx="199" desc_kr="마켓편집" desc_cn="编辑渠道" />
+  <UIDesc idx="200" desc_kr="서버목록편집" desc_cn="编辑服务器列表" />
+  <UIDesc idx="201" desc_kr="서버" desc_cn="大区" />
+  <UIDesc idx="202" desc_kr="마켓" desc_cn="渠道" />
+  <UIDesc idx="203" desc_kr="번호" desc_cn="编号" />
+  <UIDesc idx="204" desc_kr="서버명" desc_cn="服务器名" />
+  <UIDesc idx="205" desc_kr="IP" desc_cn="IP" />
+  <UIDesc idx="206" desc_kr="포트" desc_cn="端口" />
+  <UIDesc idx="207" desc_kr="상태" desc_cn="状态" />
+  <UIDesc idx="208" desc_kr="추천" desc_cn="推荐" />
+  <UIDesc idx="209" desc_kr="서버ID" desc_cn="服务器ID" />
+  <UIDesc idx="210" desc_kr="목록에보이는" desc_cn="列表可见" />
+  <UIDesc idx="211" desc_kr="위로" desc_cn="上移" />
+  <UIDesc idx="212" desc_kr="아래로" desc_cn="下移" />
+  <UIDesc idx="213" desc_kr="버전" desc_cn="版本" />
+  <UIDesc idx="214" desc_kr="서버목록바로발송" desc_cn="直接发送服务器列表" />
+  <UIDesc idx="215" desc_kr="서버통합" desc_cn="合并服务器" />
+  <UIDesc idx="216" desc_kr="시작서버" desc_cn="从" />
+  <UIDesc idx="217" desc_kr="끝서버" desc_cn="到" />
+  <UIDesc idx="218" desc_kr="통합" desc_cn="合并" />
+  <UIDesc idx="219" desc_kr="충전기록검색" desc_cn="充值记录查询" />
+  <UIDesc idx="220" desc_kr="메인으로" desc_cn="返回主界面" />
+  <UIDesc idx="221" desc_kr="알림:영수증이 서버와 대응되어야 합니다" desc_cn="提示：订单库要与服务器对应" />
+  <UIDesc idx="222" desc_kr="영수증DB" desc_cn="订单数据库" />
+  <UIDesc idx="223" desc_kr="서버선택" desc_cn="选择服务器" />
+  <UIDesc idx="224" desc_kr="UserID" desc_cn="UserID" />
+  <UIDesc idx="225" desc_kr="시작일" desc_cn="起始日期" />
+  <UIDesc idx="226" desc_kr="종료일" desc_cn="结束日期" />
+  <UIDesc idx="227" desc_kr="예:" desc_cn="格式如：" />
+  <UIDesc idx="228" desc_kr="검색" desc_cn="查询" />
+  <UIDesc idx="229" desc_kr="FTP주소편집" desc_cn="FTP地址编辑" />
+  <UIDesc idx="230" desc_kr="계정" desc_cn="用户" />
+  <UIDesc idx="231" desc_kr="비밀번호" desc_cn="密码" />
+  <UIDesc idx="232" desc_kr="저장" desc_cn="保存" />
+  <UIDesc idx="233" desc_kr="POST처리" desc_cn="POST处理" />
+  <UIDesc idx="234" desc_kr="정보" desc_cn="信息" />
+  <UIDesc idx="235" desc_kr="발송" desc_cn="发送" />
+  <UIDesc idx="236" desc_kr="서버데이터" desc_cn="服务器数据报表" />
+  <UIDesc idx="237" desc_kr="서버데이터" desc_cn="服务器数据" />
+  <UIDesc idx="238" desc_kr="마켓" desc_cn="渠道" />
+  <UIDesc idx="239" desc_kr="시작일" desc_cn="起始日期" />
+  <UIDesc idx="240" desc_kr="종료일" desc_cn="结束日期" />
+  <UIDesc idx="241" desc_kr="7일충전" desc_cn="七天充值" />
+  <UIDesc idx="242" desc_kr="주" desc_cn="周数" />
+  <UIDesc idx="243" desc_kr="유저관련데이터" desc_cn="玩家相关数据报表" />
+  <UIDesc idx="244" desc_kr="유저관련데이터" desc_cn="玩家相关数据" />
+  <UIDesc idx="245" desc_kr="서버" desc_cn="服务器" />
+  <UIDesc idx="246" desc_kr="유저로그" desc_cn="玩家历史记录" />
+  <UIDesc idx="247" desc_kr="유저로그데이터" desc_cn="玩家历史数据" />
+  <UIDesc idx="248" desc_kr="서버" desc_cn="服务器" />
+  <UIDesc idx="249" desc_kr="유형" desc_cn="类型" />
+  <UIDesc idx="250" desc_kr="유저ID" desc_cn="玩家ID" />
+  <UIDesc idx="251" desc_kr="시간" desc_cn="时间" />
+  <UIDesc idx="252" desc_kr="상태" desc_cn="状态" />
+  <UIDesc idx="253" desc_kr="마켓번호" desc_cn="渠道号" />
+  <UIDesc idx="254" desc_kr="레벨" desc_cn="等级" />
+  <UIDesc idx="255" desc_kr="사건명" desc_cn="事件名称" />
+  <UIDesc idx="256" desc_kr="경제명" desc_cn="经济名称" />
+  <UIDesc idx="257" desc_kr="수량" desc_cn="数量" />
+  <UIDesc idx="258" desc_kr="총량" desc_cn="总量" />
+  <UIDesc idx="259" desc_kr="VIP레벨" desc_cn="VIP等级" />
+  <UIDesc idx="260" desc_kr="매칭기록을 찾지못함" desc_cn="没有找到匹配的记录" />
+  <UIDesc idx="261" desc_kr="검색" desc_cn="搜素" />
+  <UIDesc idx="262" desc_kr="소모" desc_cn="消耗" />
+  <UIDesc idx="263" desc_kr="획득" desc_cn="获得" />
+  <UIDesc idx="264" desc_kr="정예던전시작" desc_cn="精英本开始" />
+  <UIDesc idx="265" desc_kr="경기장관련(갱신)" desc_cn="竞技场相关（刷新）" />
+  <UIDesc idx="266" desc_kr="리뷰보상" desc_cn="评星奖励" />
+  <UIDesc idx="267" desc_kr="달걀깨기" desc_cn="砸金蛋" />
+  <UIDesc idx="268" desc_kr="장신구마법부여" desc_cn="饰品附魔" />
+  <UIDesc idx="269" desc_kr="경기장순위보상" desc_cn="竞技场名次奖励" />
+  <UIDesc idx="270" desc_kr="무진도전격려와환생" desc_cn="无尽挑战鼓舞和重生" />
+  <UIDesc idx="271" desc_kr="각성점성(무쓸모)" desc_cn="觉醒占星（无用）" />
+  <UIDesc idx="272" desc_kr="월정액관련" desc_cn="小月卡相关" />
+  <UIDesc idx="273" desc_kr="7일충전반환" desc_cn="7天充值返还" />
+  <UIDesc idx="274" desc_kr="영웅합성" desc_cn="英雄合成" />
+  <UIDesc idx="275" desc_kr="금화, 경험치, 펫, 수호던전종료" desc_cn="金币本、经验本、宠物本、卫本结束" />
+  <UIDesc idx="276" desc_kr="상점초기화" desc_cn="商店重置" />
+  <UIDesc idx="277" desc_kr="캐릭터명변경" desc_cn="角色改名" />
+  <UIDesc idx="278" desc_kr="체력선물(친구)" desc_cn="精力值赠予（好友）" />
+  <UIDesc idx="279" desc_kr="스킬포인트획득(없어짐)" desc_cn="技能点获取（没了）" />
+  <UIDesc idx="280" desc_kr="금화획득(원보구매)" desc_cn="金币获取（元宝购买）" />
+  <UIDesc idx="281" desc_kr="신병진화관련" desc_cn="神兵进化相关" />
+  <UIDesc idx="282" desc_kr="영웅진급" desc_cn="英雄升阶" />
+  <UIDesc idx="283" desc_kr="던전초기화(정예던전과 전용던전)" desc_cn="副本重置（精英本和专属本" />
+  <UIDesc idx="284" desc_kr="칭호활성" desc_cn="称号激活" />
+  <UIDesc idx="285" desc_kr="영웅승급" desc_cn="英雄升星" />
+  <UIDesc idx="286" desc_kr="아이템전환" desc_cn="道具转换" />
+  <UIDesc idx="287" desc_kr="팔진도보상" desc_cn="八阵图章节奖励" />
+  <UIDesc idx="288" desc_kr="대부호관련(없어짐)" desc_cn="大富翁相关（没了）" />
+  <UIDesc idx="289" desc_kr="돌파상자관련" desc_cn="突破宝箱相关" />
+  <UIDesc idx="290" desc_kr="팔진도신비상자오픈" desc_cn="八阵图神秘宝箱开启" />
+  <UIDesc idx="291" desc_kr="오프라인보상관련" desc_cn="离线奖励相关" />
+  <UIDesc idx="292" desc_kr="리뷰보상" desc_cn="评星奖励" />
+  <UIDesc idx="293" desc_kr="순위BUFF관련" desc_cn="排行榜buff相关" />
+  <UIDesc idx="294" desc_kr="연혼관련" desc_cn="炼魂相关" />
+  <UIDesc idx="295" desc_kr="길드임무관련(임무즉시완료)" desc_cn="帮派任务相关（直接完成任务）" />
+  <UIDesc idx="296" desc_kr="길드임무던전종료" desc_cn="帮派任务副本结束" />
+  <UIDesc idx="297" desc_kr="부대레벨업" desc_cn="团队等级升级" />
+  <UIDesc idx="298" desc_kr="영웅합성" desc_cn="英雄合成" />
+  <UIDesc idx="299" desc_kr="호송관련" desc_cn="押镖相关" />
+  <UIDesc idx="300" desc_kr="팔진도초기화" desc_cn="八阵图重置" />
+  <UIDesc idx="301" desc_kr="천리단기종료" desc_cn="千里单骑本结束" />
+  <UIDesc idx="302" desc_kr="상점구매" desc_cn="商店购买" />
+  <UIDesc idx="303" desc_kr="임무관련" desc_cn="任务相关" />
+  <UIDesc idx="304" desc_kr="아이템사용" desc_cn="物品使用" />
+  <UIDesc idx="305" desc_kr="팔진도관련" desc_cn="八阵图相关（无重置，宝箱）" />
+  <UIDesc idx="306" desc_kr="길드던전" desc_cn="帮派副本" />
+  <UIDesc idx="307" desc_kr="제후할거 수확관련" desc_cn="诸侯割据 收成相关" />
+  <UIDesc idx="308" desc_kr="정예던전시작" desc_cn="精英副本开始" />
+  <UIDesc idx="309" desc_kr="펫영석분해" desc_cn="灵宠灵石分解" />
+  <UIDesc idx="310" desc_kr="펫상점일반뽑기" desc_cn="灵宠商店普通抽奖" />
+  <UIDesc idx="311" desc_kr="가방정리" desc_cn="背包整理" />
+  <UIDesc idx="312" desc_kr="약탈관련" desc_cn="劫镖相关" />
+  <UIDesc idx="313" desc_kr="신병병혼진화" desc_cn="神兵兵魂进化" />
+  <UIDesc idx="314" desc_kr="영웅스킬관련" desc_cn="英雄技能相关" />
+  <UIDesc idx="315" desc_kr="제후할거순찰" desc_cn="诸侯割据 巡城" />
+  <UIDesc idx="316" desc_kr="제후할거약탈관련" desc_cn="诸侯割据 抢夺相关" />
+  <UIDesc idx="317" desc_kr="펫상점고급뽑기" desc_cn="灵宠商店高级抽奖" />
+  <UIDesc idx="318" desc_kr="제후할거도움" desc_cn="诸侯割据 救援" />
+  <UIDesc idx="319" desc_kr="영웅전승" desc_cn="英雄传承" />
+  <UIDesc idx="320" desc_kr="길드스킬" desc_cn="帮派技能" />
+  <UIDesc idx="321" desc_kr="경제유형" desc_cn="经济类型" />
+  <UIDesc idx="322" desc_kr="아이템" desc_cn="物品" />
+  <UIDesc idx="323" desc_kr="체력" desc_cn="体力" />
+  <UIDesc idx="324" desc_kr="금화" desc_cn="铜钱" />
+  <UIDesc idx="325" desc_kr="다이아" desc_cn="元宝" />
+  <UIDesc idx="326" desc_kr="합계" desc_cn="总计" />
+  <UIDesc idx="327" desc_kr="군공" desc_cn="军功" />
+  <UIDesc idx="328" desc_kr="명예포인트" desc_cn="荣誉点" />
+  <UIDesc idx="329" desc_kr="용기포인트" desc_cn="勇气点" />
+  <UIDesc idx="330" desc_kr="장비정수" desc_cn="装备精华" />
+  <UIDesc idx="331" desc_kr="병혼정수" desc_cn="兵魂精华" />
+  <UIDesc idx="332" desc_kr="개인공헌" desc_cn="个人贡献" />
+  <UIDesc idx="333" desc_kr="용주정수" desc_cn="龙珠精华" />
+  <UIDesc idx="334" desc_kr="결제방식" desc_cn="支付方式" />
+  <UIDesc idx="335" desc_kr="로그아웃" desc_cn="退出登录" />
+  <UIDesc idx="336" desc_kr="장수" desc_cn="武将" />
+  <UIDesc idx="337" desc_kr="경험치" desc_cn="经验" />
+  <UIDesc idx="338" desc_kr="군단경험치" desc_cn="团队经验" />
+  <UIDesc idx="339" desc_kr="출전장수경험치" desc_cn="出战武将经验" />
+  <UIDesc idx="340" desc_kr="NULL(340)" desc_cn="NULL" />
+  <UIDesc idx="341" desc_kr="부드럽게" desc_cn="流畅" />
+  <UIDesc idx="342" desc_kr="혼잡 한" desc_cn="拥挤" />
+  <UIDesc idx="343" desc_kr="전체" desc_cn="爆满" />
+  <UIDesc idx="344" desc_kr="유지 보수" desc_cn="维护" />
+  <UIDesc idx="345" desc_kr="돌아가기" desc_cn="返回登录" />
+  <UIDesc idx="346" desc_kr="계정명" desc_cn="用户名" />
+  <UIDesc idx="347" desc_kr="권한수정" desc_cn="修改权限" />
+  <UIDesc idx="348" desc_kr="권한받기" desc_cn="下载权限" />
+  <UIDesc idx="349" desc_kr="서버번호" desc_cn="服务器编号" />
+  <UIDesc idx="350" desc_kr="서버명" desc_cn="服务器名称" />
+  <UIDesc idx="351" desc_kr="서버auth주소" desc_cn="服务器auth地址" />
+  <UIDesc idx="352" desc_kr="게임DB주소" desc_cn="游戏数据库地址" />
+  <UIDesc idx="353" desc_kr="게임DB포트" desc_cn="游戏数据库端口" />
+  <UIDesc idx="354" desc_kr="게임DB문자집" desc_cn="游戏数据库字符集" />
+  <UIDesc idx="355" desc_kr="게임DB계정" desc_cn="游戏数据库用户" />
+  <UIDesc idx="356" desc_kr="게임DB비밀번호" desc_cn="游戏数据库密码" />
+  <UIDesc idx="357" desc_kr="게임DB명칭" desc_cn="游戏数据库名称" />
+  <UIDesc idx="358" desc_kr="발송DB주소" desc_cn="发码数据库地址" />
+  <UIDesc idx="359" desc_kr="발송DB포트" desc_cn="发码数据库端口" />
+  <UIDesc idx="360" desc_kr="발송DB문자집" desc_cn="发码数据库字符集" />
+  <UIDesc idx="361" desc_kr="발송DB계정" desc_cn="发码数据库用户" />
+  <UIDesc idx="362" desc_kr="발송DB비밀번호" desc_cn="发码数据库密码" />
+  <UIDesc idx="363" desc_kr="발송DB명칭" desc_cn="发码数据库名称" />
+  <UIDesc idx="364" desc_kr="로그DB주소" desc_cn="日志数据库地址" />
+  <UIDesc idx="365" desc_kr="로그DB포트" desc_cn="日志数据库端口" />
+  <UIDesc idx="366" desc_kr="로그DB문자집" desc_cn="日志数据库字符集" />
+  <UIDesc idx="367" desc_kr="로그DB계정" desc_cn="日志数据库用户" />
+  <UIDesc idx="368" desc_kr="로그DB비밀번호" desc_cn="日志数据库密码" />
+  <UIDesc idx="369" desc_kr="로그DB명칭" desc_cn="日志数据库名称" />
+  <UIDesc idx="370" desc_kr="계정을 선택하세요" desc_cn="请选择一个用户" />
+  <UIDesc idx="371" desc_kr="계정명 수정불가" desc_cn="用户名不能修改" />
+  <UIDesc idx="372" desc_kr="계정명과 비밀번호를 입력하세요" desc_cn="请输入用户名和密码" />
+  <UIDesc idx="373" desc_kr="계정을 선택하세요" desc_cn="请选择一个户名" />
+  <UIDesc idx="374" desc_kr="서버명 수정불가" desc_cn="服务器名称不能修改" />
+  <UIDesc idx="375" desc_kr="서버명 중복" desc_cn="服务器名称重复" />
+  <UIDesc idx="376" desc_kr="서버번호를 입력하세요" desc_cn="请输入服务器编号" />
+  <UIDesc idx="377" desc_kr="서버명을 입력하세요" desc_cn="请输入服务器名称" />
+  <UIDesc idx="378" desc_kr="서버GM주소를 입력하세요" desc_cn="请输入服务器GM地址" />
+  <UIDesc idx="379" desc_kr="게임DB주소를 입력하세요" desc_cn="请输入游戏数据库地址" />
+  <UIDesc idx="380" desc_kr="게임서버포트오류" desc_cn="游戏数据库端口错误" />
+  <UIDesc idx="381" desc_kr="게임DB문자집을 입력하세요" desc_cn="请输入游戏数据库字符集" />
+  <UIDesc idx="382" desc_kr="게임DB계정을 입력하세요" desc_cn="请输入游戏数据库用户" />
+  <UIDesc idx="383" desc_kr="게임DB비밀번호를 입력하세요" desc_cn="请输入游戏数据库密码" />
+  <UIDesc idx="384" desc_kr="게임DB명칭을 입력하세요" desc_cn="请输入游戏数据库名称" />
+  <UIDesc idx="385" desc_kr="발송DB주소를 입력하세요" desc_cn="请输入发码数据库地址" />
+  <UIDesc idx="386" desc_kr="발송DB포트오류" desc_cn="发码数据库端口错误" />
+  <UIDesc idx="387" desc_kr="발송DB문자집을 입력하세요" desc_cn="请输入发码数据库字符集" />
+  <UIDesc idx="388" desc_kr="발송DB계정을 입력하세요" desc_cn="请输入发码数据库用户" />
+  <UIDesc idx="389" desc_kr="발송DB비밀번호를 입력하세요" desc_cn="请输入发码数据库密码" />
+  <UIDesc idx="390" desc_kr="발송DB명칭을 입력하세요" desc_cn="请输入发码数据库名称" />
+  <UIDesc idx="391" desc_kr="비어있습니다." desc_cn="返回的是空" />
+  <UIDesc idx="392" desc_kr="영수증DB를 선택하세요" desc_cn="请选择订单数据库" />
+  <UIDesc idx="393" desc_kr="서버를 선택하세요" desc_cn="请选择服务器" />
+  <UIDesc idx="394" desc_kr="정확한 날짜를 입력하세요" desc_cn="请输入正确的日期" />
+  <UIDesc idx="395" desc_kr="시작일을 종료일 이후로 설정할 수 없습니다." desc_cn="开始日期不能在结束日期之后" />
+  <UIDesc idx="396" desc_kr="캐릭터ID" desc_cn="角色ID" />
+  <UIDesc idx="397" desc_kr="상품가격" desc_cn="商品单价" />
+  <UIDesc idx="398" desc_kr="누적충전" desc_cn="累计充值" />
+  <UIDesc idx="399" desc_kr="마지막 저장시간" desc_cn="最后保存时间" />
+  <UIDesc idx="400" desc_kr="표시안함" desc_cn="不显示" />
+  <UIDesc idx="401" desc_kr="추천여부" desc_cn="是否推荐" />
+  <UIDesc idx="402" desc_kr="서버ID" desc_cn="大区ID" />
+  <UIDesc idx="403" desc_kr="서버명ID" desc_cn="服务器名称ID" />
+  <UIDesc idx="404" desc_kr="FTP발송실패" desc_cn="发送FTP失败" />
+  <UIDesc idx="405" desc_kr="완료" desc_cn="完成" />
+  <UIDesc idx="406" desc_kr="같은 id의 이벤트는 동시에 두개 세팅불가" desc_cn="同id的活动不能同时上两个！" />
+  <UIDesc idx="407" desc_kr="이벤트를 선택하세요" desc_cn="请选择一个活动" />
+  <UIDesc idx="408" desc_kr="입력한 지속일수 오류" desc_cn="输入的持续天数不对" />
+  <UIDesc idx="409" desc_kr="입력한 지연일수 오류" desc_cn="输入的推迟天数不对" />
+  <UIDesc idx="410" desc_kr="입력한 값 오류" desc_cn="输入的参数不对" />
+  <UIDesc idx="411" desc_kr="시간은 진행이벤트 이후만 가능합니다." desc_cn="时间要在进行活动后面" />
+  <UIDesc idx="412" desc_kr="시간은 현재이벤트 이후만 가능합니다." desc_cn="时间要在当前活动时间后面" />
+  <UIDesc idx="413" desc_kr="없습니다." desc_cn="暂无" />
+  <UIDesc idx="414" desc_kr="한 개의 서버를 선택하여 설정해주세요." desc_cn="请选择一个服务器来应用设置" />
+  <UIDesc idx="415" desc_kr="현재 이벤트 시간을 설정하지 않았습니다." desc_cn="未设置当前活动时间" />
+  <UIDesc idx="416" desc_kr="다음 이벤트 시간을 설정하지 않았습니다." desc_cn="未设置下次活动时间" />
+  <UIDesc idx="417" desc_kr="잠시만 기다려 주세요." desc_cn="请稍等" />
+  <UIDesc idx="418" desc_kr="지속일수" desc_cn="持续天数" />
+  <UIDesc idx="419" desc_kr="지연일수" desc_cn="推迟天数" />
+  <UIDesc idx="420" desc_kr="시작시간" desc_cn="开始时间" />
+  <UIDesc idx="421" desc_kr="아니다" desc_cn="非" />
+  <UIDesc idx="422" desc_kr="이벤트ID를 찾을 수 없습니다." desc_cn="找不到活动 ID" />
+  <UIDesc idx="423" desc_kr="서버를 선택하세요" desc_cn="请添加服务器" />
+  <UIDesc idx="424" desc_kr="서버오픈이벤트 시간" desc_cn="开服活动时间" />
+  <UIDesc idx="425" desc_kr="미설정" desc_cn="未设置" />
+  <UIDesc idx="426" desc_kr="년" desc_cn="年" />
+  <UIDesc idx="427" desc_kr="월" desc_cn="月" />
+  <UIDesc idx="428" desc_kr="일" desc_cn="日" />
+  <UIDesc idx="429" desc_kr="현재 운영이벤트 시간" desc_cn="当前运营活动时间" />
+  <UIDesc idx="430" desc_kr="다음 운영이벤트 시간" desc_cn="下次运营活动时间" />
+  <UIDesc idx="431" desc_kr="하나의 이벤트 업적에 최대 5개 아이템 추가 가능" desc_cn="一个活动成就项最多只能添加5个奖励物品" />
+  <UIDesc idx="432" desc_kr="매일" desc_cn="每日" />
+  <UIDesc idx="433" desc_kr="이벤트 시간" desc_cn="活动期间" />
+  <UIDesc idx="434" desc_kr="업적" desc_cn="成就" />
+  <UIDesc idx="435" desc_kr="주간임무" desc_cn="周任务" />
+  <UIDesc idx="436" desc_kr="알수없는 사건 유형" desc_cn="未知事件类型" />
+  <UIDesc idx="437" desc_kr="아이템" desc_cn="道具" />
+  <UIDesc idx="438" desc_kr="영웅" desc_cn="英雄" />
+  <UIDesc idx="439" desc_kr="무혼" desc_cn="武魂" />
+  <UIDesc idx="440" desc_kr="보물수량" desc_cn="灵宝" />
+  <UIDesc idx="441" desc_kr="이벤트ID" desc_cn="活动ID" />
+  <UIDesc idx="442" desc_kr="이벤트명" desc_cn="活动名称" />
+  <UIDesc idx="443" desc_kr="포함된 업적" desc_cn="包含的成就项" />
+  <UIDesc idx="444" desc_kr="보상유형을 선택하세요" desc_cn="请选择奖励类型" />
+  <UIDesc idx="445" desc_kr="ID를 선택하세요" desc_cn="请选择ID" />
+  <UIDesc idx="446" desc_kr="정확한 수량을 입력하세요" desc_cn="请输入正确的数量" />
+  <UIDesc idx="447" desc_kr="올바른 값을 입력하세요" desc_cn="请输入合法值" />
+  <UIDesc idx="448" desc_kr="아이템 수량은 999를 초과할 수 없습니다." desc_cn="道具数量不能大于999" />
+  <UIDesc idx="449" desc_kr="영웅 수량은 99를 초과할 수 없습니다." desc_cn="英雄数量不能大于99" />
+  <UIDesc idx="450" desc_kr="무혼 수량은 999를 초과할 수 없습니다." desc_cn="武魂数量不能大于999" />
+  <UIDesc idx="451" desc_kr="화폐수량은 9999999를 초과할 수 없습니다." desc_cn="经济数量不能大于9999999" />
+  <UIDesc idx="452" desc_kr="아이템ID" desc_cn="道具ID" />
+  <UIDesc idx="453" desc_kr="아이템명" desc_cn="道具名称" />
+  <UIDesc idx="454" desc_kr="영웅ID" desc_cn="英雄ID" />
+  <UIDesc idx="455" desc_kr="영웅명" desc_cn="英雄名称" />
+  <UIDesc idx="456" desc_kr="무혼명" desc_cn="武魂名称" />
+  <UIDesc idx="457" desc_kr="무혼ID" desc_cn="武魂ID" />
+  <UIDesc idx="458" desc_kr="보물ID" desc_cn="灵宝ID" />
+  <UIDesc idx="459" desc_kr="펫이름" desc_cn="宠物名称" />
+  <UIDesc idx="460" desc_kr="금화" desc_cn="金钱" />
+  <UIDesc idx="461" desc_kr="체력치" desc_cn="精力值" />
+  <UIDesc idx="462" desc_kr="수정정수" desc_cn="晶石精华" />
+  <UIDesc idx="463" desc_kr="활약도" desc_cn="活跃点" />
+  <UIDesc idx="464" desc_kr="인정포인트" desc_cn="情义点" />
+  <UIDesc idx="465" desc_kr="체력회복 시작시간" desc_cn="精力开始恢复时间" />
+  <UIDesc idx="466" desc_kr="표차포인트" desc_cn="镖车点" />
+  <UIDesc idx="467" desc_kr="해당 화폐유형이 없습니다." desc_cn="无该经济类型值" />
+  <UIDesc idx="468" desc_kr="충전다이아" desc_cn="充值元宝" />
+  <UIDesc idx="469" desc_kr="전체 소모다이아" desc_cn="全部元宝消耗" />
+  <UIDesc idx="470" desc_kr="월정액(소)" desc_cn="小月卡" />
+  <UIDesc idx="471" desc_kr="월정액(대)" desc_cn="大月卡" />
+  <UIDesc idx="472" desc_kr="군단공헌" desc_cn="帮贡" />
+  <UIDesc idx="473" desc_kr="정의치" desc_cn="侠义值" />
+  <UIDesc idx="474" desc_kr="세계Boss자원포인트" desc_cn="世界boss资源点" />
+  <UIDesc idx="475" desc_kr="백전자원포인트" desc_cn="百战资源点" />
+  <UIDesc idx="476" desc_kr="영지전 자원포인트" desc_cn="诸侯割据资源点" />
+  <UIDesc idx="477" desc_kr="음령핵" desc_cn="阴灵核" />
+  <UIDesc idx="478" desc_kr="양령핵" desc_cn="阳灵核" />
+  <UIDesc idx="479" desc_kr="장수영혼" desc_cn="英魂" />
+  <UIDesc idx="480" desc_kr="장비치" desc_cn="装备值" />
+  <UIDesc idx="481" desc_kr="보물수정조각" desc_cn="灵宝晶石碎片" />
+  <UIDesc idx="482" desc_kr="상자포인트" desc_cn="宝箱点" />
+  <UIDesc idx="483" desc_kr="VIP경험치" desc_cn="Vip经验点" />
+  <UIDesc idx="484" desc_kr="대부호포인트" desc_cn="大富翁点" />
+  <UIDesc idx="485" desc_kr="알수없는 화폐 유형" desc_cn="未知经济类型" />
+  <UIDesc idx="486" desc_kr="이벤트 제목을 입력하세요" desc_cn="请填写活动标题" />
+  <UIDesc idx="487" desc_kr="내용을 입력하세요" desc_cn="请填写标题内容" />
+  <UIDesc idx="488" desc_kr="내용을 입력하세요" desc_cn="内容不能为空" />
+  <UIDesc idx="489" desc_kr="보상을 입력하세요" desc_cn="奖励项不能为空" />
+  <UIDesc idx="490" desc_kr="이벤트 유형을 선택하세요" desc_cn="请选择活动类型" />
+  <UIDesc idx="491" desc_kr="이벤트 형식을 선택하세요" desc_cn="请选择活动形式" />
+  <UIDesc idx="492" desc_kr="사건값을 입력하세요" desc_cn="事件值不能为空" />
+  <UIDesc idx="493" desc_kr="보상이 1000을 초과했습니다." desc_cn="奖励配置过多,大于1000" />
+  <UIDesc idx="494" desc_kr="업적임무 제" desc_cn="任务成就第" />
+  <UIDesc idx="495" desc_kr="개인공헌" desc_cn="个" />
+  <UIDesc idx="496" desc_kr="형식" desc_cn="形式" />
+  <UIDesc idx="497" desc_kr="사건값" desc_cn="事件值" />
+  <UIDesc idx="498" desc_kr="이벤트 업적 보상을 추가하세요" desc_cn="请添加活动成就奖励" />
+  <UIDesc idx="499" desc_kr="제목내용은 20자를 초과할 수 없습니다" desc_cn="标题内容不能超过20个字" />
+  <UIDesc idx="500" desc_kr="GMT이벤트 세팅이 규정에 맞지 않습니다. 표를 정리하세요" desc_cn="gmt活动编辑超过额定.请清空表格" />
+  <UIDesc idx="501" desc_kr="포함된 업적 수" desc_cn="包含的成就项个数" />
+  <UIDesc idx="502" desc_kr="순서값" desc_cn="排序值" />
+  <UIDesc idx="503" desc_kr="임무세팅이 규정에 맞지 않습니다. 표를 정리하세요" desc_cn="任务编辑超过额定.请清空表格" />
+  <UIDesc idx="504" desc_kr="이벤트 저장 성공" desc_cn="保存活动成功" />
+  <UIDesc idx="505" desc_kr="성" desc_cn="星" />
+  <UIDesc idx="506" desc_kr="발송할 서버를 선택하세요" desc_cn="请选择要发送的服务器" />
+  <UIDesc idx="507" desc_kr="정리성공" desc_cn="清表成功" />
+  <UIDesc idx="508" desc_kr="삭제할 이벤트를 선택하세요" desc_cn="请选择要删除的活动" />
+  <UIDesc idx="509" desc_kr="이벤트 삭제 성공" desc_cn="删除活动成功" />
+  <UIDesc idx="510" desc_kr="확인할 이벤트를 선택하세요" desc_cn="请选择要查看的活动" />
+  <UIDesc idx="520" desc_kr="업적ID" desc_cn="成就项ID" />
+  <UIDesc idx="521" desc_kr="보상ID" desc_cn="奖励项ID" />
+  <UIDesc idx="522" desc_kr="펫ID" desc_cn="宠物ID" />
+  <UIDesc idx="523" desc_kr="값" desc_cn="值" />
+
+
+
+  <UIDesc idx="654" desc_kr="삭제할 보상을 선택하세요" desc_cn="请选择要删除的子奖励" />
+  <UIDesc idx="655" desc_kr="업로드완료" desc_cn="上传完成" />
+  <UIDesc idx="656" desc_kr="업로드할 문서를 선택하세요" desc_cn="请选择上传的文件" />
+  <UIDesc idx="657" desc_kr="세팅대상이 없어서 발송할 수 없습니다" desc_cn="没有配置任何大区，不能发送表格" />
+  <UIDesc idx="658" desc_kr="발송완료" desc_cn="发送完成" />
+  <UIDesc idx="659" desc_kr="QQ보상" desc_cn="QQ补偿" />
+  <UIDesc idx="660" desc_kr="유저ID를 입력하세요" desc_cn="玩家ID不能为空" />
+  <UIDesc idx="661" desc_kr="유저를 선택하세요" desc_cn="请选择一个玩家" />
+  <UIDesc idx="662" desc_kr="패키지번호를 입력하세요" desc_cn="礼包编号不能为空" />
+  <UIDesc idx="663" desc_kr="패키지를 선택하세요" desc_cn="请选择一个礼包" />
+  <UIDesc idx="664" desc_kr="유저ID를 입력하세요" desc_cn="请输入玩家ID" />
+  <UIDesc idx="665" desc_kr="패키지번호를 입력하세요" desc_cn="请输入礼包编号" />
+  <UIDesc idx="666" desc_kr="적절한 유저를 찾을 수 없습니다" desc_cn="找不到符合的玩家" />
+  <UIDesc idx="667" desc_kr="패키지ID" desc_cn="礼包ID" />
+  <UIDesc idx="668" desc_kr="DB" desc_cn="数据库" />
+  <UIDesc idx="669" desc_kr="영수증번호" desc_cn="订单号" />
+  <UIDesc idx="670" desc_kr="유저ID" desc_cn="用户ID" />
+  <UIDesc idx="671" desc_kr="영수증번호를 입력하세요" desc_cn="请输入订单号" />
+  <UIDesc idx="672" desc_kr="영수증을 찾을 수 없습니다" desc_cn="找不到该订单" />
+  <UIDesc idx="673" desc_kr="계정ID를 입력하세요" desc_cn="请输入用户ID" />
+  <UIDesc idx="674" desc_kr="유저를 찾을 수 없습니다" desc_cn="找不到该用户" />
+  <UIDesc idx="675" desc_kr="금액" desc_cn="金额" />
+  <UIDesc idx="676" desc_kr="합계" desc_cn="汇总" />
+  <UIDesc idx="677" desc_kr="영수증" desc_cn="订单" />
+  <UIDesc idx="678" desc_kr="오류" desc_cn="错误" />
+  <UIDesc idx="679" desc_kr="유저" desc_cn="玩家" />
+  <UIDesc idx="680" desc_kr="시간수정" desc_cn="修改时间" />
+  <UIDesc idx="681" desc_kr="상품번호" desc_cn="商品编号" />
+  <UIDesc idx="682" desc_kr="상품수량" desc_cn="商品数量" />
+  <UIDesc idx="683" desc_kr="상품가격" desc_cn="商品价格" />
+  <UIDesc idx="684" desc_kr="로그인" desc_cn="登录" />
+  <UIDesc idx="685" desc_kr="유저명 또는 비밀번호를 비워둘 수 없습니다" desc_cn="用户名或密码不能为空" />
+  <UIDesc idx="686" desc_kr="유저명 또는 비밀번호 오류" desc_cn="用户名或密码错误" />
+  <UIDesc idx="687" desc_kr="규칙" desc_cn="规则" />
+  <UIDesc idx="688" desc_kr="한명이 여러 번 사용하도록 허용하지 않음" desc_cn="不允许单人多次使用" />
+  <UIDesc idx="689" desc_kr="예" desc_cn="如" />
+  <UIDesc idx="690" desc_kr="한명이 여러 번 사용하도록 허용" desc_cn="允许单人多次使用" />
+  <UIDesc idx="691" desc_kr="생성실패" desc_cn="生成失败" />
+  <UIDesc idx="692" desc_kr="생성한 쿠폰코드" desc_cn="生成的礼包码" />
+  <UIDesc idx="693" desc_kr="쿠폰유형은 2자리수를 넘을 수 없습니다" desc_cn="礼包类型不能多于2位" />
+  <UIDesc idx="694" desc_kr="쿠폰유형은 숫자 또는 문자만 입력할 수 있습니다" desc_cn="礼包类型只能填数字和字母" />
+  <UIDesc idx="695" desc_kr="생성한 활성코드" desc_cn="生成的激活码" />
+  <UIDesc idx="696" desc_kr="UC9game" desc_cn="UC九游" />
+  <UIDesc idx="697" desc_kr="360" desc_cn="奇虎360" />
+  <UIDesc idx="698" desc_kr="텐센트마켓" desc_cn="应用宝" />
+  <UIDesc idx="699" desc_kr="모든마켓" desc_cn="全渠道" />
+  <UIDesc idx="700" desc_kr="로그파일이 없습니다" desc_cn="没有日志文件" />
+  <UIDesc idx="701" desc_kr="보상을 설정하세요" desc_cn="请先配置奖励" />
+  <UIDesc idx="702" desc_kr="아이템 수량을 입력하세요" desc_cn="道具数量不能为空" />
+  <UIDesc idx="703" desc_kr="수량은 1개 이상이어야 합니다" desc_cn="道具数量不能为0" />
+  <UIDesc idx="704" desc_kr="수정할 패키지를 선택하세요" desc_cn="请选择要修改的礼包" />
+  <UIDesc idx="705" desc_kr="패키지가 존재하지 않습니다" desc_cn="该礼包不存在" />
+  <UIDesc idx="706" desc_kr="금화" desc_cn="金币" />
+  <UIDesc idx="707" desc_kr="스킬포인트" desc_cn="技能点" />
+  <UIDesc idx="708" desc_kr="공헌폰인트" desc_cn="贡献点" />
+  <UIDesc idx="709" desc_kr="명망폰인트" desc_cn="声明点" />
+  <UIDesc idx="710" desc_kr="명성폰인트" desc_cn="威望点" />
+  <UIDesc idx="711" desc_kr="장신구정화" desc_cn="饰品精华" />
+  <UIDesc idx="712" desc_kr="병혼" desc_cn="兵魂" />
+  <UIDesc idx="713" desc_kr="수정조각" desc_cn="晶石碎片" />
+  <UIDesc idx="714" desc_kr="GM돌아가기" desc_cn="返回GM" />
+  <UIDesc idx="715" desc_kr="화폐통계" desc_cn="货币统计" />
+  <UIDesc idx="716" desc_kr="장수보유량통계" desc_cn="英雄持有量统计" />
+  <UIDesc idx="717" desc_kr="아이템통계" desc_cn="道具统计" />
+  <UIDesc idx="718" desc_kr="임무통계" desc_cn="任务统计" />
+  <UIDesc idx="719" desc_kr="알수없음" desc_cn="未知" />
+  <UIDesc idx="720" desc_kr="서버를 선택하세요" desc_cn="请选择一个服务器" />
+  <UIDesc idx="721" desc_kr="유저정보를 입력하세요" desc_cn="没有输入玩家信息" />
+  <UIDesc idx="722" desc_kr="게임ID" desc_cn="游戏ID" />
+  <UIDesc idx="723" desc_kr="부대" desc_cn="团队" />
+  <UIDesc idx="724" desc_kr="전투력" desc_cn="战斗力" />
+  <UIDesc idx="725" desc_kr="펫" desc_cn="宠物" />
+  <UIDesc idx="726" desc_kr="길드" desc_cn="帮派" />
+  <UIDesc idx="727" desc_kr="길드공헌" desc_cn="帮派贡献" />
+  <UIDesc idx="728" desc_kr="PVP전장포인트" desc_cn="在线PVP战场积分" />
+  <UIDesc idx="729" desc_kr="혼석" desc_cn="灵石" />
+  <UIDesc idx="730" desc_kr="내단" desc_cn="内丹" />
+  <UIDesc idx="731" desc_kr="전속" desc_cn="专属" />
+  <UIDesc idx="732" desc_kr="입력한 수량 무효, 다시 입력하세요" desc_cn="输入数量无效，请重新输入！" />
+  <UIDesc idx="733" desc_kr="알수없는 서버" desc_cn="未知服务器" />
+  <UIDesc idx="734" desc_kr="최소 1개 서버를 선택하세요" desc_cn="请选择至少一个服务器" />
+  <UIDesc idx="735" desc_kr="IP 형식오류" desc_cn="IP格式不正确" />
+  <UIDesc idx="736" desc_kr="서버검색 실패" desc_cn="查询服务器失败" />
+  <UIDesc idx="737" desc_kr="유저를 찾을 수 없습니다" desc_cn="找不到该玩家" />
+  <UIDesc idx="738" desc_kr="아래 3가지 정보중 하나만 입력하면 검색할 수 있으며, 유저명은 퍼지검색 가능" desc_cn="以下三个信息输入其一即可查询，玩家名称支持模糊查询" />
+  <UIDesc idx="739" desc_kr="충전테스트" desc_cn="充值测试" />
+  <UIDesc idx="740" desc_kr="서버를 선택하세요" desc_cn="没有选择服务器" />
+  <UIDesc idx="741" desc_kr="시간" desc_cn="小时" />
+  <UIDesc idx="742" desc_kr="분" desc_cn="分钟" />
+  <UIDesc idx="743" desc_kr="없음" desc_cn="无" />
+  <UIDesc idx="744" desc_kr="미구매" desc_cn="尚未购买" />
+  <UIDesc idx="745" desc_kr="구매완료" desc_cn="已购买" />
+  <UIDesc idx="746" desc_kr="월정액기한" desc_cn="超值月卡时限" />
+  <UIDesc idx="747" desc_kr="정상" desc_cn="正常" />
+  <UIDesc idx="748" desc_kr="1개 서버만 검색할 수 있습니다" desc_cn="只能查一个服务器" />
+  <UIDesc idx="749" desc_kr="서버검색 실패" desc_cn="查询服务器失败" />
+  <UIDesc idx="750" desc_kr="통계 및 유형분석선택으로 돌아가기" desc_cn="返回统计与分析类型选择" />
+  <UIDesc idx="751" desc_kr="게임운영툴" desc_cn="游戏后台管理工具" />
+  <UIDesc idx="752" desc_kr="로그인" desc_cn="登录" />
+  <UIDesc idx="753" desc_kr="비밀번호 변경" desc_cn="更改密码" />
+  <UIDesc idx="754" desc_kr="서버는 중복될 수 없습니다" desc_cn="服务器不能重复" />
+  <UIDesc idx="755" desc_kr="성공" desc_cn="成功" />
+  <UIDesc idx="756" desc_kr="실패" desc_cn="失败" />
+  <UIDesc idx="757" desc_kr="활약일수" desc_cn="活跃天数" />
+  <UIDesc idx="758" desc_kr="제1장" desc_cn="第一章" />
+  <UIDesc idx="759" desc_kr="제2장" desc_cn="第二章" />
+  <UIDesc idx="760" desc_kr="제3장" desc_cn="第三章" />
+  <UIDesc idx="761" desc_kr="제4장" desc_cn="第四章" />
+  <UIDesc idx="762" desc_kr="제5장" desc_cn="第五章" />
+  <UIDesc idx="763" desc_kr="제6장" desc_cn="第六章" />
+  <UIDesc idx="764" desc_kr="제7장" desc_cn="第七章" />
+  <UIDesc idx="765" desc_kr="제8장" desc_cn="第八章" />
+  <UIDesc idx="766" desc_kr="제9장" desc_cn="第九章" />
+  <UIDesc idx="767" desc_kr="제10장" desc_cn="第十章" />
+  <UIDesc idx="768" desc_kr="제11장" desc_cn="十一章" />
+  <UIDesc idx="769" desc_kr="제12장" desc_cn="十二章" />
+  <UIDesc idx="770" desc_kr="제13장" desc_cn="十三章" />
+  <UIDesc idx="771" desc_kr="제14장" desc_cn="十四章" />
+  <UIDesc idx="772" desc_kr="제15장" desc_cn="十五章" />
+  <UIDesc idx="773" desc_kr="제16장" desc_cn="十六章" />
+  <UIDesc idx="774" desc_kr="제17장" desc_cn="十七章" />
+  <UIDesc idx="775" desc_kr="제18장" desc_cn="十八章" />
+  <UIDesc idx="776" desc_kr="제19장" desc_cn="十九章" />
+  <UIDesc idx="777" desc_kr="제20장" desc_cn="二十章" />
+  <UIDesc idx="778" desc_kr="인원 수" desc_cn="人数" />
+  <UIDesc idx="779" desc_kr="금화(평균)" desc_cn="金钱(平均)" />
+  <UIDesc idx="780" desc_kr="다이아(평균)" desc_cn="元宝(平均)" />
+  <UIDesc idx="781" desc_kr="레벨(평균)" desc_cn="等级(平均)" />
+  <UIDesc idx="782" desc_kr="체력(평균)" desc_cn="体力(平均)" />
+  <UIDesc idx="783" desc_kr="행운치(평균)" desc_cn="幸运值(平均)" />
+  <UIDesc idx="784" desc_kr="현재서버 통계" desc_cn="统计当前服" />
+  <UIDesc idx="785" desc_kr="모든서버 검색" desc_cn="查询所有区服" />
+  <UIDesc idx="786" desc_kr="다운로드" desc_cn="下载" />
+  <UIDesc idx="787" desc_kr="만" desc_cn="万" />
+  <UIDesc idx="788" desc_kr="일 활약" desc_cn="天活跃" />
+  <UIDesc idx="789" desc_kr="1-16장에 해당되는 인원 수" desc_cn="章节1-16对应的人数" />
+  <UIDesc idx="790" desc_kr="1-16장에 해당되는 금화" desc_cn="章节1-16对应的金钱" />
+  <UIDesc idx="791" desc_kr="1-16장에 해당되는 다이아" desc_cn="章节1-16的元宝" />
+  <UIDesc idx="792" desc_kr="Vip0-Vip15에 해당되는 행운치" desc_cn="Vip0-Vip15对应的幸运值" />
+  <UIDesc idx="793" desc_kr="전서버 평균치" desc_cn="全服平均值" />
+  <UIDesc idx="794" desc_kr="전서버" desc_cn="全服" />
+  <UIDesc idx="795" desc_kr="레벨구간" desc_cn="等级段" />
+  <UIDesc idx="796" desc_kr="전서버 총 인원 수" desc_cn="全服总人数" />
+  <UIDesc idx="797" desc_kr="전서버 총 다이아수량" desc_cn="全服元宝总数" />
+  <UIDesc idx="798" desc_kr="전서버 총 금화수량" desc_cn="全服金币总数" />
+  <UIDesc idx="799" desc_kr="정보확인" desc_cn="查看信息" />
+  <UIDesc idx="800" desc_kr="날짜" desc_cn="日期" />
+  <UIDesc idx="801" desc_kr="10만이하" desc_cn="10万以下" />
+  <UIDesc idx="802" desc_kr="10만~50만" desc_cn="10万-50万" />
+  <UIDesc idx="803" desc_kr="50만~100만" desc_cn="50万-100万" />
+  <UIDesc idx="804" desc_kr="100만~250만" desc_cn="100万-250万" />
+  <UIDesc idx="805" desc_kr="250만~500만" desc_cn="250万-500万" />
+  <UIDesc idx="806" desc_kr="500만~1000만" desc_cn="500万-1000万" />
+  <UIDesc idx="807" desc_kr="1~9레벨" desc_cn="1~9级" />
+  <UIDesc idx="808" desc_kr="10~19레벨" desc_cn="10~19级" />
+  <UIDesc idx="809" desc_kr="20~29레벨" desc_cn="20~29级" />
+  <UIDesc idx="810" desc_kr="30~39레벨" desc_cn="30~39级" />
+  <UIDesc idx="811" desc_kr="40~49레벨" desc_cn="40~49级" />
+  <UIDesc idx="812" desc_kr="50~59레벨" desc_cn="50~59级" />
+  <UIDesc idx="813" desc_kr="60~69레벨" desc_cn="60~69级" />
+  <UIDesc idx="814" desc_kr="70~80레벨" desc_cn="70~80级" />
+  <UIDesc idx="815" desc_kr="기념일" desc_cn="节日" />
+  <UIDesc idx="816" desc_kr="프로모션" desc_cn="促销" />
+  <UIDesc idx="817" desc_kr="이벤트" desc_cn="活动" />
+  <UIDesc idx="818" desc_kr="공지" desc_cn="公告" />
+  <UIDesc idx="819" desc_kr="공지(로그인전 팝업)" desc_cn="公告(游戏前弹)" />
+  <UIDesc idx="820" desc_kr="공지수정(게임시작전 팝업)" desc_cn="公告编辑(游戏进入前公告)" />
+  <UIDesc idx="821" desc_kr="공지업로드 실패" desc_cn="上传公告失败" />
+  <UIDesc idx="822" desc_kr="공지업로드 성공" desc_cn="上传公告成功" />
+  <UIDesc idx="823" desc_kr="공지저장 성공" desc_cn="保存公告成功" />
+  <UIDesc idx="824" desc_kr="로그인화면으로 이동" desc_cn="返回登录界面" />
+  <UIDesc idx="825" desc_kr="현재 비밀번호" desc_cn="旧密码" />
+  <UIDesc idx="826" desc_kr="변경 비밀번호" desc_cn="新密码" />
+  <UIDesc idx="827" desc_kr="아이디, 현재 비밀번호, 변경할 비밀번호를 입력하세요" desc_cn="用户名,旧密码,新密码都不能为空" />
+  <UIDesc idx="828" desc_kr="현재 비밀번호 또는 아이디가 맞지 않습니다" desc_cn="原密码或帐号输入错误" />
+  <UIDesc idx="829" desc_kr="비밀번호 변경성공" desc_cn="密码修改成功" />
+  <UIDesc idx="830" desc_kr="남은금화" desc_cn="剩余金币" />
+  <UIDesc idx="831" desc_kr="남색장비수량" desc_cn="蓝装备数" />
+  <UIDesc idx="832" desc_kr="자색장비수량" desc_cn="紫装备数" />
+  <UIDesc idx="833" desc_kr="황색장비수량" desc_cn="橙装备数" />
+  <UIDesc idx="834" desc_kr="적색장비수량" desc_cn="红装备数" />
+  <UIDesc idx="835" desc_kr="남색장신구수량" desc_cn="蓝饰品数" />
+  <UIDesc idx="836" desc_kr="자색장신구수량" desc_cn="紫饰品数" />
+  <UIDesc idx="837" desc_kr="황색장신구수량" desc_cn="橙饰品数" />
+  <UIDesc idx="838" desc_kr="등급" desc_cn="品质" />
+  <UIDesc idx="839" desc_kr="등급" desc_cn="星级" />
+  <UIDesc idx="840" desc_kr="병혼공명레벨" desc_cn="兵魂共鸣等级" />
+  <UIDesc idx="841" desc_kr="진법공명레벨" desc_cn="命格共鸣等级" />
+  <UIDesc idx="842" desc_kr="보물등급" desc_cn="灵宝星级" />
+  <UIDesc idx="843" desc_kr="장비강화공명" desc_cn="装备强化共鸣" />
+  <UIDesc idx="844" desc_kr="장비돌파공명" desc_cn="装备突破共鸣" />
+  <UIDesc idx="845" desc_kr="장신구정련공명" desc_cn="饰品精炼共鸣" />
+  <UIDesc idx="846" desc_kr="장신구부여공명" desc_cn="饰品附魔共鸣" />
+  <UIDesc idx="847" desc_kr="Excel 작동할 수 없습니다" desc_cn="Excel无法启动" />
+  <UIDesc idx="848" desc_kr="유저데이터를 현지에 저장" desc_cn="保存玩家数据到本地" />
+  <UIDesc idx="849" desc_kr="excel2007" desc_cn="excel工作簿2007" />
+  <UIDesc idx="850" desc_kr="excel2003" desc_cn="excel工作簿2003" />
+  <UIDesc idx="851" desc_kr="모든파일" desc_cn="所有文件" />
+  <UIDesc idx="852" desc_kr="PVP보상" desc_cn="PVP奖励" />
+  <UIDesc idx="853" desc_kr="선물" desc_cn="礼包" />
+  <UIDesc idx="854" desc_kr="아래서버에 저장" desc_cn="保存到以下服务器" />
+  <UIDesc idx="855" desc_kr="전체" desc_cn="全部" />
+  <UIDesc idx="856" desc_kr="오류: GMT에 연결하지 못했습니다" desc_cn="错误：未能连接GMT后台服务" />
+  <UIDesc idx="857" desc_kr="저장성공" desc_cn="保存成功" />
+  <UIDesc idx="858" desc_kr="서버보기" desc_cn="查看服务器" />
+  <UIDesc idx="859" desc_kr="경로를 선택하세요" desc_cn="请选择渠道" />
+  <UIDesc idx="860" desc_kr="서버단에 작동되는 서버" desc_cn="服务器端启动的server" />
+  <UIDesc idx="861" desc_kr="보기" desc_cn="查看" />
+  <UIDesc idx="862" desc_kr="가상로그인 서버" desc_cn="模拟登陆的服务器" />
+  <UIDesc idx="863" desc_kr="결과로 돌아가기" desc_cn="返回结果" />
+  <UIDesc idx="864" desc_kr="화이트리스트UID" desc_cn="白名单UID" />
+  <UIDesc idx="865" desc_kr="최대동시접속 설정" desc_cn="同时最大在线人数设置" />
+  <UIDesc idx="866" desc_kr="클라이언트파일 다운로드 주소" desc_cn="客户端资源文件下载地址" />
+  <UIDesc idx="867" desc_kr="최저버전번호" desc_cn="最低版本号" />
+  <UIDesc idx="868" desc_kr="신규APK 다운로드 주소" desc_cn="新包下载地址" />
+  <UIDesc idx="869" desc_kr="강제업데이트" desc_cn="强制更新" />
+  <UIDesc idx="870" desc_kr="동시 접수 최대인원 수 설정성공" desc_cn="设置最大在线人数成功" />
+  <UIDesc idx="871" desc_kr="클라이언트파일 다운로드 주소 설정성공" desc_cn="资源文件下载地址设置成功" />
+  <UIDesc idx="872" desc_kr="최저버전번호 설정성공" desc_cn="设置最低版本号成功" />
+  <UIDesc idx="873" desc_kr="신규APK 다운로드 주소 설정성공" desc_cn="新包下载地址设置成功" />
+  <UIDesc idx="874" desc_kr="강제업데이트 취소" desc_cn="取消强制更新" />
+  <UIDesc idx="875" desc_kr="서버 선택 중" desc_cn="正在选择查看的服务" />
+  <UIDesc idx="876" desc_kr="추가 할 유저의 ID를 입력하세요" desc_cn="请输入要添加的玩家ID" />
+  <UIDesc idx="877" desc_kr="추가성공" desc_cn="添加成功" />
+  <UIDesc idx="878" desc_kr="화이트리스트 1개 선택하세요" desc_cn="请选择一个白名单" />
+  <UIDesc idx="879" desc_kr="화이트리스트 1개 제거 성공" desc_cn="成功移除一个白名单" />
+  <UIDesc idx="880" desc_kr="전서버모드" desc_cn="全服模式" />
+  <UIDesc idx="881" desc_kr="전서버모드 해제" desc_cn="取消全服模式" />
+  <UIDesc idx="882" desc_kr="전체삭제 성공" desc_cn="全部清除成功" />
+  <UIDesc idx="883" desc_kr="상점유형" desc_cn="商店类型" />
+  <UIDesc idx="884" desc_kr="상품유형" desc_cn="商品类型" />
+  <UIDesc idx="885" desc_kr="랜덤최소" desc_cn="最小随机" />
+  <UIDesc idx="886" desc_kr="랜덤최대" desc_cn="最大随机" />
+  <UIDesc idx="887" desc_kr="최소보상수량" desc_cn="最小奖励数" />
+  <UIDesc idx="888" desc_kr="최대보상수량" desc_cn="最大奖励数" />
+  <UIDesc idx="889" desc_kr="비용" desc_cn="费用" />
+  <UIDesc idx="890" desc_kr="구분" desc_cn="分类" />
+  <UIDesc idx="891" desc_kr="다이아상점" desc_cn="元宝商店" />
+  <UIDesc idx="892" desc_kr="군단상점" desc_cn="帮派商店" />
+  <UIDesc idx="893" desc_kr="영롱상점" desc_cn="玲珑商店" />
+  <UIDesc idx="894" desc_kr="체력" desc_cn="精力" />
+  <UIDesc idx="895" desc_kr="우정포인트" desc_cn="友情点" />
+  <UIDesc idx="896" desc_kr="일반상점추가성공" desc_cn="普通商店添加成功" />
+  <UIDesc idx="897" desc_kr="일반상점리스트 발송성공" desc_cn="普通商店表格发送成功" />
+  <UIDesc idx="898" desc_kr="랜덤상점 추가성공" desc_cn="随机商店添加成功" />
+  <UIDesc idx="899" desc_kr="랜덤상점 발송성공" desc_cn="随机商店发送成功" />
+  <UIDesc idx="900" desc_kr="다운로드 권한이 없습니다" desc_cn="您没有权限下载" />
+  <UIDesc idx="901" desc_kr="표유형 오류" desc_cn="错误表格的类型" />
+  <UIDesc idx="902" desc_kr="영수증DB주소" desc_cn="订单数据库地址" />
+  <UIDesc idx="903" desc_kr="영수증DB포트" desc_cn="订单数据库端口" />
+  <UIDesc idx="904" desc_kr="영수증DB문자 코드표" desc_cn="订单数据库字符集" />
+  <UIDesc idx="905" desc_kr="영수증DB유저" desc_cn="订单数据库用户" />
+  <UIDesc idx="906" desc_kr="영수증DB비밀번호" desc_cn="订单数据库密码" />
+  <UIDesc idx="907" desc_kr="영수증DB명칭" desc_cn="订单数据库名称" />
+  <UIDesc idx="908" desc_kr="상품명" desc_cn="商品名称" />
+  <UIDesc idx="909" desc_kr="현재영수증총액" desc_cn="当前订单总金额" />
+  <UIDesc idx="910" desc_kr="선택가능한값" desc_cn="可选参数" />
+  <UIDesc idx="911" desc_kr="결제유저수" desc_cn="充值用户数" />
+  <UIDesc idx="912" desc_kr="阻止玩家注册" desc_cn="阻止玩家注册" />
+  <UIDesc idx="913" desc_kr="允许玩家注册" desc_cn="允许玩家注册" />
+  <UIDesc idx="10000" desc_kr="GM" desc_cn="GM" />
+  <UIDesc idx="10001" desc_kr="캐릭터 생성" desc_cn="创建角色" />
+  <UIDesc idx="10002" desc_kr="일반던전시작" desc_cn="普通副本开始" />
+  <UIDesc idx="10003" desc_kr="일반던전종료" desc_cn="普通副本结束" />
+  <UIDesc idx="10004" desc_kr="정예던전시작" desc_cn="精英副本开始" />
+  <UIDesc idx="10005" desc_kr="정예던전종료" desc_cn="精英副本结束" />
+  <UIDesc idx="10006" desc_kr="금화던전, 경험치던전, 펫던전, 수비던전 종료" desc_cn="金币本, 经验本, 宠物本, 守卫本结束" />
+  <UIDesc idx="10007" desc_kr="장수등급레벨업" desc_cn="英雄升阶" />
+  <UIDesc idx="10008" desc_kr="장수스킬관련" desc_cn="英雄技能相关" />
+  <UIDesc idx="10009" desc_kr="장수레벨업" desc_cn="英雄升级" />
+  <UIDesc idx="10010" desc_kr="알깨기" desc_cn="砸金蛋" />
+  <UIDesc idx="10011" desc_kr="장신구복원" desc_cn="饰品重生" />
+  <UIDesc idx="10012" desc_kr="아이템합성(기존 레벨업아이템 및 등급레벨업아이템 합성)" desc_cn="物品合成(旧的专属升级道具和进阶道具合成)" />
+  <UIDesc idx="10013" desc_kr="가방정리" desc_cn="背包整理" />
+  <UIDesc idx="10014" desc_kr="유저" desc_cn="玩家" />
+  <UIDesc idx="10015" desc_kr="아이템판매" desc_cn="物品出售" />
+  <UIDesc idx="10016" desc_kr="아이템사용" desc_cn="物品使用" />
+  <UIDesc idx="10017" desc_kr="장수합성" desc_cn="英雄合成" />
+  <UIDesc idx="10018" desc_kr="던전소탕" desc_cn="副本扫荡" />
+  <UIDesc idx="10019" desc_kr="던전초기화(정예던전 및 전속던전)" desc_cn="副本重置(精英本和专属本)" />
+  <UIDesc idx="10020" desc_kr="우편관련" desc_cn="邮件相关" />
+  <UIDesc idx="10021" desc_kr="상점초기화" desc_cn="商店重置" />
+  <UIDesc idx="10022" desc_kr="상점구매" desc_cn="商店购买" />
+  <UIDesc idx="10023" desc_kr="세계보스격려 및 복원" desc_cn="无尽挑战鼓舞和重生" />
+  <UIDesc idx="10024" desc_kr="팔진도관련(초기화 및 상자 없음)" desc_cn="八阵图相关(无重置，宝箱)" />
+  <UIDesc idx="10025" desc_kr="팔진도던전보상" desc_cn="八阵图章节奖励" />
+  <UIDesc idx="10026" desc_kr="팔진도소탕" desc_cn="八阵图扫荡" />
+  <UIDesc idx="10027" desc_kr="팔진도초기화" desc_cn="八阵图重置" />
+  <UIDesc idx="10028" desc_kr="백전천군초기화" desc_cn="百战千军重置" />
+  <UIDesc idx="10029" desc_kr="마차호송초기화" desc_cn="押镖刷新" />
+  <UIDesc idx="10030" desc_kr="마차호송관련" desc_cn="押镖相关" />
+  <UIDesc idx="10031" desc_kr="마차약탈" desc_cn="劫镖相关" />
+  <UIDesc idx="10032" desc_kr="백전천군관련(자동돌파 포함)" desc_cn="百战千军相关(包含一键通关)" />
+  <UIDesc idx="10033" desc_kr="군단던전" desc_cn="帮派副本" />
+  <UIDesc idx="10034" desc_kr="체력획득(무료)" desc_cn="精力值获取(免费)" />
+  <UIDesc idx="10035" desc_kr="체력획득(다이아구매)" desc_cn="精力值获取(元宝购买)" />
+  <UIDesc idx="10036" desc_kr="금화획득(다이아구매)" desc_cn="金币获取(元宝购买)" />
+  <UIDesc idx="10037" desc_kr="스킬포인트획득(없음)" desc_cn="技能点获取(没了)" />
+  <UIDesc idx="10038" desc_kr="검각수비관련(없음)" desc_cn="守卫剑阁相关(没了)" />
+  <UIDesc idx="10039" desc_kr="영지전추첨관련(없음)" desc_cn="诸侯割据抽奖相关 (没了)" />
+  <UIDesc idx="10040" desc_kr="이벤트추첨관련(없음)" desc_cn="活动抽奖相关 (没有)" />
+  <UIDesc idx="10041" desc_kr="행운탐색" desc_cn="幸运占星" />
+  <UIDesc idx="10042" desc_kr="각성탐색(없음)" desc_cn="觉醒占星(无用)" />
+  <UIDesc idx="10043" desc_kr="장수탐색" desc_cn="武将占星" />
+  <UIDesc idx="10044" desc_kr="돌파상자관련" desc_cn="突破宝箱相关" />
+  <UIDesc idx="10045" desc_kr="부대레벨업" desc_cn="团队等级升级" />
+  <UIDesc idx="10046" desc_kr="경기장관련(갱신)" desc_cn="竞技场相关 (刷新)" />
+  <UIDesc idx="10047" desc_kr="운영이벤트관련" desc_cn="运营活动相关" />
+  <UIDesc idx="10048" desc_kr="임무관련" desc_cn="任务相关" />
+  <UIDesc idx="10049" desc_kr="리뷰보상" desc_cn="评星奖励" />
+  <UIDesc idx="10050" desc_kr="경기장순위보상" desc_cn="竞技场名次奖励" />
+  <UIDesc idx="10051" desc_kr="상점" desc_cn="rmb商店" />
+  <UIDesc idx="10052" desc_kr="월정액(소)관련" desc_cn="小月卡相关" />
+  <UIDesc idx="10053" desc_kr="월정액(대)관련" desc_cn="大月卡相关" />
+  <UIDesc idx="10054" desc_kr="첫충전관련" desc_cn="首充相关" />
+  <UIDesc idx="10055" desc_kr="성장선물관련" desc_cn="理财计划相关" />
+  <UIDesc idx="10056" desc_kr="운영이벤트 주간임무관련" desc_cn="运营活动 周任务 相关" />
+  <UIDesc idx="10057" desc_kr="운영이벤트 VIP관련" desc_cn="运营活动 vip 相关" />
+  <UIDesc idx="10058" desc_kr="다이아충전" desc_cn="元宝充值" />
+  <UIDesc idx="10059" desc_kr="펫수정복원" desc_cn="宠物晶石重生" />
+  <UIDesc idx="10060" desc_kr="길드생성" desc_cn="帮派创建" />
+  <UIDesc idx="10061" desc_kr="길드생성실패" desc_cn="帮派创建失败" />
+  <UIDesc idx="10062" desc_kr="길드기원" desc_cn="帮派祈福" />
+  <UIDesc idx="10063" desc_kr="길드공헌(길드마일리지 불포함)" desc_cn="帮派贡献(不包含帮派红包)" />
+  <UIDesc idx="10064" desc_kr="순위버프관련" desc_cn="排行榜buff相关" />
+  <UIDesc idx="10065" desc_kr="길드전관련" desc_cn="帮派战争相关" />
+  <UIDesc idx="10066" desc_kr="신병 병혼 세련" desc_cn="神兵兵魂洗练" />
+  <UIDesc idx="10067" desc_kr="신병병혼주혼관련(무용)" desc_cn="神兵兵魂铸魂相关(无用)" />
+  <UIDesc idx="10068" desc_kr="장수등급 레벨업아이템" desc_cn="英雄升阶材料装备" />
+  <UIDesc idx="10069" desc_kr="신병병혼진화" desc_cn="神兵兵魂进化" />
+  <UIDesc idx="10070" desc_kr="체력획득(친구)" desc_cn="精力值获取(好友)" />
+  <UIDesc idx="10071" desc_kr="체력증여(친구)" desc_cn="精力值赠予(好友)" />
+  <UIDesc idx="10072" desc_kr="영지전 순찰" desc_cn="诸侯割据 巡城" />
+  <UIDesc idx="10073" desc_kr="영지전 전투관련" desc_cn="诸侯割据 战斗相关" />
+  <UIDesc idx="10074" desc_kr="영지전 획득관련" desc_cn="诸侯割据 收成相关" />
+  <UIDesc idx="10075" desc_kr="영지전 약탈관련" desc_cn="诸侯割据 抢夺相关" />
+  <UIDesc idx="10076" desc_kr="영지전 보호관련" desc_cn="诸侯割据 保护相关" />
+  <UIDesc idx="10077" desc_kr="장신구정련" desc_cn="饰品精炼" />
+  <UIDesc idx="10078" desc_kr="장신구부여" desc_cn="饰品附魔" />
+  <UIDesc idx="10079" desc_kr="영지전 지원" desc_cn="诸侯割据 救援" />
+  <UIDesc idx="10080" desc_kr="장수진법" desc_cn="英雄命格" />
+  <UIDesc idx="10081" desc_kr="길드스킬" desc_cn="帮派技能" />
+  <UIDesc idx="10082" desc_kr="연혼관련" desc_cn="炼魂相关" />
+  <UIDesc idx="10083" desc_kr="장수승급" desc_cn="英雄升星" />
+  <UIDesc idx="10084" desc_kr="VIP제사(없음)" desc_cn="vip祭祀 (没了)" />
+  <UIDesc idx="10085" desc_kr="신병제사(없음)" desc_cn="神兵祭祀 (没了)" />
+  <UIDesc idx="10086" desc_kr="별기원(없음)" desc_cn="星阵祈愿 (没了)" />
+  <UIDesc idx="10087" desc_kr="장수진화" desc_cn="英雄提品" />
+  <UIDesc idx="10088" desc_kr="장수계승" desc_cn="英雄传承" />
+  <UIDesc idx="10089" desc_kr="신병던전시작(없음)" desc_cn="神兵本开始 (没了)" />
+  <UIDesc idx="10090" desc_kr="신병던전종료(없음)" desc_cn="神兵本结束 (没了)" />
+  <UIDesc idx="10091" desc_kr="관문돌파던전사작" desc_cn="千里单骑本开始" />
+  <UIDesc idx="10092" desc_kr="관문돌파던전종료" desc_cn="千里单骑本结束" />
+  <UIDesc idx="10093" desc_kr="신병진화관련" desc_cn="神兵进化相关" />
+  <UIDesc idx="10094" desc_kr="로그아웃" desc_cn="登出" />
+  <UIDesc idx="10095" desc_kr="수집" desc_cn="收集" />
+  <UIDesc idx="10096" desc_kr="펫혼석레벨업" desc_cn="灵宠灵石升级" />
+  <UIDesc idx="10097" desc_kr="펫혼석분해" desc_cn="灵宠灵石分解" />
+  <UIDesc idx="10098" desc_kr="펫상점일반추첨" desc_cn="灵宠商店普通抽奖" />
+  <UIDesc idx="10099" desc_kr="펫상점고급추첨" desc_cn="灵宠商店高级抽奖" />
+  <UIDesc idx="10100" desc_kr="펫상점특별추첨(없음)" desc_cn="灵宠商店皇家抽奖(没了)" />
+  <UIDesc idx="10101" desc_kr="금화던전, 경험치던전, 수비던전, 펫던전 소탕시작" desc_cn="金币本, 经验本, 守卫本, 宠物本扫荡开始" />
+  <UIDesc idx="10102" desc_kr="칭호활성" desc_cn="称号激活" />
+  <UIDesc idx="10103" desc_kr="연혼레벨업" desc_cn="炼魂升级" />
+  <UIDesc idx="10104" desc_kr="오프라인보상관련" desc_cn="离线奖励相关" />
+  <UIDesc idx="10105" desc_kr="인연활성관련" desc_cn="缘分激活相关" />
+  <UIDesc idx="10106" desc_kr="팔진도신비한 상자오픈" desc_cn="八阵图神秘宝箱开启" />
+  <UIDesc idx="10107" desc_kr="대부호관련(없음)" desc_cn="大富翁相关 (没了)" />
+  <UIDesc idx="10108" desc_kr="대부호던전스킵(없음)" desc_cn="大富翁副本跳过(没了)" />
+  <UIDesc idx="10109" desc_kr="대부호던전관련(없음)" desc_cn="大富翁副本相关(没了)" />
+  <UIDesc idx="10110" desc_kr="길드임무초기화" desc_cn="帮派任务刷新" />
+  <UIDesc idx="10111" desc_kr="길드임무관련(임무바로완성)" desc_cn="帮派任务相关(直接完成任务)" />
+  <UIDesc idx="10112" desc_kr="길드임무던전종료" desc_cn="帮派任务副本结束" />
+  <UIDesc idx="10113" desc_kr="길드기원추가보상" desc_cn="帮派祈福加成" />
+  <UIDesc idx="10114" desc_kr="파티던전" desc_cn="组队副本" />
+  <UIDesc idx="10115" desc_kr="펫수정돌파" desc_cn="宠物晶石突破" />
+  <UIDesc idx="10116" desc_kr="달걀던지기" desc_cn="投掷鸡蛋" />
+  <UIDesc idx="10117" desc_kr="꽃보내기" desc_cn="赠送鲜花" />
+  <UIDesc idx="10118" desc_kr="유저보상" desc_cn="玩家补偿" />
+  <UIDesc idx="10119" desc_kr="보물탐색" desc_cn="聚宝盆" />
+  <UIDesc idx="10120" desc_kr="이름변경" desc_cn="角色改名" />
+  <UIDesc idx="10121" desc_kr="보조장수 레벨업" desc_cn="助战位升级" />
+  <UIDesc idx="10122" desc_kr="스킬초기화" desc_cn="技能重置" />
+  <UIDesc idx="10123" desc_kr="부활" desc_cn="复活" />
+  <UIDesc idx="10124" desc_kr="신비상점" desc_cn="神秘商店" />
+  <UIDesc idx="10125" desc_kr="진법초기화" desc_cn="命格重置" />
+  <UIDesc idx="10126" desc_kr="신병별등급 하락" desc_cn="神兵降星" />
+  <UIDesc idx="10127" desc_kr="경기장초기화" desc_cn="竞技场重置" />
+  <UIDesc idx="10128" desc_kr="아이템전환" desc_cn="道具转换" />
+  <UIDesc idx="10129" desc_kr="무혼분해(판매)" desc_cn="武魂分解(出售)" />
+  <UIDesc idx="10130" desc_kr="장수천명 초기화" desc_cn="武将天命重置" />
+  <UIDesc idx="10131" desc_kr="지존카드관련" desc_cn="至尊卡相关" />
+  <UIDesc idx="10132" desc_kr="마일리지" desc_cn="红包" />
+  <UIDesc idx="10133" desc_kr="7일충전반환" desc_cn="7天充值返还" />
+  <UIDesc idx="10134" desc_kr="탈것조각합성" desc_cn="坐骑碎片合成" />
+  <UIDesc idx="10135" desc_kr="장수등급초기화" desc_cn="英雄品质重置" />
+  <UIDesc idx="10136" desc_kr="숭배" desc_cn="膜拜" />
+  <UIDesc idx="10137" desc_kr="연무장 도전횟수 원보구매" desc_cn="元宝购买竞技场挑战次数" />
+  <UIDesc idx="10138" desc_kr="던전연속도전" desc_cn="副本连续挑战" />
+
+  <!--20000~20032 -->
+  <UIDesc idx="20000" desc_kr="화폐유형" desc_cn="经济类型" />
+  <UIDesc idx="20001" desc_kr="아이템" desc_cn="物品" />
+  <UIDesc idx="20002" desc_kr="장수" desc_cn="英雄" />
+  <UIDesc idx="20003" desc_kr="무혼" desc_cn="武魂" />
+  <UIDesc idx="20004" desc_kr="장신구" desc_cn="饰品" />
+  <UIDesc idx="20005" desc_kr="펫" desc_cn="宠物" />
+  <UIDesc idx="20006" desc_kr="버프" desc_cn="buff" />
+  <UIDesc idx="20007" desc_kr="전용장비" desc_cn="专属装备" />
+  <UIDesc idx="20008" desc_kr="보물혼석" desc_cn="灵宝灵石" />
+  <UIDesc idx="20009" desc_kr="탈것" desc_cn="坐骑" />
+  <UIDesc idx="20010" desc_kr="탈것조각" desc_cn="坐骑碎片" />
+
+  <!--21000~21100 经济类型-->
+  <UIDesc idx="21000" desc_kr="GM" desc_cn="GM" />
+  <UIDesc idx="21001" desc_kr="VIP" desc_cn="VIP" />
+  <UIDesc idx="21002" desc_kr="금화" desc_cn="铜钱" />
+  <UIDesc idx="21003" desc_kr="다이아" desc_cn="元宝" />
+  <UIDesc idx="21004" desc_kr="체력" desc_cn="体力" />
+  <UIDesc idx="21005" desc_kr="마일리지 포인트" desc_cn="红包点" />
+  <UIDesc idx="21006" desc_kr="수정정수" desc_cn="晶石精粹" />
+  <UIDesc idx="21007" desc_kr="병혼정수" desc_cn="活跃点" />
+  <UIDesc idx="21008" desc_kr="활약도" desc_cn="兵魂精华" />
+  <UIDesc idx="21009" desc_kr="명예포인드" desc_cn="荣誉点" />
+  <UIDesc idx="21013" desc_kr="다이아충전" desc_cn="充值元宝" />
+  <UIDesc idx="21015" desc_kr="월정액" desc_cn="超值月卡" />
+  <UIDesc idx="21017" desc_kr="개인공헌" desc_cn="个人贡献" />
+  <UIDesc idx="21018" desc_kr="용기포인트" desc_cn="勇气点" />
+  <UIDesc idx="21019" desc_kr="명성" desc_cn="声名" />
+  <UIDesc idx="21020" desc_kr="제왕명예" desc_cn="王者荣耀" />
+  <UIDesc idx="21021" desc_kr="지존월정액" desc_cn="至尊月卡" />
+  <UIDesc idx="21022" desc_kr="수정(기한한정 할인상점용)" desc_cn="水晶(限时折扣商店用)" />
+  <UIDesc idx="21023" desc_kr="장비정수" desc_cn="装备精华" />
+  <UIDesc idx="21024" desc_kr="군공" desc_cn="军功" />
+  <UIDesc idx="21025" desc_kr="각성" desc_cn="觉醒" />
+  <UIDesc idx="21026" desc_kr="수정조각" desc_cn="晶石碎片" />
+  <UIDesc idx="21027" desc_kr="용주정수" desc_cn="龙珠精华" />
+  <UIDesc idx="21028" desc_kr="VIP 경험치" desc_cn="VIP经验" />
+  <UIDesc idx="21099" desc_kr="운영이벤트 아이템교환수량(소)" desc_cn="运营活动 兑换道具数量(小)" />
+  <UIDesc idx="21100" desc_kr="운영이벤트 아이템교환수량(대)" desc_cn="运营活动 兑换道具数量(大)" />
+
+  <UIDesc idx="21101" desc_kr="영지전특별아이템" desc_cn="诸侯割据特殊道具" />
+  <UIDesc idx="21102" desc_kr="마차호송 및 약탈 특별아이템" desc_cn="押劫镖特殊道具" />
+
+
+  <UIDesc idx="22000" desc_kr="일반던전 아이템획득2배" desc_cn="普通副本产出翻倍" />
+  <UIDesc idx="22001" desc_kr="정예던전 아이템획득2배" desc_cn="精英副本产出翻倍" />
+  <UIDesc idx="22002" desc_kr="매일임무 아이템획득2배" desc_cn="每日任务产出翻倍" />
+  <UIDesc idx="22003" desc_kr="1회PVP보상2배" desc_cn="单次pvp奖励翻倍" />
+  <UIDesc idx="22004" desc_kr="마차호송보상2배1" desc_cn="押镖奖励翻倍1" />
+  <UIDesc idx="22005" desc_kr="마차호송보상2배2" desc_cn="押镖奖励翻倍2" />
+  <UIDesc idx="22006" desc_kr="신비상점" desc_cn="神秘商店" />
+  <UIDesc idx="22007" desc_kr="팔진도무료초기화" desc_cn="八阵图免费重置" />
+  <UIDesc idx="22008" desc_kr="경기장던전쿨타임" desc_cn="演武场副本冷却" />
+  <UIDesc idx="22009" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22010" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22011" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22012" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22013" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22014" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22015" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22016" desc_kr="던전쿨타임" desc_cn="副本冷却" />
+  <UIDesc idx="22017" desc_kr="장신구" desc_cn="饰品" />
+  <UIDesc idx="22018" desc_kr="수정" desc_cn="晶石" />
+  <UIDesc idx="22019" desc_kr="탈것조각" desc_cn="坐骑碎片" />
+  <UIDesc idx="22020" desc_kr="수호목걸이(blue)" desc_cn="守心项链(蓝)" />
+  <UIDesc idx="22021" desc_kr="수호목걸이(purple)" desc_cn="守心项链(紫)" />
+  <UIDesc idx="22022" desc_kr="수호목걸이(orange)" desc_cn="守心项链(橙)" />
+  <UIDesc idx="22023" desc_kr="수호목걸이(red)" desc_cn="守心项链(红)" />
+  <UIDesc idx="22024" desc_kr="진리반지(blue)" desc_cn="谛心戒指(蓝)" />
+  <UIDesc idx="22025" desc_kr="진리반지(purple)" desc_cn="谛心戒指(紫)" />
+  <UIDesc idx="22026" desc_kr="진리반지(orange)" desc_cn="谛心戒指(橙)" />
+  <UIDesc idx="22027" desc_kr="진리반지(red)" desc_cn="谛心戒指(红)" />
+  <UIDesc idx="22028" desc_kr="화전목걸이(blue)" desc_cn="和田玉坠(蓝)" />
+  <UIDesc idx="22029" desc_kr="화전목걸이(purple)" desc_cn="和田玉坠(紫)" />
+  <UIDesc idx="22030" desc_kr="화전목걸이(orange)" desc_cn="和田玉坠(橙)" />
+  <UIDesc idx="22031" desc_kr="화전목걸이(red)" desc_cn="和田玉坠(红)" />
+  <UIDesc idx="22032" desc_kr="벽진반지(blue)" desc_cn="碧辰指环(蓝)" />
+  <UIDesc idx="22033" desc_kr="벽진반지(purple)" desc_cn="碧辰指环(紫)" />
+  <UIDesc idx="22034" desc_kr="벽진반지(orange)" desc_cn="碧辰指环(橙)" />
+  <UIDesc idx="22035" desc_kr="벽진반지(red)" desc_cn="碧辰指环(红)" />
+  <UIDesc idx="22036" desc_kr="아이템삭제" desc_cn="删除道具" />
+  <UIDesc idx="22037" desc_kr="첫충전 리셋시간" desc_cn="首充奖励重置时间" />
+  <!--30000~30500 成就项-->
+  <UIDesc idx="30000" desc_kr="연속로그인" desc_cn="连续登录" />
+  <UIDesc idx="30001" desc_kr="출석횟수" desc_cn="签到次数" />
+  <UIDesc idx="30002" desc_kr="다이아충전수" desc_cn="元宝充值数" />
+  <UIDesc idx="30003" desc_kr="다이아소모수" desc_cn="元宝消费数" />
+  <UIDesc idx="30004" desc_kr="다이아매일충전단위" desc_cn="元宝每日充值档位" />
+  <UIDesc idx="30005" desc_kr="완료임무수량" desc_cn="完成任务数量" />
+  <UIDesc idx="30006" desc_kr="완료업적수량" desc_cn="完成成就数量" />
+  <UIDesc idx="30007" desc_kr="보유다이아수량" desc_cn="拥有元宝数量" />
+  <UIDesc idx="30008" desc_kr="진급단던전횟수" desc_cn="进阶丹副本次数" />
+  <UIDesc idx="30009" desc_kr="병법던전횟수" desc_cn="兵法副本次数" />
+  <UIDesc idx="30010" desc_kr="장신구제련석던전횟수" desc_cn="饰品精炼石副本次数" />
+  <UIDesc idx="30011" desc_kr="보유활약도" desc_cn="拥有活跃点" />
+  <UIDesc idx="30012" desc_kr="부대레벨업횟수" desc_cn="团队升级次数" />
+  <UIDesc idx="30013" desc_kr="영웅레벨업횟수" desc_cn="英雄升级次数" />
+  <UIDesc idx="30014" desc_kr="부대던전횟수" desc_cn="团队本次数" />
+  <UIDesc idx="30015" desc_kr="누적로그인" desc_cn="累计登录" />
+  <UIDesc idx="30016" desc_kr="영웅스킬 레벨업횟수" desc_cn="英雄技能升级次数" />
+  <UIDesc idx="30017" desc_kr="팔진도 도전횟수" desc_cn="挑战八阵图次数" />
+  <UIDesc idx="30018" desc_kr="일반던전 완료횟수" desc_cn="完成普通副本次数" />
+  <UIDesc idx="30019" desc_kr="정예던전 완료횟수" desc_cn="完成精英副本次数" />
+  <UIDesc idx="30020" desc_kr="매일던전 완료횟수" desc_cn="完成每日副本次数" />
+  <UIDesc idx="30021" desc_kr="연혼횟수" desc_cn="炼魂次数" />
+  <UIDesc idx="30022" desc_kr="수정강화횟수" desc_cn="晶石强化次数" />
+  <UIDesc idx="30023" desc_kr="장비강화횟수" desc_cn="装备强化次数" />
+  <UIDesc idx="30024" desc_kr="경기장 참가횟수" desc_cn="参加演武场次数" />
+  <UIDesc idx="30025" desc_kr="아이템 장착횟수" desc_cn="物品装备次数" />
+  <UIDesc idx="30026" desc_kr="성진활성횟수" desc_cn="星阵激活次数" />
+  <UIDesc idx="30027" desc_kr="장신구 장착횟수" desc_cn="饰品镶嵌次数" />
+  <UIDesc idx="30028" desc_kr="장신구 제련횟수" desc_cn="饰品精炼次数" />
+  <UIDesc idx="30029" desc_kr="전용장비 강화횟수" desc_cn="专属装备强化次数" />
+  <UIDesc idx="30030" desc_kr="친구체력 선물횟수" desc_cn="赠送好友体力次数" />
+  <UIDesc idx="30031" desc_kr="친구체력 수령횟수" desc_cn="领取好友体力次数" />
+  <UIDesc idx="30032" desc_kr="금화구매횟수" desc_cn="购买金币次数" />
+  <UIDesc idx="30033" desc_kr="체력구매횟수" desc_cn="购买体力次数" />
+  <UIDesc idx="30034" desc_kr="만보루보물탐색횟수" desc_cn="万宝楼寻宝次数" />
+  <UIDesc idx="30035" desc_kr="영롱각물품구매횟수" desc_cn="玲珑阁购买物品次数" />
+  <UIDesc idx="30036" desc_kr="대부호참여횟수" desc_cn="大富翁摇色子次数" />
+  <UIDesc idx="30037" desc_kr="호걸시련 금화격려 횟수" desc_cn="豪杰试炼金币鼓舞次数" />
+  <UIDesc idx="30038" desc_kr="호걸시련 원보격려 횟수" desc_cn="豪杰试炼元宝鼓舞次数" />
+  <UIDesc idx="30039" desc_kr="호걸시련 횟수" desc_cn="豪杰试炼次数" />
+  <UIDesc idx="30040" desc_kr="목우유마 약탈횟수" desc_cn="木牛流马劫镖次数" />
+  <UIDesc idx="30041" desc_kr="뽑기이벤트 뽑기횟수" desc_cn="抽奖活动抽奖次数" />
+  <UIDesc idx="30042" desc_kr="백전천군횟수" desc_cn="百战千军次数" />
+  <UIDesc idx="30043" desc_kr="군단공헌횟수" desc_cn="帮派捐献次数" />
+  <UIDesc idx="30044" desc_kr="군단던전 전투횟수" desc_cn="帮派禁地战斗次数" />
+  <UIDesc idx="30045" desc_kr="영지전 약탈횟수" desc_cn="诸侯割据掠夺次数" />
+  <UIDesc idx="30046" desc_kr="영지전 순찰횟수" desc_cn="诸侯割据巡城次数" />
+  <UIDesc idx="30047" desc_kr="영지전 순찰시간" desc_cn="诸侯割据巡城时间小时" />
+  <UIDesc idx="30048" desc_kr="만보루고액10회뽑기 진행횟수" desc_cn="进行万宝楼元宝大额10连抽次数" />
+  <UIDesc idx="30049" desc_kr="행운뽑기횟수" desc_cn="幸运抽奖次数" />
+  <UIDesc idx="30050" desc_kr="영지전 지원횟수" desc_cn="诸侯割据救援他人次数" />
+  <UIDesc idx="30051" desc_kr="만보루소액1회뽑기 진행횟수" desc_cn="进行万宝楼元宝小额抽奖次数" />
+  <UIDesc idx="30052" desc_kr="만보루고액1회뽑기 진행횟수" desc_cn="进行万宝楼元宝大额抽奖次数" />
+  <UIDesc idx="30053" desc_kr="무료체력 수령횟수" desc_cn="领取免费体力次数" />
+  <UIDesc idx="30054" desc_kr="백전천군 승리횟수" desc_cn="百战千军胜利次数" />
+  <UIDesc idx="30055" desc_kr="장병각 갱신횟수" desc_cn="藏兵阁刷新次数" />
+  <UIDesc idx="30056" desc_kr="전용장비주혼 완료횟수" desc_cn="完成专属装备铸魂次数" />
+  <UIDesc idx="30057" desc_kr="달걀깨기 획득다이아수" desc_cn="砸金蛋获取元宝数" />
+  <UIDesc idx="30058" desc_kr="금화던전 완료횟수" desc_cn="完成铜钱副本的次数" />
+  <UIDesc idx="30059" desc_kr="경험단던전 완료횟수" desc_cn="完成经验丹副本的次数" />
+  <UIDesc idx="30060" desc_kr="녹색이상표차 완료횟수" desc_cn="完成含绿色以上的押票次数" />
+  <UIDesc idx="30061" desc_kr="남색이상표차 완료횟수" desc_cn="完成含蓝色以上的押票次数" />
+  <UIDesc idx="30062" desc_kr="자색이상표차 완료횟수" desc_cn="完成含紫色以上的押票次数" />
+  <UIDesc idx="30063" desc_kr="황색이상표차 완료횟수" desc_cn="完成含橙色以上的押票次数" />
+  <UIDesc idx="30064" desc_kr="목우유마 약탈승리 횟수" desc_cn="木牛流马劫镖胜利次数" />
+  <UIDesc idx="30065" desc_kr="장병각영웅무혼 구매수량" desc_cn="藏兵阁购买英雄武魂的数量" />
+  <UIDesc idx="30066" desc_kr="호협도 진행횟수" desc_cn="进行一孤侠道的次数" />
+  <UIDesc idx="30067" desc_kr="장병각영웅무혼 구매횟수" desc_cn="藏兵阁英雄武魂的购买次数" />
+  <UIDesc idx="30068" desc_kr="표차약탈 포인트" desc_cn="押劫镖积分" />
+  <UIDesc idx="30069" desc_kr="각성던전 횟수" desc_cn="觉醒副本次数" />
+  <UIDesc idx="30070" desc_kr="펫일반소환 횟수" desc_cn="宠物普通召唤次数" />
+  <UIDesc idx="30071" desc_kr="펫고급소환 횟수" desc_cn="宠物高级召唤次数" />
+  <UIDesc idx="30072" desc_kr="펫특급소환 횟수" desc_cn="宠物神宠召唤次数" />
+  <UIDesc idx="30073" desc_kr="펫소환 횟수" desc_cn="宠物召唤次数" />
+  <UIDesc idx="30074" desc_kr="팔진도 상자숨김 횟수" desc_cn="八阵图开启隐藏宝箱次数" />
+  <UIDesc idx="30075" desc_kr="돌파상자 오픈횟수" desc_cn="突破宝箱开启次数" />
+  <UIDesc idx="30076" desc_kr="서버오픈 이벤트1 임수완료 횟수" desc_cn="开服活动1任务完成数" />
+  <UIDesc idx="30077" desc_kr="서버오픈 이벤트2 임수완료 횟수" desc_cn="开服活动2任务完成数" />
+  <UIDesc idx="30078" desc_kr="충전업적(사건값:84)" desc_cn="充值成就项(事件值：84)" />
+  <UIDesc idx="30079" desc_kr="충전업적(사건값:94)" desc_cn="充值成就项(事件值：94)" />
+  <UIDesc idx="30080" desc_kr="8~14일 메인던전도전 누적횟수" desc_cn="8至14日累计主线副本挑战次数" />
+  <UIDesc idx="30081" desc_kr="8~14일 군무교장도전 누적횟수" desc_cn="8至14日累计军武校场挑战次数" />
+  <UIDesc idx="30082" desc_kr="8~14일 군무교장도전 누적횟수" desc_cn="8至14日八阵图累计重置次数" />
+  <UIDesc idx="30083" desc_kr="8~14일 팔진도도전 누적횟수" desc_cn="8至14日八阵图累计挑战次数" />
+  <UIDesc idx="30084" desc_kr="8~14일 경기장도전 누적횟수" desc_cn="8至14日演武场挑战次数" />
+  <UIDesc idx="30085" desc_kr="팔진도 초기화 누적횟수" desc_cn="八阵图累计重置次数" />
+  <UIDesc idx="30086" desc_kr="수정경험석던전" desc_cn="晶石经验石副本" />
+  <UIDesc idx="30087" desc_kr="신병제련던전" desc_cn="神兵精炼石副本" />
+  <UIDesc idx="30088" desc_kr="장신구부여던전" desc_cn="饰品附魔石副本" />
+  <UIDesc idx="30089" desc_kr="강화상점 갱신횟수" desc_cn="锻造商店刷新次数" />
+  <UIDesc idx="30090" desc_kr="강화상점 구매횟수" desc_cn="锻造商店购买次数" />
+  <UIDesc idx="30091" desc_kr="체력치소모" desc_cn="体力值消耗" />
+  <UIDesc idx="30092" desc_kr="보물탐색횟수" desc_cn="聚宝盆聚宝次数" />
+  <UIDesc idx="30093" desc_kr="신비상점 누적충전" desc_cn="神秘商店的累计充值" />
+  <UIDesc idx="30094" desc_kr="장수탐색횟수(다이아만계산)" desc_cn="武将占星次数(只算元宝)" />
+
+  <UIDesc idx="30128" desc_kr="부대레벨" desc_cn="团队等级" />
+  <UIDesc idx="30129" desc_kr="진형장수최대레벨" desc_cn="阵容英雄最大等级" />
+  <UIDesc idx="30130" desc_kr="친구수" desc_cn="好友数量" />
+  <UIDesc idx="30131" desc_kr="VIP레벨" desc_cn="VIP等级" />
+  <UIDesc idx="30132" desc_kr="보유영웅(영웅ID)" desc_cn="拥有某个英雄(英雄ID)" />
+  <UIDesc idx="30133" desc_kr="보유영웅수량" desc_cn="拥有英雄数量" />
+  <UIDesc idx="30134" desc_kr="팔진도 b장a관문까지 도전" desc_cn="八阵图挑战到b章a关" />
+  <UIDesc idx="30135" desc_kr="던전돌파(총별개수)" desc_cn="副本通关(总星星数)" />
+  <UIDesc idx="30136" desc_kr="정예돌파(총별개수)" desc_cn="精英通关(总星星数)" />
+  <UIDesc idx="30137" desc_kr="일반장 3성돌파" desc_cn="普通章节满星通关" />
+  <UIDesc idx="30138" desc_kr="정예장 3성돌파" desc_cn="精英章节满星通关" />
+  <UIDesc idx="30139" desc_kr="b레벨 장수 a개" desc_cn="等级b的英雄a个" />
+  <UIDesc idx="30140" desc_kr="b등급 장수 a개" desc_cn="星级b的英雄a个" />
+  <UIDesc idx="30141" desc_kr="b등급 장수 a개" desc_cn="品质b的英雄a个" />
+  <UIDesc idx="30142" desc_kr="c등급 양령석 b개의 장수 a개" desc_cn="c品质的阳灵石b个的英雄a个" />
+  <UIDesc idx="30143" desc_kr="c등급 음령석 b개의 장수 a개" desc_cn="c品质的阴灵石b个的英雄a个" />
+  <UIDesc idx="30144" desc_kr="b레벨 진법공명 장수 a개" desc_cn="b等级星阵共鸣的英雄a个" />
+  <UIDesc idx="30145" desc_kr="양령석 공명레벨 b의 장수 a개" desc_cn="阳灵石共鸣等级b的英雄a个" />
+  <UIDesc idx="30146" desc_kr="음령석 공명레벨 b의 장소 a개" desc_cn="阴灵石共鸣等级b的英雄a个" />
+  <UIDesc idx="30147" desc_kr="b레벨 전용장비의 a개" desc_cn="b等级的专属装备的a个" />
+  <UIDesc idx="30148" desc_kr="c레벨의 b등급 령석 a개까지 돌파" desc_cn="突破至c级的b品质灵石a颗" />
+  <UIDesc idx="30149" desc_kr="팔진도 최고순위" desc_cn="八阵图历史最高排名" />
+  <UIDesc idx="30150" desc_kr="세계보스 최고순위" desc_cn="无尽挑战历史最高排名" />
+  <UIDesc idx="30151" desc_kr="경기장 최고순위" desc_cn="演武场历史最高排名" />
+  <UIDesc idx="30152" desc_kr="부대전투력" desc_cn="团队战力" />
+  <UIDesc idx="30153" desc_kr="보유 전용장비 수량" desc_cn="拥有专属装备的数量" />
+  <UIDesc idx="30154" desc_kr="군단활약도" desc_cn="帮派活跃值" />
+  <UIDesc idx="30155" desc_kr="성장선물 구매 유저 수" desc_cn="购买理财计划的玩家人数(全民福利)" />
+  <UIDesc idx="30156" desc_kr="관직레벨" desc_cn="官职等级" />
+  <UIDesc idx="30157" desc_kr="신병던전장 3성돌파" desc_cn="神兵本章节满星通关" />
+  <UIDesc idx="30158" desc_kr="일호던전장 3성돌파" desc_cn="一孤本章节满星通关" />
+  <UIDesc idx="30159" desc_kr="신병돌파" desc_cn="神兵通关" />
+  <UIDesc idx="30160" desc_kr="관문돌파 돌파" desc_cn="千里单骑通关" />
+  <UIDesc idx="30161" desc_kr="주간 다이아충전" desc_cn="周元宝充值" />
+  <UIDesc idx="30162" desc_kr="연혼레벨업" desc_cn="炼魂等级" />
+  <UIDesc idx="30501" desc_kr="일반임무" desc_cn="普通任务" />
+  <UIDesc idx="30502" desc_kr="일상임무" desc_cn="日常任务" />
+  <UIDesc idx="30503" desc_kr="임무업적" desc_cn="任务成就" />
+  <UIDesc idx="30504" desc_kr="메인임무" desc_cn="主线任务" />
+  <UIDesc idx="30505" desc_kr="이벤트 시간" desc_cn="活动期间" />
+  <UIDesc idx="30506" desc_kr="군단임무" desc_cn="帮派任务" />
+  <UIDesc idx="30507" desc_kr="주간임무" desc_cn="周任务" />
+  <UIDesc idx="30508" desc_kr="신비상인임무" desc_cn="神秘商人任务" />
+  <UIDesc idx="30509" desc_kr="이벤트 형식 오류" desc_cn="未知活动形式" />
+
+</UIDesc_config>

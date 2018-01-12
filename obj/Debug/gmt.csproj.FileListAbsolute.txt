@@ -1,0 +1,17 @@
+C:\Game\gmt\bin\gmt.dll.config
+C:\Game\gmt\bin\gmt.dll
+C:\Game\gmt\bin\gmt.pdb
+C:\Game\gmt\obj\Debug\gmt.csprojResolveAssemblyReference.cache
+C:\Game\gmt\obj\Debug\gmt.dll
+C:\Game\gmt\obj\Debug\gmt.pdb
+C:\Game\gmt\bin\office.dll
+C:\Game\gmt\bin\Microsoft.Vbe.Interop.dll
+E:\STProject\gmt\bin\gmt.dll.config
+E:\STProject\gmt\bin\gmt.dll
+E:\STProject\gmt\bin\gmt.pdb
+E:\STProject\gmt\bin\Microsoft.Office.Interop.Excel.dll
+E:\STProject\gmt\bin\office.dll
+E:\STProject\gmt\bin\Microsoft.Vbe.Interop.dll
+E:\STProject\gmt\obj\Debug\gmt.dll
+E:\STProject\gmt\obj\Debug\gmt.pdb
+E:\STProject\gmt\obj\Debug\gmt.csprojResolveAssemblyReference.cache

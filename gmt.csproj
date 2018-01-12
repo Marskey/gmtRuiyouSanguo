@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9765C7F-35CC-43E6-BD6E-09B7325C39DE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gmt</RootNamespace>
+    <AssemblyName>gmt</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PrecompileBeforePublish>false</PrecompileBeforePublish>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>D:\搜狗高速下载\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="mw-proto, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mw-proto.dll</HintPath>
+    </Reference>
+    <Reference Include="mw-proto-client, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mw-proto-client.dll</HintPath>
+    </Reference>
+    <Reference Include="mw-serializer0, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mw-serializer0.dll</HintPath>
+    </Reference>
+    <Reference Include="mw_proto_serializer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mw_proto_serializer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.510, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib, Version=0.31.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\stdole.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="js\ajaxSubmit.js" />
+    <Content Include="js\global.js" />
+    <Content Include="js\language.js" />
+    <Content Include="mycss\css.css" />
+    <Content Include="mycss\docs.min.css" />
+    <Content Include="mycss\index-style.css" />
+    <Content Include="mycss\inspire.css" />
+    <Content Include="mycss\ripples.min.css" />
+    <Content Include="views\Activity.aspx" />
+    <Content Include="views\ActivityOpenTime.aspx" />
+    <Content Include="views\ActivityOperate.aspx" />
+    <Content Include="views\BatchGive.aspx" />
+    <Content Include="views\CreateGift.aspx" />
+    <Content Include="views\CreateKey.aspx" />
+    <Content Include="views\DownloadActivity.aspx" />
+    <Content Include="views\DownloadCDNTableZip.aspx" />
+    <Content Include="views\DownloadCDNZip.aspx" />
+    <Content Include="views\DownloadGift.aspx" />
+    <Content Include="views\DownloadLog.aspx" />
+    <Content Include="views\DownloadNotice.aspx" />
+    <Content Include="views\Error.aspx" />
+    <Content Include="views\Exit.aspx" />
+    <Content Include="views\FTPEdit.aspx" />
+    <Content Include="views\Gift.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="views\GmModify.aspx" />
+    <Content Include="views\GmNormal.aspx" />
+    <Content Include="views\Navbar.html" />
+    <Content Include="views\Login.aspx" />
+    <Content Include="views\Menu.html" />
+    <Content Include="views\MergeServer.aspx" />
+    <Content Include="views\Notice.aspx" />
+    <Content Include="views\OtherNoticeEdit.aspx" />
+    <Content Include="views\Passwordchange.aspx" />
+    <Content Include="views\PayType.aspx" />
+    <Content Include="views\PlayerData.aspx" />
+    <Content Include="views\PlayerHistory.aspx" />
+    <Content Include="views\PlayerRechargeLook.aspx" />
+    <Content Include="views\RunandFixManage.aspx" />
+    <Content Include="views\SectionServer.aspx" />
+    <Content Include="views\SectionServerList.aspx" />
+    <Content Include="views\ServerData.aspx" />
+    <Content Include="views\User.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\errormgr.cs" />
+    <Compile Include="src\TimedMailSender.cs" />
+    <Compile Include="src\UserManager.cs" />
+    <Compile Include="src\utils.cs" />
+    <Compile Include="views\Activity.aspx.cs">
+      <DependentUpon>Activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Activity.aspx.designer.cs">
+      <DependentUpon>Activity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\ActivityOpenTime.aspx.cs">
+      <DependentUpon>ActivityOpenTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\ActivityOpenTime.aspx.designer.cs">
+      <DependentUpon>ActivityOpenTime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\ActivityOperate.aspx.cs">
+      <DependentUpon>ActivityOperate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\ActivityOperate.aspx.designer.cs">
+      <DependentUpon>ActivityOperate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\BatchGive.aspx.cs">
+      <DependentUpon>BatchGive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\BatchGive.aspx.designer.cs">
+      <DependentUpon>BatchGive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\Channel.cs" />
+    <Compile Include="views\CreateGift.aspx.cs">
+      <DependentUpon>CreateGift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\CreateGift.aspx.designer.cs">
+      <DependentUpon>CreateGift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\CreateKey.aspx.cs">
+      <DependentUpon>CreateKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\CreateKey.aspx.designer.cs">
+      <DependentUpon>CreateKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\DatabaseAssistant.cs" />
+    <Compile Include="views\DownloadActivity.aspx.cs">
+      <DependentUpon>DownloadActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\DownloadActivity.aspx.designer.cs">
+      <DependentUpon>DownloadActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\DownloadCDNTableZip.aspx.cs">
+      <DependentUpon>DownloadCDNTableZip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\DownloadCDNTableZip.aspx.designer.cs">
+      <DependentUpon>DownloadCDNTableZip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\DownloadCDNZip.aspx.cs">
+      <DependentUpon>DownloadCDNZip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\DownloadCDNZip.aspx.designer.cs">
+      <DependentUpon>DownloadCDNZip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\DownloadGift.aspx.cs">
+      <DependentUpon>DownloadGift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\DownloadGift.aspx.designer.cs">
+      <DependentUpon>DownloadGift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\DownloadLog.aspx.cs">
+      <DependentUpon>DownloadLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\DownloadLog.aspx.designer.cs">
+      <DependentUpon>DownloadLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\DownloadNotice.aspx.cs">
+      <DependentUpon>DownloadNotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\DownloadNotice.aspx.designer.cs">
+      <DependentUpon>DownloadNotice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Exit.aspx.cs">
+      <DependentUpon>Exit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Exit.aspx.designer.cs">
+      <DependentUpon>Exit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\FTP.cs" />
+    <Compile Include="views\FTPEdit.aspx.cs">
+      <DependentUpon>FTPEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\FTPEdit.aspx.designer.cs">
+      <DependentUpon>FTPEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Gift.aspx.cs">
+      <DependentUpon>Gift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Gift.aspx.designer.cs">
+      <DependentUpon>Gift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\GmModify.aspx.cs">
+      <DependentUpon>GmModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\GmModify.aspx.designer.cs">
+      <DependentUpon>GmModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GMService\MessageType.cs" />
+    <Compile Include="views\MergeServer.aspx.cs">
+      <DependentUpon>MergeServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\MergeServer.aspx.designer.cs">
+      <DependentUpon>MergeServer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\Network.cs" />
+    <Compile Include="views\OtherNoticeEdit.aspx.cs">
+      <DependentUpon>OtherNoticeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\OtherNoticeEdit.aspx.designer.cs">
+      <DependentUpon>OtherNoticeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Passwordchange.aspx.cs">
+      <DependentUpon>Passwordchange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Passwordchange.aspx.designer.cs">
+      <DependentUpon>Passwordchange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\PayType.aspx.cs">
+      <DependentUpon>PayType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\PayType.aspx.designer.cs">
+      <DependentUpon>PayType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\PlayerData.aspx.cs">
+      <DependentUpon>PlayerData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\PlayerData.aspx.designer.cs">
+      <DependentUpon>PlayerData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\PlayerHistory.aspx.cs">
+      <DependentUpon>PlayerHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\PlayerHistory.aspx.designer.cs">
+      <DependentUpon>PlayerHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\PlayerRechargeLook.aspx.cs">
+      <DependentUpon>PlayerRechargeLook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\PlayerRechargeLook.aspx.designer.cs">
+      <DependentUpon>PlayerRechargeLook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\ProtoData.cs" />
+    <Compile Include="src\ProtoSerializer.cs" />
+    <Compile Include="views\SectionServer.aspx.cs">
+      <DependentUpon>SectionServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\SectionServer.aspx.designer.cs">
+      <DependentUpon>SectionServer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\SectionServerList.aspx.cs">
+      <DependentUpon>SectionServerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\SectionServerList.aspx.designer.cs">
+      <DependentUpon>SectionServerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\ServerData.aspx.cs">
+      <DependentUpon>ServerData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\ServerData.aspx.designer.cs">
+      <DependentUpon>ServerData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\TableManager.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="views\GmNormal.aspx.cs">
+      <DependentUpon>GmNormal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\GmNormal.aspx.designer.cs">
+      <DependentUpon>GmNormal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\GmPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="src\Log.cs" />
+    <Compile Include="views\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Notice.aspx.cs">
+      <DependentUpon>Notice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Notice.aspx.designer.cs">
+      <DependentUpon>Notice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\RunandFixManage.aspx.cs">
+      <DependentUpon>RunandFixManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\RunandFixManage.aspx.designer.cs">
+      <DependentUpon>RunandFixManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="src\Server.cs" />
+    <Compile Include="src\TextManager.cs" />
+    <Compile Include="views\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="configs\config.ini" />
+    <Content Include="Json\LanguageData.min.json" />
+    <None Include="Properties\PublishProfiles\gmt.pubxml" />
+    <None Include="Properties\PublishProfiles\gmfabu.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="proto_datas\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

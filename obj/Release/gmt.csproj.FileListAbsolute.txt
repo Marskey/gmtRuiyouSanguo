@@ -1,0 +1,10 @@
+E:\STProject\gmt\bin\gmt.dll
+E:\STProject\gmt\bin\gmt.pdb
+E:\STProject\gmt\obj\Release\gmt.dll
+E:\STProject\gmt\obj\Release\gmt.pdb
+E:\STProject\gmt\obj\Release\gmt.csprojResolveAssemblyReference.cache
+E:\STProject\gmt\bin\gmt.dll.config
+E:\STProject\gmt\bin\Microsoft.Office.Interop.Excel.dll
+E:\STProject\gmt\bin\office.dll
+E:\STProject\gmt\bin\Microsoft.Vbe.Interop.dll
+E:\STProject\gmt\bin\stdole.dll

@@ -1,0 +1,1398 @@
+{
+	"HomePage": {
+		"zh-CN": "首页",
+		"ko-KR": "메인"
+	},
+	"Dropdown_Operation": {
+		"zh-CN": "运营支持",
+		"ko-KR": "운영지원"
+	},
+	"Dropdown_Server_Manage": {
+		"zh-CN": "服务器管理",
+		"ko-KR": "서버관리"
+	},
+	"Dropdown_Data_Query": {
+		"zh-CN": "数据查询",
+		"ko-KR": "데이터검색"
+	},
+	"Dropdown_Setting": {
+		"zh-CN": "系统设置",
+		"ko-KR": "시스템설정"
+	},
+	"BatchGive": {
+		"zh-CN": "批量给予物品",
+		"ko-KR": "아이템대량지급"
+	},
+	"CreateKey": {
+		"zh-CN": "游戏激活码",
+		"ko-KR": "활성화코드"
+	},
+	"CreateGift": {
+		"zh-CN": "游戏礼包码",
+		"ko-KR": "쿠폰코드"
+	},
+	"Gift": {
+		"zh-CN": "礼包编辑",
+		"ko-KR": "패키지편집"
+	},
+	"MergeServer": {
+		"zh-CN": "合并服务器",
+		"ko-KR": "서버통합"
+	},
+	"Notice": {
+		"zh-CN": "滚屏公告",
+		"ko-KR": "줄공지"
+	},
+	"SectionServer": {
+		"zh-CN": "服务器列表",
+		"ko-KR": "서버목록"
+	},
+	"ActivityOpenTime": {
+		"zh-CN": "开服活动设置",
+		"ko-KR": "서버오픈이벤트설정"
+	},
+	"Activity": {
+		"zh-CN": "运营活动设置",
+		"ko-KR": "운영이벤트설정"
+	},
+	"ActivityOperate": {
+		"zh-CN": "活动编辑",
+		"ko-KR": "이벤트편집"
+	},
+	"GmNormal": {
+		"zh-CN": "玩家信息查询",
+		"ko-KR": "유저정보검색"
+	},
+	"PlayerRechargeLook": {
+		"zh-CN": "充值记录查询",
+		"ko-KR": "충전기록검색"
+	},
+	"PlayerHistory": {
+		"zh-CN": "玩家历史记录",
+		"ko-KR": "유저로그"
+	},
+	"ServerData": {
+		"zh-CN": "服务器数据",
+		"ko-KR": "서버데이터"
+	},
+	"FTPEdit": {
+		"zh-CN": "FTP地址编辑",
+		"ko-KR": "FTP주소편집"
+	},
+	"PayType": {
+		"zh-CN": "支付方式",
+		"ko-KR": "결제방식"
+	},
+	"Exit": {
+		"zh-CN": "退出登录",
+		"ko-KR": "로그아웃"
+	},
+	"Activity_Tip_refresh": {
+		"zh-CN": "这会丢失当前操作信息，确定吗？",
+		"ko-KR": "진행시 현재 정보를 잃게 됩니다. 진행하시겠습니까?"
+	},
+	"Activity_Tip_clean": {
+		"zh-CN": "确定要清除玩家数据？",
+		"ko-KR": "유저데이터를 삭제하시겠습니까?"
+	},
+	"Activity_Tip_apply": {
+		"zh-CN": "确定要？",
+		"ko-KR": "확실합니까?"
+	},
+	"Tip_send": {
+		"zh-CN": "确定要发送吗？",
+		"ko-KR": "발송하시겠습니까?"
+	},
+	"Tip_clean": {
+		"zh-CN": "确定要清表吗？",
+		"ko-KR": "표를 초기화 하시겠습니까?"
+	},
+	"Tip_clear": {
+		"zh-CN": "确定要清除吗？",
+		"ko-KR": "삭제하시겠습니까?"
+	},
+	"Tip_modify": {
+		"zh-CN": "确定要修改吗？",
+		"ko-KR": "수정하시겠습니까?"
+	},
+	"Tip_add": {
+		"zh-CN": "确定要添加吗？",
+		"ko-KR": "추가하시겠습니까?"
+	},
+	"Error_Tip": {
+		"zh-CN": "您的权限不足！",
+		"ko-KR": "권한이 없습니다"
+	},
+	"AutoSend": {
+		"zh-CN": "定时发送",
+		"ko-KR": "예약발송: "
+	},
+	"GmModify_CIC": {
+		"zh-CN": "确认要清空理财计划的购买人数吗？",
+		"ko-KR": "성장선물 구매인원수를 초기화 하시겠습니까?"
+	},
+	"GmModify_shutdown1": {
+		"zh-CN": "确定要关服吗？",
+		"ko-KR": "서버를 닫으시겠습니까?"
+	},
+	"GmModify_shutdown2": {
+		"zh-CN": "关闭服务器可能会给玩家带来不好的体验，真的确定要关服吗？",
+		"ko-KR": "서버를 닫으면 유저에게 영향을 주게됩니다. 닫으시겠습니까?"
+	},
+	"GmModify_inputNotActivity": {
+		"zh-CN": "确定载入配置(不包括活动)吗？",
+		"ko-KR": "설정(이벤트 불포함)을 적용하시겠습니까?"
+	},
+	"GmModify_inputAll": {
+		"zh-CN": "确定重新载入所有配置吗？",
+		"ko-KR": "모든 설정을 다시 적용하시겠습니까?"
+	},
+	"GmModify_close": {
+		"zh-CN": "关闭",
+		"ko-KR": "닫기"
+	},
+	"GmModify_mail": {
+		"zh-CN": "定时邮件列表",
+		"ko-KR": "예약우편리스트"
+	},
+	"GmNormal_ban": {
+		"zh-CN": "确定要封号吗？",
+		"ko-KR": "계정을 정지시키겠습니까?"
+	},
+	"GmNormal_unBan": {
+		"zh-CN": "确定要解除封号吗？",
+		"ko-KR": "계정정지를 해제하시겠습니까?"
+	},
+	"MergeServer_merge": {
+		"zh-CN": "确定要合并服务器吗？",
+		"ko-KR": "서버통합하시겠습니까?"
+	},
+	"Notice_copy": {
+		"zh-CN": "确定要复制吗？这会覆盖这些服务器原来的设置。",
+		"ko-KR": "복사하시겠습니까? 서버의 기존 설정에 덮어씌워집니다."
+	},
+	"Notice_delete": {
+		"zh-CN": "确定要删除吗？",
+		"ko-KR": "삭제하시겠습니까?"
+	},
+	"PayType_Modify": {
+		"zh-CN": "支付方式",
+		"ko-KR": "결제방식"
+	},
+	"PayType_input_pkg_name": {
+		"zh-CN": "请输入包名：",
+		"ko-KR": "패키지명을 입력하세요: "
+	},
+	"PayType_input_appId": {
+		"zh-CN": "请输入APPID：",
+		"ko-KR": "APPID를 입력하세요: "
+	},
+	"PayType_Name": {
+		"zh-CN": "支付方式",
+		"ko-KR": "결제방식"
+	},
+	"PayType_Confirm": {
+		"zh-CN": "确定",
+		"ko-KR": "확인"
+	},
+	"PayType_Cancel": {
+		"zh-CN": "关闭",
+		"ko-KR": "닫기"
+	},
+	"PayType_pkg_name": {
+		"zh-CN": "包名",
+		"ko-KR": "패키지명을"
+	},
+	"Table_th_opt": {
+		"zh-CN": "操作",
+		"ko-KR": "관리"
+	},
+	"PayType_modify": {
+		"zh-CN": "修改",
+		"ko-KR": "수정하시겠습니까?"
+	},
+	"Confirm_delete": {
+		"zh-CN": "是否删除",
+		"ko-KR": "삭제여부"
+	},
+	"PayType_add": {
+		"zh-CN": "添加",
+		"ko-KR": "추가하시겠습니까?"
+	},
+	"PayType_add_failed1": {
+		"zh-CN": "添加失败：APPID重复",
+		"ko-KR": "추가실패: APPID중복"
+	},
+	"PayType_add_failed2": {
+		"zh-CN": "添加失败：找不到该APPID",
+		"ko-KR": "추가실패: APPID를 찾을 수 없습니다"
+	},
+	"PayType_delete_failed": {
+		"zh-CN": "删除失败：找不到该APPID",
+		"ko-KR": "삭제실패: APPID를 찾을 수 없습니다"
+	},
+	"PayType_null_tip": {
+		"zh-CN": "包名、类型、支付方式都不能为空",
+		"ko-KR": "패키지명, 유형, 결제방식을 입력하세요"
+	},
+	"PayType_get_failed": {
+		"zh-CN": "获取支付方式失败",
+		"ko-KR": "결제방식 불러오기 실패"
+	},
+	"PlayerData_success": {
+		"zh-CN": "导出Excel文件成功",
+		"ko-KR": "Excel문서 불러내기 성공"
+	},
+	"PlayerData_failed": {
+		"zh-CN": "导出Excel文件失败",
+		"ko-KR": "Excel문서 불러내기 실패"
+	},
+	"PlayerData_server_failed": {
+		"zh-CN": "获取服务器列表失败",
+		"ko-KR": "서버리스트 불러오기 실패"
+	},
+	"PlayerHistory_title": {
+		"zh-CN": "玩家历史数据",
+		"ko-KR": "유저로그데이터"
+	},
+	"PlayerHistory_server_list": {
+		"zh-CN": "服务器",
+		"ko-KR": "서버"
+	},
+	"PlayerHistory_type": {
+		"zh-CN": "类型",
+		"ko-KR": "유형"
+	},
+	"PlayerHistory_type0": {
+		"zh-CN": "经济",
+		"ko-KR": "화폐로그"
+	},
+	"PlayerHistory_type1": {
+		"zh-CN": "物品",
+		"ko-KR": "아이템로그"
+	},
+	"PlayerHistory_type2": {
+		"zh-CN": "英雄",
+		"ko-KR": "영웅"
+	},
+	"PlayerHistory_palyer_id": {
+		"zh-CN": "玩家ID",
+		"ko-KR": "유저ID"
+	},
+	"PlayerHistory_player_id_input_tip": {
+		"zh-CN": "请输入玩家ID（默认0为全服玩家）",
+		"ko-KR": "유저ID를 입력하세요(디폴트0은 전서버유저)"
+	},
+	"PlayerHistory_start_time": {
+		"zh-CN": "起始日期",
+		"ko-KR": "시작일"
+	},
+	"PlayerHistory_start_time_input_tip": {
+		"zh-CN": "选择起始时间...",
+		"ko-KR": "시작시간을 선택하세요"
+	},
+	"PlayerHistory_end_time": {
+		"zh-CN": "结束日期",
+		"ko-KR": "종료일"
+	},
+	"PlayerHistory_end_time_input_tip": {
+		"zh-CN": "选择结束时间...",
+		"ko-KR": "종료시간을 선택하세요"
+	},
+	"PlayerHistory_time": {
+		"zh-CN": "时间",
+		"ko-KR": "시간"
+	},
+	"PlayerHistory_total_count": {
+		"zh-CN": "总计",
+		"ko-KR": "합계"
+	},
+	"PlayerHistory_count": {
+		"zh-CN": "个",
+		"ko-KR": "개"
+	},
+	"PlayerHistory_action": {
+		"zh-CN": "状态",
+		"ko-KR": "상태"
+	},
+	"PlayerHistory_get": {
+		"zh-CN": "获取",
+		"ko-KR": "획득"
+	},
+	"PlayerHistory_expand": {
+		"zh-CN": "消耗",
+		"ko-KR": "소모"
+	},
+	"PlayerHistory_channel_id": {
+		"zh-CN": "渠道号",
+		"ko-KR": "마켓번호"
+	},
+	"PlayerHistory_team_level": {
+		"zh-CN": "等级",
+		"ko-KR": "레벨"
+	},
+	"PlayerHistory_cause_name": {
+		"zh-CN": "事件名称",
+		"ko-KR": "사건명"
+	},
+	"PlayerHistory_item_type_name": {
+		"zh-CN": "物品类型",
+		"ko-KR": "아이템유형"
+	},
+	"PlayerHistory_item_name": {
+		"zh-CN": "物品名称",
+		"ko-KR": "아이템명"
+	},
+	"PlayerHistory_quantity": {
+		"zh-CN": "数量",
+		"ko-KR": "수량"
+	},
+	"PlayerHistory_total": {
+		"zh-CN": "总量",
+		"ko-KR": "총량"
+	},
+	"PlayerHistory_vip": {
+		"zh-CN": "VIP等级",
+		"ko-KR": "VIP레벨"
+	},
+	"PlayerHistory_query_failed": {
+		"zh-CN": "查询失败",
+		"ko-KR": "검색실패"
+	},
+	"PlayerHistory_server_0": {
+		"zh-CN": "请选择服务器",
+		"ko-KR": "请选择服务器"
+	},
+	"PlayerHistory_get_server_failed": {
+		"zh-CN": "获取服务器列表失败",
+		"ko-KR": "서버리스트 불러오기 실패"
+	},
+	"PlayerRechargeLook_server_id": {
+		"zh-CN": "服务器ID",
+		"ko-KR": "서버ID"
+	},
+	"PlayerRechargeLook_goodsName": {
+		"zh-CN": "商品名称",
+		"ko-KR": "상품명"
+	},
+	"PlayerRechargeLook_goodsCost": {
+		"zh-CN": "金额",
+		"ko-KR": "금액"
+	},
+	"PlayerRechargeLook_state": {
+		"zh-CN": "状态",
+		"ko-KR": "상태"
+	},
+	"ServerData_channel": {
+		"zh-CN": "渠道",
+		"ko-KR": "마켓"
+	},
+	"ServerData_channel_placeholder": {
+		"zh-CN": "渠道选择(0为全渠道)...",
+		"ko-KR": "마켓선택(0은 전마켓 입니다)"
+	},
+	"ServerData_start_time_placeholder": {
+		"zh-CN": "选择起始时间...",
+		"ko-KR": "시작시간 선택"
+	},
+	"ServerData_end_time_placeholder": {
+		"zh-CN": "选择结束时间...",
+		"ko-KR": "종료일 선택"
+	},
+	"ServerData_all": {
+		"zh-CN": "全部",
+		"ko-KR": "전체"
+	},
+	"ServerData_serverName": {
+		"zh-CN": "服务器名字",
+		"ko-KR": "서버명"
+	},
+	"ServerData_newUserCnt": {
+		"zh-CN": "新增用户",
+		"ko-KR": "신규유저"
+	},
+	"ServerData_newDeviceCnt": {
+		"zh-CN": "新增设备",
+		"ko-KR": "신규설비"
+	},
+	"ServerData_activeUserCnt": {
+		"zh-CN": "活跃用户",
+		"ko-KR": "활약유저"
+	},
+	"ServerData_newUserPayCnt": {
+		"zh-CN": "新用户付费数",
+		"ko-KR": "신규유저 결제수"
+	},
+	"ServerData_totalPayCnt": {
+		"zh-CN": "总付费数",
+		"ko-KR": "총 결제수"
+	},
+	"ServerData_newUserPayVal": {
+		"zh-CN": "新用户充值额",
+		"ko-KR": "신규유저 충전금액"
+	},
+	"ServerData_totalPayVal": {
+		"zh-CN": "总充值额",
+		"ko-KR": "총 충전금액"
+	},
+	"ServerData_newUserPayRate": {
+		"zh-CN": "新用户付费率",
+		"ko-KR": "신규유저 결제율"
+	},
+	"ServerData_newPayUserCnt": {
+		"zh-CN": "新增付费用户",
+		"ko-KR": "신규결제유저"
+	},
+	"ServerData_activePayRate": {
+		"zh-CN": "活跃付费率",
+		"ko-KR": "결제율"
+	},
+	"ServerData_activeUserCnt0": {
+		"zh-CN": "第一天活跃",
+		"ko-KR": "1일DAU"
+	},
+	"ServerData_activeUserCnt1": {
+		"zh-CN": "第二天活跃",
+		"ko-KR": "2일DAU"
+	},
+	"ServerData_activeUserCnt2": {
+		"zh-CN": "第三天活跃",
+		"ko-KR": "3일DAU"
+	},
+	"ServerData_activeUserCnt3": {
+		"zh-CN": "第四天活跃",
+		"ko-KR": "4일DAU"
+	},
+	"ServerData_activeUserCnt4": {
+		"zh-CN": "第五天活跃",
+		"ko-KR": "5일DAU"
+	},
+	"ServerData_activeUserCnt5": {
+		"zh-CN": "第六天活跃",
+		"ko-KR": "6일DAU"
+	},
+	"ServerData_activeUserCnt6": {
+		"zh-CN": "第七天活跃",
+		"ko-KR": "7일DAU"
+	},
+	"ServerData_totalPayVal0": {
+		"zh-CN": "第一天充值",
+		"ko-KR": "1일충전"
+	},
+	"ServerData_totalPayVal1": {
+		"zh-CN": "第二天充值",
+		"ko-KR": "2일충전"
+	},
+	"ServerData_totalPayVal2": {
+		"zh-CN": "第三天充值",
+		"ko-KR": "3일충전"
+	},
+	"ServerData_totalPayVal3": {
+		"zh-CN": "第四天充值",
+		"ko-KR": "4일충전"
+	},
+	"ServerData_totalPayVal4": {
+		"zh-CN": "第五天充值",
+		"ko-KR": "5일충전"
+	},
+	"ServerData_totalPayVal5": {
+		"zh-CN": "第六天充值",
+		"ko-KR": "6일충전"
+	},
+	"ServerData_totalPayVal6": {
+		"zh-CN": "第七天充值",
+		"ko-KR": "7일충전"
+	},
+	"ServerData_totalPayCnt0": {
+		"zh-CN": "第一天充值人数",
+		"ko-KR": "1일충전인원수"
+	},
+	"ServerData_totalPayCnt1": {
+		"zh-CN": "第二天充值人数",
+		"ko-KR": "2일충전인원수"
+	},
+	"ServerData_totalPayCnt2": {
+		"zh-CN": "第三天充值人数",
+		"ko-KR": "3일충전인원수"
+	},
+	"ServerData_totalPayCnt3": {
+		"zh-CN": "第四天充值人数",
+		"ko-KR": "4일충전인원수"
+	},
+	"ServerData_totalPayCnt4": {
+		"zh-CN": "第五天充值人数",
+		"ko-KR": "5일충전인원수"
+	},
+	"ServerData_totalPayCnt5": {
+		"zh-CN": "第六天充值人数",
+		"ko-KR": "6일충전인원수"
+	},
+	"ServerData_totalPayCnt6": {
+		"zh-CN": "第七天充值人数",
+		"ko-KR": "7일충전인원수"
+	},
+	"ServerData_error_week": {
+		"zh-CN": "周数输入错误！",
+		"ko-KR": "주 입력오류!"
+	},
+	"Select_Server": {
+		"zh-CN": "选择服务器",
+		"ko-KR": "서버선택"
+	},
+	"Refresh": {
+		"zh-CN": "刷新",
+		"ko-KR": "갱신"
+	},
+	"Cur_Activity_Start_Time": {
+		"zh-CN": "当前活动开始时间",
+		"ko-KR": "현재이벤트시작시간"
+	},
+	"Next_Activity_Start_Time": {
+		"zh-CN": "下次活动开始时间",
+		"ko-KR": "다음이벤트시작시간"
+	},
+	"Add": {
+		"zh-CN": "添加",
+		"ko-KR": "추가"
+	},
+	"Delete": {
+		"zh-CN": "删除",
+		"ko-KR": "삭제"
+	},
+	"Clean": {
+		"zh-CN": "清除",
+		"ko-KR": "제거"
+	},
+	"Clean_Player_Data": {
+		"zh-CN": "清除玩家活动数据",
+		"ko-KR": "유저이벤트데이터삭제"
+	},
+	"Add_Open_Activity": {
+		"zh-CN": "添加开服活动",
+		"ko-KR": "서버오픈이벤트추가"
+	},
+	"Set_Next_Activity_Time": {
+		"zh-CN": "设置下次活动时间",
+		"ko-KR": "다음이벤트시간설정"
+	},
+	"Cur_Activity": {
+		"zh-CN": "当前拥有的活动",
+		"ko-KR": "현재보유이벤트"
+	},
+	"Duration": {
+		"zh-CN": "持续",
+		"ko-KR": "지속"
+	},
+	"Day": {
+		"zh-CN": "天",
+		"ko-KR": "일"
+	},
+	"Delay": {
+		"zh-CN": "推迟",
+		"ko-KR": "연기"
+	},
+	"Param": {
+		"zh-CN": "参数",
+		"ko-KR": "값"
+	},
+	"Forever": {
+		"zh-CN": "永久",
+		"ko-KR": "영구"
+	},
+	"AddAll": {
+		"zh-CN": "全部添加>>>",
+		"ko-KR": "전부추가>>>"
+	},
+	"AddSelect": {
+		"zh-CN": "单个添加>>>",
+		"ko-KR": "한개추가>>>"
+	},
+	"RemoveSelect": {
+		"zh-CN": "<<<单个移除",
+		"ko-KR": "<<<한개삭제"
+	},
+	"RemoveAll": {
+		"zh-CN": "<<<全部移除",
+		"ko-KR": "<<<전부삭제"
+	},
+	"ApplyActivity": {
+		"zh-CN": "应用以上活动设置",
+		"ko-KR": "이벤트설정활용"
+	},
+	"ConfirmDate": {
+		"zh-CN": "确认日期",
+		"ko-KR": "일자확인"
+	},
+	"Cancel": {
+		"zh-CN": "取消",
+		"ko-KR": "취소"
+	},
+	"SetDateTime": {
+		"zh-CN": "设置时间",
+		"ko-KR": "시간설정"
+	},
+	"ConfirmSetting": {
+		"zh-CN": "确认设置",
+		"ko-KR": "설정확인"
+	},
+	"ServerActivityOpenTimeList": {
+		"zh-CN": "服务器开服活动时间列表",
+		"ko-KR": "서버오픈이벤트시간리스트"
+	},
+	"ActivityOperate_activity_title": {
+		"zh-CN": "活动标题",
+		"ko-KR": "活动标题"
+	},
+	"ActivityOperate_activity_desc": {
+		"zh-CN": "活动内容",
+		"ko-KR": "活动内容"
+	},
+	"ActivityOperate_activity_quest_list": {
+		"zh-CN": "任务列表",
+		"ko-KR": "任务列表"
+	},
+	"ActivityOperate_activity_reward_list": {
+		"zh-CN": "奖励列表",
+		"ko-KR": "奖励列表"
+	},
+	"Modal_quest_title": {
+		"zh-CN": "新的任务",
+		"ko-KR": "新的任务"
+	},
+	"Modal_quest_type": {
+		"zh-CN": "任务类型",
+		"ko-KR": "任务类型"
+	},
+	"Modal_quest_request": {
+		"zh-CN": "任务需求",
+		"ko-KR": "任务需求"
+	},
+	"Modal_quest_count_a": {
+		"zh-CN": "次数需求A",
+		"ko-KR": "次数需求A"
+	},
+	"Modal_quest_count_b": {
+		"zh-CN": "次数需求B",
+		"ko-KR": "次数需求B"
+	},
+	"Modal_quest_count_c": {
+		"zh-CN": "次数需求C",
+		"ko-KR": "次数需求C"
+	},
+	"Modal_quest_overlap": {
+		"zh-CN": "叠加显示",
+		"ko-KR": "叠加显示"
+	},
+	"Modal_quest_order": {
+		"zh-CN": "显示顺序",
+		"ko-KR": "显示顺序"
+	},
+	"Modal_quest_firstmark": {
+		"zh-CN": "首次小红点",
+		"ko-KR": "首次小红点"
+	},
+	"Modal_quest_desc": {
+		"zh-CN": "任务描述",
+		"ko-KR": "任务描述"
+	},
+	"Modal_btn_ok": {
+		"zh-CN": "确定",
+		"ko-KR": "확인"
+	},
+	"Modal_btn_close": {
+		"zh-CN": "关闭",
+		"ko-KR": "닫기"
+	},
+	"Modal_reward_title": {
+		"zh-CN": "新的奖励",
+		"ko-KR": "新的奖励"
+	},
+	"Modal_reward_type": {
+		"zh-CN": "奖励类型",
+		"ko-KR": "奖励类型"
+	},
+	"Modal_reward_item": {
+		"zh-CN": "奖励物品",
+		"ko-KR": "奖励物品"
+	},
+	"Modal_reward_count": {
+		"zh-CN": "奖励物品数量",
+		"ko-KR": "奖励物品数量"
+	},
+	"AcitvityOperate_head_title": {
+		"zh-CN": "活动编辑",
+		"ko-KR": "活动编辑"
+	},
+	"Add_Player_ID": {
+        "zh-CN": "添加ID",
+        "ko-KR": "ID추가"
+	},
+	"Select_Gift": {
+        "zh-CN": "选择礼包",
+        "ko-KR": "패키지선택"
+	},
+	"Add_Give": {
+        "zh-CN": "添加给予",
+        "ko-KR": "선택추가"
+	},
+	"Senior_Code": {
+        "zh-CN": "高级指令",
+        "ko-KR": "고급명령"
+	},
+	"Input": {
+        "zh-CN": "输入",
+        "ko-KR": "입력"
+	},
+	"Confirm_Code": {
+        "zh-CN": "确认指令",
+        "ko-KR": "명령"
+	},
+	"Select_Channel": {
+        "zh-CN": "选择渠道",
+        "ko-KR": "마켓선택"
+	},
+	"Gift_Type": {
+        "zh-CN": "礼包类型",
+        "ko-KR": "쿠폰유형"
+	},
+	"Create_Gift_Rule": {
+        "zh-CN": "规则:< 3j(不允许单人多次使用):如1a 2b 3a……<br>&nbsp;&nbsp;&nbsp;>=3j(允许单人多次使用):如3k 4k 4j……",
+        "ko-KR": "규칙:< 3j(한명이 여러 번 사용하도록 허용하지 않음):예1a 2b 3a……<br>&nbsp;&nbsp;&nbsp;>=3j(한명이 여러 번 사용하도록 허용):예3k 4k 4j……"
+	},
+	"Select_Coupon": {
+        "zh-CN": "选择礼包",
+        "ko-KR": "쿠폰선택"
+	},
+	"Generate_Count": {
+        "zh-CN": "生成个数",
+        "ko-KR": "생성개수"
+	},
+	"Expiry_Date": {
+        "zh-CN": "生效日期",
+        "ko-KR": "생성일자"
+	},
+	"Use_Times": {
+        "zh-CN": "使用次数",
+        "ko-KR": "사용횟수"
+	},
+	"Confirm_Create": {
+        "zh-CN": "确认生成",
+        "ko-KR": "생성"
+	},
+	"Disabled_Date": {
+        "zh-CN": "失效日期",
+        "ko-KR": "유효기간"
+	},
+	"Save": {
+        "zh-CN": "保存",
+        "ko-KR": "저장"
+	},
+	"Mail_Title": {
+        "zh-CN": "邮件标题",
+        "ko-KR": "우편제목"
+	},
+	"Desc_Content": {
+        "zh-CN": "描述内容",
+        "ko-KR": "내용"
+	},
+	"Current_Mail": {
+        "zh-CN": "当前邮件",
+        "ko-KR": "현재우편"
+	},
+	"Modify": {
+        "zh-CN": "修改",
+        "ko-KR": "수정"
+	},
+	"Send_To_Server": {
+        "zh-CN": "发送服务器",
+        "ko-KR": "서버발송"
+	},
+	"Send_Table": {
+        "zh-CN": "发送表格",
+        "ko-KR": "표발송"
+	},
+	"Version": {
+        "zh-CN": "版本号",
+        "ko-KR": "버전번호"
+	},
+	"Save_Gift_To_Local": {
+        "zh-CN": "保存礼包到本机",
+        "ko-KR": "패키지저장"
+	},
+	"Reward_Set": {
+        "zh-CN": "奖励设置",
+        "ko-KR": "보상설정"
+	},
+	"Item_ID": {
+        "zh-CN": "物品ID",
+        "ko-KR": "아이템ID"
+	},
+	"Player_Name": {
+        "zh-CN": "玩家名称",
+        "ko-KR": "유저명"
+	},
+	"Server_Status": {
+        "zh-CN": "服务器当前状态",
+        "ko-KR": "현재서버상태"
+	},
+	"Confirm_Player": {
+        "zh-CN": "确认玩家",
+        "ko-KR": "유저확인"
+	},
+	"Give_Item": {
+        "zh-CN": "发送道具",
+        "ko-KR": "아이템발송"
+	},
+	"Select": {
+        "zh-CN": "选择",
+        "ko-KR": "선택"
+	},
+	"Delete_Item": {
+        "zh-CN": "删除道具",
+        "ko-KR": "아이템삭제"
+	},
+	"Confirm_Give": {
+        "zh-CN": "确认发放",
+        "ko-KR": "발송"
+	},
+	"Clear_Player": {
+        "zh-CN": "清理角色",
+        "ko-KR": "캐릭터정리"
+	},
+	"Skip_Newbie": {
+        "zh-CN": "跳过引导",
+        "ko-KR": "튜토리얼스킵"
+	},
+	"Gift_Give": {
+        "zh-CN": "礼包发放",
+        "ko-KR": "패키지발송"
+	},
+	"Gift_Single_Give": {
+        "zh-CN": "单人发放",
+        "ko-KR": "한개발송"
+	},
+	"Gift_All_Give": {
+        "zh-CN": "全员发放",
+        "ko-KR": "전부발송"
+	},
+	"White_List": {
+        "zh-CN": "白名单",
+        "ko-KR": "화이트리스트"
+	},
+	"Stop_In": {
+        "zh-CN": "阻止所有玩家进入",
+        "ko-KR": "모든유저진입막기"
+	},
+	"Allow_In": {
+        "zh-CN": "允许所有玩家进入",
+        "ko-KR": "모든유저진입허용"
+	},
+	"Stop_Register": {
+        "zh-CN": "阻止玩家注册",
+        "ko-KR": "阻止玩家注册"
+	},
+	"Allow_Register": {
+        "zh-CN": "允许玩家注册",
+        "ko-KR": "允许玩家注册"
+	},
+	"Open_Fight_Check": {
+        "zh-CN": "开启战力校验",
+        "ko-KR": "전투력검증오픈"
+	},
+	"Close_Fight_Check": {
+        "zh-CN": "关闭战力校验",
+        "ko-KR": "전투력검증닫기"
+	},
+	"CIC": {
+        "zh-CN": "清空理财计划人数",
+        "ko-KR": "재태크계획인원수초기화"
+	},
+	"Close_Server": {
+        "zh-CN": "关服",
+        "ko-KR": "서버닫기"
+	},
+	"Download_Log": {
+        "zh-CN": "下载日志文件",
+        "ko-KR": "로그문서다운로드"
+	},
+	"Import_Not_Activity": {
+        "zh-CN": "载入（不包括活动）",
+        "ko-KR": "등록(이벤트 불포함)"
+	},
+	"Import_All": {
+        "zh-CN": "重新载入所有配置",
+        "ko-KR": "모든설정다시등록"
+	},
+	"Player_Search": {
+        "zh-CN": "玩家查询",
+        "ko-KR": "유저검색"
+	},
+	"Player_Search_Tip": {
+        "zh-CN": "以下三个信息输入其一即可查询，玩家名称支持模糊查询",
+        "ko-KR": "아래 3가지 정보중 하나만 입력하면 검색할 수 있으며, 유저명은 퍼지검색 가능"
+	},
+	"Player_Search_Tip": {
+        "zh-CN": "以下三个信息输入其一即可查询，玩家名称支持模糊查询",
+        "ko-KR": "아래 3가지 정보중 하나만 입력하면 검색할 수 있으며, 유저명은 퍼지검색 가능"
+	},
+	"cyID": {
+        "zh-CN": "平台ID",
+        "ko-KR": "플랫폼ID"
+	},
+	"Show_Info": {
+        "zh-CN": "显示信息",
+        "ko-KR": "정보표시"
+	},
+	"Shut_Up": {
+        "zh-CN": "禁言",
+        "ko-KR": "채팅금지"
+	},
+	"Not_Shut_Up": {
+        "zh-CN": "解禁",
+        "ko-KR": "금지해제"
+	},
+	"Ban": {
+        "zh-CN": "封号",
+        "ko-KR": "계정정지"
+	},
+	"Unban": {
+        "zh-CN": "解封",
+        "ko-KR": "정지해제"
+	},
+	"Kick": {
+        "zh-CN": "踢人",
+        "ko-KR": "강제퇴장"
+	},
+	"Recharge_Test": {
+        "zh-CN": "充值测试",
+        "ko-KR": "충전테스트"
+	},
+	"GMT": {
+        "zh-CN": "游戏后台管理工具",
+        "ko-KR": "게임운영툴"
+	},
+	"User": {
+        "zh-CN": "用户",
+        "ko-KR": "계정"
+	},
+	"Password": {
+        "zh-CN": "密码",
+        "ko-KR": "비밀번호"
+	},
+	"Login": {
+        "zh-CN": "登录",
+        "ko-KR": "로그인"
+	},
+	"Change_Password": {
+        "zh-CN": "更改密码",
+        "ko-KR": "비밀번호 변경"
+	},
+	"From": {
+        "zh-CN": "从",
+        "ko-KR": "시작서버"
+	},
+	"To": {
+        "zh-CN": "到",
+        "ko-KR": "끝서버"
+	},
+	"Return_GMT": {
+        "zh-CN": "返回gm工具",
+        "ko-KR": "GMT로돌아가기"
+	},
+	"Merge": {
+        "zh-CN": "合并",
+        "ko-KR": "통합"
+	},
+	"Revolving_Content": {
+        "zh-CN": "跑马灯内容",
+        "ko-KR": "공지내용"
+	},
+	"Interval_Time": {
+        "zh-CN": "间隔时间",
+        "ko-KR": "간격"
+	},
+	"Second": {
+        "zh-CN": "秒",
+        "ko-KR": "초"
+	},
+	"Current_Revoling": {
+        "zh-CN": "当前跑马灯",
+        "ko-KR": "현재줄공지"
+	},
+	"Copy_Revoling": {
+        "zh-CN": "复制跑马灯",
+        "ko-KR": "공지복사"
+	},
+	"Delete_Revoling": {
+        "zh-CN": "删除跑马灯",
+        "ko-KR": "공지삭제"
+	},
+	"Before_Game_Notice": {
+        "zh-CN": "公告(游戏前弹)",
+        "ko-KR": "공지(로그인전 팝업)"
+	},
+	"Before_Game_Notice_Editor": {
+        "zh-CN": "公告编辑(游戏进入前公告)",
+        "ko-KR": "공지수정(게임시작전 팝업)"
+	},
+	"Upload": {
+        "zh-CN": "上传公告",
+        "ko-KR": "공지업로드"
+	},
+	"Save_Notice": {
+        "zh-CN": "保存公告到本机",
+        "ko-KR": "공지저장"
+	},
+	"Return_Login": {
+        "zh-CN": "返回登录界面",
+        "ko-KR": "로그인화면으로 이동"
+	},
+	"User_Name": {
+        "zh-CN": "用户名",
+        "ko-KR": "계정명"
+	},
+	"Old_Password": {
+        "zh-CN": "旧密码",
+        "ko-KR": "현재 비밀번호"
+	},
+	"New_Password": {
+        "zh-CN": "新密码",
+        "ko-KR": "변경 비밀번호"
+	},
+	"Player_Data": {
+        "zh-CN": "新密码",
+        "ko-KR": "변경 비밀번호"
+	},
+	"Current_Order_Total_Cost": {
+        "zh-CN": "当前订单总金额",
+        "ko-KR": "현재영수증총액"
+	},
+	"Current_Recharge_Player_Count": {
+        "zh-CN": "充值用户数",
+        "ko-KR": "결제유저수"
+	},
+	"Look_Server": {
+        "zh-CN": "查看服务器",
+        "ko-KR": "서버보기"
+	},
+	"Please_Select_Channel": {
+        "zh-CN": "请选择渠道",
+        "ko-KR": "경로를 선택하세요"
+	},
+	"Start_With_Server": {
+        "zh-CN": "服务器端启动的server",
+        "ko-KR": "서버단에 작동되는 서버"
+	},
+	"Look": {
+        "zh-CN": "查看",
+        "ko-KR": "보기"
+	},
+	"Imitate_Server": {
+        "zh-CN": "模拟登陆的服务器",
+        "ko-KR": "가상로그인 서버"
+	},
+	"Return_Result": {
+        "zh-CN": "返回结果",
+        "ko-KR": "결과로 돌아가기"
+	},
+	"White_List_UID": {
+        "zh-CN": "白名单UID",
+        "ko-KR": "화이트리스트UID"
+	},
+	"All_Server": {
+        "zh-CN": "全服",
+        "ko-KR": "전서버"
+	},
+	"Max_Online_Count": {
+        "zh-CN": "同时最大在线人数设置",
+        "ko-KR": "최대동시접속 설정"
+	},
+	"Client_Resource_Download_Url": {
+        "zh-CN": "客户端资源文件下载地址",
+        "ko-KR": "클라이언트파일 다운로드 주소"
+	},
+	"Min_Version": {
+        "zh-CN": "最低版本号",
+        "ko-KR": "최저버전번호"
+	},
+	"New_Package_Download_Url": {
+        "zh-CN": "新包下载地址",
+        "ko-KR": "신규APK 다운로드 주소"
+	},
+	"Force_Update": {
+        "zh-CN": "强制更新",
+        "ko-KR": "강제업데이트"
+	},
+	"Editor_Channel": {
+        "zh-CN": "编辑渠道",
+        "ko-KR": "마켓편집"
+	},
+	"Number": {
+        "zh-CN": "编号",
+        "ko-KR": "번호"
+	},
+	"IP": {
+        "zh-CN": "IP",
+        "ko-KR": "IP"
+	},
+	"Port": {
+        "zh-CN": "端口",
+        "ko-KR": "포트"
+	},
+	"Recommend": {
+        "zh-CN": "推荐",
+        "ko-KR": "추천"
+	},
+	"Area": {
+        "zh-CN": "大区",
+        "ko-KR": "서버"
+	},
+	"List_Can_See": {
+        "zh-CN": "列表可见",
+        "ko-KR": "목록에보이는"
+	},
+	"Move_Up": {
+        "zh-CN": "上移",
+        "ko-KR": "위로"
+	},
+	"Move_Down": {
+        "zh-CN": "下移",
+        "ko-KR": "아래로"
+	},
+	"Send_Server_List": {
+        "zh-CN": "直接发送服务器列表",
+        "ko-KR": "서버목록바로발송"
+	},
+	"Send_ZIP": {
+        "zh-CN": "发送ZIP包",
+        "ko-KR": "ZIP발송"
+	},
+	"Download_ZIP": {
+        "zh-CN": "下载ZIP包",
+        "ko-KR": "ZIP다운"
+	},
+	"Optional_Param": {
+        "zh-CN": "可选参数",
+        "ko-KR": "선택가능한값"
+	},
+	"ActivityOperate_activity_header_2": {
+		"zh-CN": "已拥有的活动",
+		"ko-KR": "已拥有的活动"
+	},
+	"ActivityOperate_activity_firstmark":{
+		"zh-CN": "首次小红点",
+		"ko-KR": "首次小红点"
+	},
+	"ActivityOperate_activity_order": {
+		"zh-CN": "显示顺序",
+		"ko-KR": "显示顺序"
+	},
+	"table_quests_th_type":{
+		"zh-CN": "任务类型",
+		"ko-KR": "任务类型"
+	},
+	"table_quests_th_request":{
+		"zh-CN": "任务需求",
+		"ko-KR": "任务需求"
+	},
+	"table_quests_th_count_a":{
+		"zh-CN": "次数需求A",
+		"ko-KR": "次数需求A"
+	},
+	"table_quests_th_count_b":{
+		"zh-CN": "次数需求B",
+		"ko-KR": "次数需求B"
+	},
+	"table_quests_th_count_c":{
+		"zh-CN": "次数需求C",
+		"ko-KR": "次数需求C"
+	},
+	"table_quests_th_overlap":{
+		"zh-CN": "叠加显示",
+		"ko-KR": "叠加显示"
+	},
+	"table_quests_th_desc":{
+		"zh-CN": "任务描述",
+		"ko-KR": "任务描述"
+	},
+	"table_reward_th_type":{
+		"zh-CN": "奖励类型",
+		"ko-KR": "奖励类型"
+	},
+	"table_reward_th_item":{
+		"zh-CN": "奖励道具",
+		"ko-KR": "奖励道具"
+	},
+	"table_reward_th_count":{
+		"zh-CN": "奖励数量",
+		"ko-KR": "奖励数量"
+	},
+	"table_reward_th_dr":{
+		"zh-CN": "出现概率",
+		"ko-KR": "出现概率"
+	},
+	"table_activity_th_title":{
+		"zh-CN": "活动标题",
+		"ko-KR": "活动标题"
+	},
+	"table_activity_th_desc":{
+		"zh-CN": "活动描述",
+		"ko-KR": "活动描述"
+	},
+	"table_activity_th_firstmark": {
+		"zh-CN": "首次小红点",
+		"ko-KR": "首次小红点"
+	},
+	"table_activity_th_order":{
+		"zh-CN": "显示顺序",
+		"ko-KR": "显示顺序"
+	},
+	"GmModify_mail_not_found": {
+		"zh-CN": "当前邮件不存在，请刷新表格！",
+		"ko-KR": "当前邮件不存在，请刷新表格！"
+	},
+	"GmModify_mail_delete": {
+		"zh-CN": "是否要删除该邮件",
+		"ko-KR": "是否要删除该邮件"
+	},
+	"Cannot_be_empty": {
+		"zh-CN": "不能为空",
+		"ko-KR": "不能为空"
+	},
+	"Modal_activity_title": {
+		"zh-CN": "新的活动",
+		"ko-KR": "新的活动"
+	},
+	"Modal_quest_btn_reward": {
+		"zh-CN": "配置奖励",
+		"ko-KR": "配置奖励"
+	},
+	"Modal_quest_btn_reward": {
+		"zh-CN": "配置奖励",
+		"ko-KR": "配置奖励"
+	},
+	"Modal_quest_btn_back": {
+		"zh-CN": "返回",
+		"ko-KR": "返回"
+	},
+	"Modal_quest_title_modify": {
+		"zh-CN": "修改任务",
+		"ko-KR": "修改任务"
+	},
+	"Modal_btn_modify": {
+		"zh-CN": "修改",
+		"ko-KR": "수정하시겠습니까?"
+	},
+	"User_Manager": {
+        "zh-CN": "用户管理",
+        "ko-KR": "用户管理"
+	},
+	"User_Info_Is_Null": {
+        "zh-CN": "暂无用户数据信息",
+        "ko-KR": "暂无用户数据信息"
+	},
+	"Download": {
+        "zh-CN": "下载",
+        "ko-KR": "下载"
+	},
+	"Add_User": {
+        "zh-CN": "添加用户",
+        "ko-KR": "添加用户"
+	},
+	"Modify_User": {
+        "zh-CN": "修改用户",
+        "ko-KR": "修改用户"
+	},
+	"Privilege_Setting": {
+        "zh-CN": "权限设置",
+        "ko-KR": "权限设置"
+	},
+	"Privilege_Name": {
+        "zh-CN": "权限名称",
+        "ko-KR": "权限名称"
+	},
+	"Privilege_Allow": {
+        "zh-CN": "允许",
+        "ko-KR": "允许"
+	},
+	"Error_User_Name_Null": {
+        "zh-CN": "用户名不能为空",
+        "ko-KR": "用户名不能为空"
+	},
+	"Error_User_Pwd_Null": {
+        "zh-CN": "密码不能为空",
+        "ko-KR": "密码不能为空"
+	},
+	"Account_Already_Exist": {
+        "zh-CN": "用户名已存在",
+        "ko-KR": "用户名已存在"
+	},
+	"Add_User_Success": {
+        "zh-CN": "添加用户成功",
+        "ko-KR": "添加用户成功"
+	},
+	"Insert_DB_Failed": {
+        "zh-CN": "插入数据库数据失败",
+        "ko-KR": "插入数据库数据失败"
+	},
+	"Account_Not_Exist": {
+        "zh-CN": "用户不存在",
+        "ko-KR": "用户不存在"
+	},
+	"Update_DB_Failed": {
+        "zh-CN": "更新数据库数据失败",
+        "ko-KR": "更新数据库数据失败"
+	},
+	"Update_User_Success": {
+        "zh-CN": "修改用户信息成功",
+        "ko-KR": "修改用户信息成功"
+	},
+	"Delete_DB_Failed": {
+        "zh-CN": "删除数据库数据失败",
+        "ko-KR": "删除数据库数据失败"
+	},
+	"Delete_User_Success": {
+        "zh-CN": "删除用户成功",
+        "ko-KR": "删除用户成功"
+	},
+	"Download" : {
+        "zh-CN": "下载",
+        "ko-KR": "下载"
+	},
+	"Upload" : {
+        "zh-CN": "上传",
+        "ko-KR": "上传"
+	},
+	"Choose_file": {
+        "zh-CN": "选择文件",
+        "ko-KR": "选择文件"
+	},
+	"Modal_upload_title": {
+        "zh-CN": "上传文件",
+        "ko-KR": "上传文件"
+	},
+	"Browse": {
+        "zh-CN": "浏览",
+        "ko-KR": "浏览"
+	},
+	"Amount_files": {
+        "zh-CN": "个文件",
+        "ko-KR": "个文件"
+	},
+	"Uploading": {
+        "zh-CN": "上传中...",
+        "ko-KR": "上传中..."
+	},
+	"Installing": {
+        "zh-CN": "安装中...",
+        "ko-KR": "安装中..."
+	},
+	"Upload_success": {
+        "zh-CN": "文件上传成功",
+        "ko-KR": "文件上传成功"
+	},
+	"Upload_fail": {
+        "zh-CN": "文件上传失败",
+        "ko-KR": "文件上传失败"
+	}
+}

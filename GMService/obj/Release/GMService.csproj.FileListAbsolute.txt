@@ -1,0 +1,12 @@
+E:\STProject\gmt\GMService\bin\Release\GMService.exe.config
+E:\STProject\gmt\GMService\bin\Release\GMService.exe.manifest
+E:\STProject\gmt\GMService\bin\Release\GMService.application
+E:\STProject\gmt\GMService\bin\Release\GMService.exe
+E:\STProject\gmt\GMService\bin\Release\GMService.pdb
+E:\STProject\gmt\GMService\obj\Release\GMService.csprojResolveAssemblyReference.cache
+E:\STProject\gmt\GMService\obj\Release\GMService.ProjectInstaller.resources
+E:\STProject\gmt\GMService\obj\Release\GMService.csproj.GenerateResource.Cache
+E:\STProject\gmt\GMService\obj\Release\GMService.exe.manifest
+E:\STProject\gmt\GMService\obj\Release\GMService.application
+E:\STProject\gmt\GMService\obj\Release\GMService.exe
+E:\STProject\gmt\GMService\obj\Release\GMService.pdb

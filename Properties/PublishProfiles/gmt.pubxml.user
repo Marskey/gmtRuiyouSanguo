@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\STProject\bin\gmt</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/gmt.dll">
+      <publishTime>12/26/2017 17:23:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Interop.Excel.dll">
+      <publishTime>10/10/2007 09:49:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Vbe.Interop.dll">
+      <publishTime>10/10/2007 09:49:08</publishTime>
+    </File>
+    <File Include="bin/mw-proto-client.dll">
+      <publishTime>12/20/2017 14:48:06</publishTime>
+    </File>
+    <File Include="bin/mw-proto.dll">
+      <publishTime>11/21/2017 22:42:36</publishTime>
+    </File>
+    <File Include="bin/mw-serializer0.dll">
+      <publishTime>12/20/2017 14:48:06</publishTime>
+    </File>
+    <File Include="bin/mw_proto_serializer.dll">
+      <publishTime>11/21/2017 22:42:36</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/24/2017 14:47:28</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:56:36</publishTime>
+    </File>
+    <File Include="bin/office.dll">
+      <publishTime>10/10/2007 09:49:08</publishTime>
+    </File>
+    <File Include="bin/protobuf-net.dll">
+      <publishTime>03/24/2017 14:47:28</publishTime>
+    </File>
+    <File Include="bin/SharpZipLib.dll">
+      <publishTime>03/24/2017 14:47:28</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>10/10/2007 09:49:08</publishTime>
+    </File>
+    <File Include="configs/config.ini">
+      <publishTime>09/09/2017 18:03:42</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/15/2017 11:18:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/24/2017 14:47:30</publishTime>
+    </File>
+    <File Include="js/global.js">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="js/language.js">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="Json/LanguageData.min.json">
+      <publishTime>12/20/2017 20:15:42</publishTime>
+    </File>
+    <File Include="mycss/css.css">
+      <publishTime>12/18/2017 14:44:12</publishTime>
+    </File>
+    <File Include="mycss/docs.min.css">
+      <publishTime>12/14/2017 17:12:48</publishTime>
+    </File>
+    <File Include="views/Activity.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/ActivityOpenTime.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/ActivityOperate.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/BatchGive.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/CreateGift.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/CreateKey.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/DownloadActivity.aspx">
+      <publishTime>03/24/2017 14:47:32</publishTime>
+    </File>
+    <File Include="views/DownloadCDNTableZip.aspx">
+      <publishTime>03/24/2017 14:47:32</publishTime>
+    </File>
+    <File Include="views/DownloadCDNZip.aspx">
+      <publishTime>03/24/2017 14:47:32</publishTime>
+    </File>
+    <File Include="views/DownloadGift.aspx">
+      <publishTime>03/24/2017 14:47:32</publishTime>
+    </File>
+    <File Include="views/DownloadLog.aspx">
+      <publishTime>03/24/2017 14:47:32</publishTime>
+    </File>
+    <File Include="views/DownloadNotice.aspx">
+      <publishTime>03/24/2017 14:47:30</publishTime>
+    </File>
+    <File Include="views/Error.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/Exit.aspx">
+      <publishTime>12/15/2017 11:18:52</publishTime>
+    </File>
+    <File Include="views/FTPEdit.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/Gift.aspx">
+      <publishTime>12/25/2017 00:02:16</publishTime>
+    </File>
+    <File Include="views/GmModify.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/GmNormal.aspx">
+      <publishTime>12/25/2017 00:02:16</publishTime>
+    </File>
+    <File Include="views/Login.aspx">
+      <publishTime>12/15/2017 11:18:52</publishTime>
+    </File>
+    <File Include="views/Menu.html">
+      <publishTime>12/18/2017 21:27:34</publishTime>
+    </File>
+    <File Include="views/MergeServer.aspx">
+      <publishTime>12/25/2017 00:02:14</publishTime>
+    </File>
+    <File Include="views/Navbar.html">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/Notice.aspx">
+      <publishTime>12/25/2017 00:02:16</publishTime>
+    </File>
+    <File Include="views/OtherNoticeEdit.aspx">
+      <publishTime>12/19/2017 10:10:52</publishTime>
+    </File>
+    <File Include="views/Passwordchange.aspx">
+      <publishTime>12/15/2017 11:18:52</publishTime>
+    </File>
+    <File Include="views/PayType.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/PlayerData.aspx">
+      <publishTime>12/25/2017 00:02:16</publishTime>
+    </File>
+    <File Include="views/PlayerHistory.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/PlayerRechargeLook.aspx">
+      <publishTime>12/25/2017 00:02:14</publishTime>
+    </File>
+    <File Include="views/RunandFixManage.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/SectionServer.aspx">
+      <publishTime>12/25/2017 00:02:16</publishTime>
+    </File>
+    <File Include="views/SectionServerList.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/ServerData.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="views/User.aspx">
+      <publishTime>12/26/2017 17:16:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/26/2017 17:23:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
