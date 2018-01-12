@@ -1,0 +1,7 @@
+
+*.cache
+bin/gmt.pdb
+bin/gmt.dll
+.vs/gm/v14/.suo
+*.txt
+*.cache
