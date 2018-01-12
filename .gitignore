@@ -7,3 +7,13 @@ bin/gmt.dll
 *.cache
 GMService/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 GMService/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/
+Debug/
+Release/
+*.mdb
+*.ldb
+.user
+GMTDescConfigCn.xml
+.pdb
+.dll.config
+log/
