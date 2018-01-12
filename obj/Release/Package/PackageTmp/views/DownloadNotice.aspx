@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DownloadNotice.aspx.cs" Inherits="gmt.DownloadNotice" %>

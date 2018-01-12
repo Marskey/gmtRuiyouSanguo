@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DownloadCDNTableZip.aspx.cs" Inherits="gmt.DownloadCDNTableZip" %>
