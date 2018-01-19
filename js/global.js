@@ -147,6 +147,13 @@ String.prototype.truncString = function(max, add){
    return (this.length > max ? this.substring(0,max)+add : this);
 };
 
+(function(proxied) {
+  window.alert = function() {
+    // do something here
+    return proxied.apply(this, arguments);
+  };
+})(window.alert);
+
 //function showLoadingToast() {
 //    var $loadingToast = $('#loadingToast');
 //    if ($loadingToast.css('display') != 'none') return;

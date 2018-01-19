@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 
 <html>
-<head runat="server">
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../bootstrap/css/bootstrap-table.min.css" />
-    <link rel="stylesheet" href="../mycss/css.css" />
     <link href="../mycss/docs.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="../mycss/style.css" />
     <script src="../bootstrap/js/jquery-2.0.2.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="../js/global.js"></script>
@@ -27,23 +27,23 @@
     <div class="container">
         <div class="row">
             <form class="form-horizontal" data-table-id="table_activity">
-                <div id="table_activity_toolbar">
-                    <button id="btn_activity_add" type="button" class="btn btn-default" data-lan-id="Add">
-                        <i class="glyphicon glyphicon-plus"></i>
-                    </button>
-                    <button id="btn_activity_del" type="button" class="btn btn-danger" data-lan-id="Delete" disabled>
-                        <i class="glyphicon glyphicon-remove"></i>
-                    </button>
-                    <button id="btn_activity_download" type="button" class="btn btn-success" data-lan-id="Download">
-                        <i class="glyphicon glyphicon-cloud-download"></i>
-                    </button>
-                    <button id="btn_activity_upload" type="button" class="btn btn-info" data-lan-id="Upload">
-                        <i class="glyphicon glyphicon-cloud-upload"></i>
-                    </button>
-                </div>
                 <h2 data-lan-id="ActivityOperate_activity_header_2"></h2>
-                <div>
-                    <table id="table_activity" class="table table-no-bordered" style="table-layout:fixed;"></table>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <button id="btn_activity_add" type="button" class="btn btn-default" data-lan-id="Add">
+                            <i class="glyphicon glyphicon-plus"></i>
+                        </button>
+                        <button id="btn_activity_del" type="button" class="btn btn-default" data-lan-id="Delete" disabled>
+                            <i class="glyphicon glyphicon-remove"></i>
+                        </button>
+                        <button id="btn_activity_download" type="button" class="btn btn-default" data-lan-id="Download">
+                            <i class="glyphicon glyphicon-cloud-download"></i>
+                        </button>
+                        <button id="btn_activity_upload" type="button" class="btn btn-default" data-lan-id="Upload">
+                            <i class="glyphicon glyphicon-cloud-upload"></i>
+                        </button>
+                    </div>
+                    <table id="table_activity" class="table table-no-bordered" style="table-layout: fixed;"></table>
                 </div>
             </form>
         </div>
@@ -268,7 +268,7 @@
                     <form class="form-inline" action="ActivityOperate.aspx" enctype="multipart/form-data" method="post" onsubmit="onUploadSubmit(this); return false;">
                         <div class="form-group">
                             <input type="file" id="uploadFile" multiple name="bytes" accept=".protodata.bytes" style="display:none">
-                            <label data-lan-id="Chose_file"></label>
+                            <label data-lan-id="Choose_file"></label>
                             <div class="input-group">
                                 <span class="input-group-btn">
                                     <button id="modal_btn_choose_file" class="btn btn-default" type="button" data-lan-id="Choose_file" onclick="$('#uploadFile').click()"></button>
@@ -353,6 +353,7 @@
         tableEle.bootstrapTable({
             height: 300,
             striped: true,
+            classes: "table table-no-bordered",
             toolbar: "#table_quest_toolbar",
             clickToSelect: true,
             columns: [
@@ -394,6 +395,7 @@
             height: 369,
             striped: true,
             toolbar: "#table_reward_toolbar",
+            classes: "table table-no-bordered",
             clickToSelect: true,
             columns: [
                 { checkbox: true, align: 'center', valign: 'middle', },
@@ -410,10 +412,10 @@
     function initTableActivity(tableEle) {
         tableEle.bootstrapTable("destroy");
         tableEle.bootstrapTable({
-            height: $(window).height(),
-            toolbar: "#table_activity_toolbar",
+            height: $(window).height() - $(header).outerHeight() - $('#content').outerHeight(),
             detailView: true,
             clickToSelect: true,
+            classes: "table table-no-bordered",
             detailFormatter: detailFormatter,
             columns: [
                 { checkbox: true, align: 'center', valign: 'middle',},
@@ -427,7 +429,7 @@
                     align: 'center',
                     valign: 'middle',
                     formatter: function (value, row, index) {
-                        return ['<a class="delete btn btn-danger" style="display:block;"><i class="glyphicon glyphicon-remove"></i></a>'].join('');
+                        return ['<a class="delete btn btn-danger" ><i class="glyphicon glyphicon-remove"></i></a>'].join('');
                     },
                     events: {
                         'click .delete': function (e, value, row, index) {
@@ -443,6 +445,16 @@
 
     function detailFormatter(index, row) {
         var html = [];
+        html.push('<div class="well well-lg">');
+        html.push(GetContentMsg('ActivityOperate_activity_title'));
+        html.push(": ");
+        html.push(row.title);
+        html.push("<br/>");
+        html.push(GetContentMsg('ActivityOperate_activity_desc'));
+        html.push(": ");
+        html.push(row.desc);
+        html.push('</div>');
+
         html.push(sprintf("<p><b>%s</b></p>", GetContentMsg('ActivityOperate_activity_quest_list')));
         html.push('<div class="panel-group" id="accordion_' + row.id + '" role="tablist" aria-multiselectable="true">');
         for (var i = 0; i < row.quests.length; ++i) {
@@ -716,7 +728,6 @@
                         field: 'id',
                         values: json
                     });
-                    $(this).prop('disabled', true);
                 }
             },
             error: function (msg) {
@@ -732,6 +743,7 @@
             return;
         var ids = getRowSelections($tableActivity);
         removeActivities(ids);
+        $(this).prop('disabled', true);
     });
 
     $('#Modal_btn_quest_switch').on('click', function () {

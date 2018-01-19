@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 
 namespace gmt
 {
@@ -171,17 +172,6 @@ namespace gmt
             }
         }
 
-        /// <summary>
-        /// 移除服务器
-        /// </summary>
-        /// <param name="index">索引</param>
-        public static void RemoveAt(int index)
-        {
-            if (index >= 0 && index < Server.serverList.Count)
-            {
-                Server.serverList.RemoveAt(index);
-            }
-        }
 
         /// <summary>
         /// 服务器数量
@@ -295,139 +285,168 @@ namespace gmt
 
         public uint serverID;
 
-        /// <summary>
-        /// 名称
-        /// </summary>
         public string Name;
 
-        /// <summary>
-        /// GM地址
-        /// </summary>
         public string GmAddress;
 
-        /// <summary>
-        /// 数据库地址
-        /// </summary>
         public string DatabaseAddress;
 
-        /// <summary>
-        /// 数据库端口
-        /// </summary>
         public string DatabasePort;
 
-        /// <summary>
-        /// 数据库字符集
-        /// </summary>
         public string DatabaseCharSet;
 
-        /// <summary>
-        /// 数据库用户
-        /// </summary>
         public string DatabaseUserId;
 
-        /// <summary>
-        /// 数据库密码
-        /// </summary>
         public string DatabasePassword;
 
-        /// <summary>
-        /// 游戏数据库
-        /// </summary>
         public string GameDatabase;
 
-        /// <summary>
-        /// 发码数据库地址
-        /// </summary>
         public string CodeDatabaseAddress;
 
-        /// <summary>
-        /// 发码数据库端口
-        /// </summary>
         public string CodeDatabasePort;
 
-        /// <summary>
-        /// 发码数据库字符集
-        /// </summary>
         public string CodeDatabaseCharSet;
 
-        /// <summary>
-        /// 发码数据库用户
-        /// </summary>
         public string CodeDatabaseUserId;
 
-        /// <summary>
-        /// 发码数据库密码
-        /// </summary>
         public string CodeDatabasePassword;
 
-        /// <summary>
-        /// 发码数据库
-        /// </summary>
         public string CodeDatabase;
 
-        /// <summary>
-        /// 日志数据库地址
-        /// </summary>
         public string LogDatabaseAddress;
 
-        /// <summary>
-        /// 日志数据库端口
-        /// </summary>
         public string LogDatabasePort;
 
-        /// <summary>
-        /// 日志数据库字符集
-        /// </summary>
         public string LogDatabaseCharSet;
 
-        /// <summary>
-        /// 日志数据库用户
-        /// </summary>
         public string LogDatabaseUserId;
 
-        /// <summary>
-        /// 日志数据库密码
-        /// </summary>
         public string LogDatabasePassword;
 
-        /// <summary>
-        /// 日志数据库
-        /// </summary>
         public string LogDatabase;
 
-        /// <summary>
-        /// 订单数据库地址
-        /// </summary>
         public string BillDatabaseAddress;
 
-        /// <summary>
-        /// 订单数据库端口
-        /// </summary>
+
         public string BillDatabasePort;
 
-        /// <summary>
-        /// 订单数据库字符集
-        /// </summary>
         public string BillDatabaseCharSet;
 
-        /// <summary>
-        /// 订单数据库用户
-        /// </summary>
         public string BillDatabaseUserId;
 
-        /// <summary>
-        /// 订单数据库密码
-        /// </summary>
         public string BillDatabasePassword;
 
-        /// <summary>
-        /// 订单数据库
-        /// </summary>
         public string BillDatabase;
-
-        /// <summary>
-        /// 服务器列表
-        /// </summary>
         private static List<Server> serverList = new List<Server>();
+
+
+
+
+        public static STServerInfo GetServerInfo(uint id)
+        {
+            if (dicServers.ContainsKey(id))
+            {
+                return dicServers[id];
+            }
+            return null;
+        }
+
+        public static List<STServerInfo> GetServerList()
+        {
+            return dicServers.Values.ToList();
+        }
+
+        public static bool AddServerInfo(uint id, STServerInfo server)
+        {
+            if (dicServers.ContainsKey(id))
+            {
+                dicServers[id] = server;
+            }
+            else
+            {
+                dicServers.Add(id, server);
+            }
+            newSave();
+            return true;
+        }
+
+        public static bool RemoveServerInfo(uint id)
+        {
+            if (dicServers.ContainsKey(id))
+            {
+                dicServers.Remove(id);
+                return true;
+            }
+            return false;
+        }
+
+        public static void newSave()
+        {
+            string svrJsonData = JsonConvert.SerializeObject(dicServers);
+            byte[] buffer = Encoding.UTF8.GetBytes(svrJsonData);
+
+            for (int i = 0; i < buffer.Length; ++i)
+            {
+                buffer[i] = (byte)(buffer[i] ^ 0x37);
+            }
+
+            string configBinaryFile = HttpRuntime.AppDomainAppPath + "configs/Configdd.bytes";
+
+            using (FileStream fileStream = File.Create(configBinaryFile))
+            {
+                fileStream.Write(buffer, 0, buffer.Length);
+            }
+        }
+
+        public static void newLoad()
+        {
+            string configBinaryFile = HttpRuntime.AppDomainAppPath + "configs/Configdd.bytes";
+
+            if (File.Exists(configBinaryFile))
+            {
+                using (BinaryReader reader = new BinaryReader(File.OpenRead(configBinaryFile)))
+                {
+                    byte[] buffer = reader.ReadBytes((int)reader.BaseStream.Length);
+
+                    for (int i = 0; i < buffer.Length; ++i)
+                    {
+                        buffer[i] = (byte)(buffer[i] ^ 0x37);
+                    }
+
+                    string text = Encoding.UTF8.GetString(buffer);
+                    dicServers = JsonConvert.DeserializeObject<Dictionary<uint, STServerInfo>>(text);
+                }
+            }
+        }
+
+        private static Dictionary<uint, STServerInfo> dicServers = new Dictionary<uint, STServerInfo>();
+    }
+
+    public class STDBInfo
+    {
+        public string name;
+        public string host;
+        public ushort port;
+        public string user;
+        public string pwd;
+        public string cset;
+    }
+
+    public class STServerInfo
+    {
+        public uint id;
+        public string svrID;
+        public string name;
+        public int section;
+        public string sectionName;
+        public string ip;
+        public int status;
+        public string authGMHttp;
+        public bool recommend;
+        public string param;
+        public STDBInfo gamedb;
+        public STDBInfo codedb;
+        public STDBInfo logdb;
+        public STDBInfo authdb;
     }
 }

@@ -282,15 +282,20 @@ namespace gmt.views
                sql
                );
 
-            sql = string.Format("SELECT product_id FROM receipt WHERE server_id = {0} and userID IN ({1})"
+            sql = string.Format("SELECT orderID FROM receipt WHERE server_id = {0} and userID IN ({1})"
                 , server.serverID
                 , sbIds.ToString());
             DatabaseAssistant.Execute(reader =>
                 {
                     while (reader.Read())
                     {
-                        string product_id = reader.GetString(0);
-                        int cost = TableManager.RmbShopTable.ContainsKey(product_id) ? TableManager.RmbShopTable[product_id].rmb_cost : 0;
+                        string orderInfo = reader.GetString(0);
+                        string[] orderArray = orderInfo.Split(',');
+
+                        mw.RmbShopConfig config = null;
+                        string index = string.Format("{0}-{1}", orderArray[1], orderArray[4]);
+                        TableManager.RmbShopTable.TryGetValue(index, out config);
+                        int cost = (null == config) ? config.rmb_cost : 0;
                         stData.newUserPayVal += (uint)cost;
                     }
                 },
@@ -304,7 +309,7 @@ namespace gmt.views
             #endregion
 
             #region 总充值额
-            sql = string.Format("SELECT product_id FROM receipt WHERE server_id = {0} {1}"
+            sql = string.Format("SELECT orderID FROM receipt WHERE server_id = {0} {1}"
                 , server.serverID
                 , sqlAuthCondi);
             Log.AddLog(sql);
@@ -312,9 +317,14 @@ namespace gmt.views
                {
                    while (reader.Read())
                    {
-                       string product_id = reader.GetString(0);
-                       int cost = TableManager.RmbShopTable.ContainsKey(product_id) ? TableManager.RmbShopTable[product_id].rmb_cost : 0;
-                       stData.totalPayVal += (uint)cost;
+                        string orderInfo = reader.GetString(0);
+                        string[] orderArray = orderInfo.Split(',');
+
+                        mw.RmbShopConfig config = null;
+                        string index = string.Format("{0}-{1}", orderArray[1], orderArray[4]);
+                        TableManager.RmbShopTable.TryGetValue(index, out config);
+                        int cost = (null == config) ? config.rmb_cost : 0;
+                        stData.totalPayVal += (uint)cost;
                    }
                },
                 server.BillDatabaseAddress,

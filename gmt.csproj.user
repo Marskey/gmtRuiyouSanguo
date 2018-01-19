@@ -30,7 +30,7 @@
           </StartWorkingDirectory>
           <EnableENC>False</EnableENC>
           <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>3858</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

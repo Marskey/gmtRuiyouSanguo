@@ -104,14 +104,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="gmtApi.asmx" />
     <Content Include="js\ajaxSubmit.js" />
     <Content Include="js\global.js" />
     <Content Include="js\language.js" />
-    <Content Include="mycss\css.css" />
     <Content Include="mycss\docs.min.css" />
-    <Content Include="mycss\index-style.css" />
-    <Content Include="mycss\inspire.css" />
-    <Content Include="mycss\ripples.min.css" />
+    <Content Include="mycss\style.css" />
     <Content Include="views\Activity.aspx" />
     <Content Include="views\ActivityOpenTime.aspx" />
     <Content Include="views\ActivityOperate.aspx" />
@@ -136,7 +134,6 @@
     <Content Include="views\Menu.html" />
     <Content Include="views\MergeServer.aspx" />
     <Content Include="views\Notice.aspx" />
-    <Content Include="views\OtherNoticeEdit.aspx" />
     <Content Include="views\Passwordchange.aspx" />
     <Content Include="views\PayType.aspx" />
     <Content Include="views\PlayerData.aspx" />
@@ -145,6 +142,7 @@
     <Content Include="views\RunandFixManage.aspx" />
     <Content Include="views\SectionServer.aspx" />
     <Content Include="views\SectionServerList.aspx" />
+    <Content Include="views\ServerConfig.aspx" />
     <Content Include="views\ServerData.aspx" />
     <Content Include="views\User.aspx" />
     <Content Include="Web.config">
@@ -158,6 +156,10 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gmtApi.asmx.cs">
+      <DependentUpon>gmtApi.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="src\errormgr.cs" />
     <Compile Include="src\TimedMailSender.cs" />
@@ -179,6 +181,7 @@
     </Compile>
     <Compile Include="views\ActivityOperate.aspx.cs">
       <DependentUpon>ActivityOperate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="views\ActivityOperate.aspx.designer.cs">
       <DependentUpon>ActivityOperate.aspx</DependentUpon>
@@ -293,13 +296,6 @@
       <DependentUpon>MergeServer.aspx</DependentUpon>
     </Compile>
     <Compile Include="src\Network.cs" />
-    <Compile Include="views\OtherNoticeEdit.aspx.cs">
-      <DependentUpon>OtherNoticeEdit.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="views\OtherNoticeEdit.aspx.designer.cs">
-      <DependentUpon>OtherNoticeEdit.aspx</DependentUpon>
-    </Compile>
     <Compile Include="views\Passwordchange.aspx.cs">
       <DependentUpon>Passwordchange.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -323,6 +319,7 @@
     </Compile>
     <Compile Include="views\PlayerHistory.aspx.cs">
       <DependentUpon>PlayerHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="views\PlayerHistory.aspx.designer.cs">
       <DependentUpon>PlayerHistory.aspx</DependentUpon>
@@ -350,8 +347,16 @@
     <Compile Include="views\SectionServerList.aspx.designer.cs">
       <DependentUpon>SectionServerList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="views\ServerConfig.aspx.cs">
+      <DependentUpon>ServerConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\ServerConfig.aspx.designer.cs">
+      <DependentUpon>ServerConfig.aspx</DependentUpon>
+    </Compile>
     <Compile Include="views\ServerData.aspx.cs">
       <DependentUpon>ServerData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="views\ServerData.aspx.designer.cs">
       <DependentUpon>ServerData.aspx</DependentUpon>
@@ -404,8 +409,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="configs\config.ini" />
-    <Content Include="Json\LanguageData.min.json" />
+    <Content Include="Json\locale.ko-KR.json" />
+    <Content Include="Json\locale.vi-VN.json" />
+    <Content Include="Json\locale.zh-CN.json" />
     <None Include="Properties\PublishProfiles\gmt.pubxml" />
     <None Include="Properties\PublishProfiles\gmfabu.pubxml" />
     <None Include="Web.Debug.config">

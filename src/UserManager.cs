@@ -404,6 +404,11 @@ namespace gmt
         /// 服务器列表
         /// </summary>
         SectionServer = 1 << 19,
+        
+        /// <summary>
+        /// 游戏服务器配置
+        /// </summary>
+        ServerConfig = 1 << 20,
 
         #endregion
 

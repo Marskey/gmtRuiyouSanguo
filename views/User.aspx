@@ -9,6 +9,7 @@
     <link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link href="../bootstrap/css/bootstrap-table.min.css" rel="stylesheet" media="screen" />
     <link href="../mycss/docs.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="../mycss/style.css" />
     <script type="text/javascript" src="../bootstrap/js/jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/global.js"></script>
@@ -186,6 +187,11 @@
             privilege_idx: "SectionServer",
             privilege_allow: false,
         },
+        {
+            privilege_name: GetContentMsg("Page_title_ServerConfig"),
+            privilege_idx: "ServerConfig",
+            privilege_allow: false,
+        }
         ];
     }
 
@@ -549,6 +555,19 @@
                 {
                     title: GetContentMsg("SectionServer"),
                     field: 'SectionServer',
+                    align: 'center',
+                    valign: 'middle',
+                    visible: false,
+                    formatter: function (value, row, index) {
+                        if (row.privilegeDic.SectionServer)
+                            return ['<i class="glyphicon glyphicon-ok" style="color:green"></i>'].join('');
+                        else
+                            return ['<i class="glyphicon glyphicon-remove" style="color:red"></i>'].join('');
+                    }
+                },
+                {
+                    title: GetContentMsg("Page_title_ServerConfig"),
+                    field: 'ServerConfig',
                     align: 'center',
                     valign: 'middle',
                     visible: false,

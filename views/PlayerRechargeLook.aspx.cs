@@ -167,8 +167,21 @@ namespace gmt
                         prInfo.cyUid = orderArray[2];
                         int.TryParse(orderArray[3], out prInfo.serverId);
                         prInfo.serverIdStr = IntToBytes(prInfo.serverId);
-                        prInfo.goodsName = TableManager.RmbShopTable.ContainsKey(orderArray[4]) ? TableManager.RmbShopTable[orderArray[4]].goods_name : TableManager.GetGMTText(719) + "(" + orderArray[4] + ")";
-                        prInfo.goodsCost = TableManager.RmbShopTable.ContainsKey(orderArray[4]) ? TableManager.RmbShopTable[orderArray[4]].rmb_cost : 0;
+
+                        mw.RmbShopConfig config = null;
+                        string index = string.Format("{0}-{1}", orderArray[1], orderArray[4]);
+                        TableManager.RmbShopTable.TryGetValue(index, out config);
+                        if (null == config)
+                        {
+                            prInfo.goodsName = config.goods_name;
+                            prInfo.goodsCost = config.rmb_cost;
+                        }
+                        else
+                        {
+                            prInfo.goodsName = TableManager.GetGMTText(719) + "(" + orderArray[4] + ")";
+                            prInfo.goodsCost = 0;
+                        }
+
                         int.TryParse(orderArray[5], out prInfo.goodsNum);
 
                         int nState = reader.GetInt32(1);
@@ -237,7 +250,7 @@ namespace gmt
                 sqlCondi += GetFilterStringByJson(filter);
             }
 
-            string sql = string.Format("SELECT product_id FROM receipt where 1 {0}", sqlCondi);
+            string sql = string.Format("SELECT orderID FROM receipt where 1 {0}", sqlCondi);
 
             UInt64 totalCost = 0;
             gmt.Server server = gmt.Server.GetServerAt(0);
@@ -245,8 +258,13 @@ namespace gmt
                 {
                     while (reader.Read())
                     {
-                        string product_id = reader.GetString(0);
-                        int cost = TableManager.RmbShopTable.ContainsKey(product_id) ? TableManager.RmbShopTable[product_id].rmb_cost : 0;
+                        string orderInfo = reader.GetString(0);
+                        string[] orderArray = orderInfo.Split(',');
+
+                        mw.RmbShopConfig config = null;
+                        string index = string.Format("{0}-{1}", orderArray[1], orderArray[4]);
+                        TableManager.RmbShopTable.TryGetValue(index, out config);
+                        int cost = (null == config) ? config.rmb_cost : 0;
                         totalCost += (uint)cost;
                     }
                 },

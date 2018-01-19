@@ -31,6 +31,9 @@ namespace gmt
         public static string GMT_DB_User = "";
         public static string GMT_DB_Pwd = "";
 
+        private static string m_appID = "";
+        public static string GetGameAppID { get { return m_appID; } }
+
         /// <summary>
         /// 初始化
         /// </summary>
@@ -42,6 +45,8 @@ namespace gmt
             GMT_DB_Name = CUtils.ReadIniValue("GMT_DB_Info", "dbname", "", Global.ConfigPath + "config.ini");
             GMT_DB_User = CUtils.ReadIniValue("GMT_DB_Info", "user", "", Global.ConfigPath + "config.ini");
             GMT_DB_Pwd = CUtils.ReadIniValue("GMT_DB_Info", "pwd", "", Global.ConfigPath + "config.ini");
+
+            m_appID = CUtils.ReadIniValue("GAME_INFO", "app_id", "", Global.ConfigPath + "config.ini");
         }
 
         /// <summary>
@@ -56,6 +61,7 @@ namespace gmt
             UserManager.Init();
 
             gmt.Server.Load();
+            gmt.Server.newLoad();
 
             Log.Start();
             Network.Start();

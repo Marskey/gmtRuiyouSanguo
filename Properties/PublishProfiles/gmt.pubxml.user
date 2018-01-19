@@ -9,7 +9,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/gmt.dll">
-      <publishTime>12/26/2017 17:23:32</publishTime>
+      <publishTime>01/17/2018 09:11:09</publishTime>
     </File>
     <File Include="bin/Microsoft.Office.Interop.Excel.dll">
       <publishTime>10/10/2007 09:49:04</publishTime>
@@ -18,13 +18,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2007 09:49:08</publishTime>
     </File>
     <File Include="bin/mw-proto-client.dll">
-      <publishTime>12/20/2017 14:48:06</publishTime>
+      <publishTime>01/16/2018 21:07:38</publishTime>
     </File>
     <File Include="bin/mw-proto.dll">
-      <publishTime>11/21/2017 22:42:36</publishTime>
+      <publishTime>12/06/2017 14:48:19</publishTime>
     </File>
     <File Include="bin/mw-serializer0.dll">
-      <publishTime>12/20/2017 14:48:06</publishTime>
+      <publishTime>01/16/2018 21:07:38</publishTime>
     </File>
     <File Include="bin/mw_proto_serializer.dll">
       <publishTime>11/21/2017 22:42:36</publishTime>
@@ -45,10 +45,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/24/2017 14:47:28</publishTime>
     </File>
     <File Include="bin/stdole.dll">
-      <publishTime>10/10/2007 09:49:08</publishTime>
+      <publishTime>07/26/2012 19:08:06</publishTime>
     </File>
     <File Include="configs/config.ini">
-      <publishTime>09/09/2017 18:03:42</publishTime>
+      <publishTime>01/11/2018 11:00:02</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>12/15/2017 11:18:52</publishTime>
@@ -56,38 +56,62 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Global.asax">
       <publishTime>03/24/2017 14:47:30</publishTime>
     </File>
+    <File Include="js/ajaxSubmit.js">
+      <publishTime>01/12/2018 13:58:45</publishTime>
+    </File>
     <File Include="js/global.js">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/09/2018 10:19:46</publishTime>
     </File>
     <File Include="js/language.js">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/15/2018 14:12:12</publishTime>
     </File>
     <File Include="Json/LanguageData.min.json">
       <publishTime>12/20/2017 20:15:42</publishTime>
     </File>
+    <File Include="Json/locale.ko-KR.json">
+      <publishTime>01/15/2018 14:19:25</publishTime>
+    </File>
+    <File Include="Json/locale.vi-VN.json">
+      <publishTime>01/16/2018 15:33:11</publishTime>
+    </File>
+    <File Include="Json/locale.zh-CN.json">
+      <publishTime>01/16/2018 20:07:07</publishTime>
+    </File>
     <File Include="mycss/css.css">
-      <publishTime>12/18/2017 14:44:12</publishTime>
+      <publishTime>01/12/2018 16:06:40</publishTime>
     </File>
     <File Include="mycss/docs.min.css">
       <publishTime>12/14/2017 17:12:48</publishTime>
     </File>
+    <File Include="mycss/index-style.css">
+      <publishTime>01/11/2018 10:56:51</publishTime>
+    </File>
+    <File Include="mycss/inspire.css">
+      <publishTime>01/11/2018 10:56:51</publishTime>
+    </File>
+    <File Include="mycss/ripples.min.css">
+      <publishTime>01/11/2018 10:56:51</publishTime>
+    </File>
+    <File Include="mycss/style.css">
+      <publishTime>01/16/2018 10:39:11</publishTime>
+    </File>
     <File Include="views/Activity.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:31</publishTime>
     </File>
     <File Include="views/ActivityOpenTime.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>12/26/2017 17:48:12</publishTime>
     </File>
     <File Include="views/ActivityOperate.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 20:33:52</publishTime>
     </File>
     <File Include="views/BatchGive.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/CreateGift.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/CreateKey.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/DownloadActivity.aspx">
       <publishTime>03/24/2017 14:47:32</publishTime>
@@ -108,73 +132,76 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/24/2017 14:47:30</publishTime>
     </File>
     <File Include="views/Error.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/11/2018 10:56:51</publishTime>
     </File>
     <File Include="views/Exit.aspx">
       <publishTime>12/15/2017 11:18:52</publishTime>
     </File>
     <File Include="views/FTPEdit.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/Gift.aspx">
-      <publishTime>12/25/2017 00:02:16</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/GmModify.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/GmNormal.aspx">
-      <publishTime>12/25/2017 00:02:16</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/Login.aspx">
-      <publishTime>12/15/2017 11:18:52</publishTime>
+      <publishTime>01/17/2018 09:38:17</publishTime>
     </File>
     <File Include="views/Menu.html">
       <publishTime>12/18/2017 21:27:34</publishTime>
     </File>
     <File Include="views/MergeServer.aspx">
-      <publishTime>12/25/2017 00:02:14</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/Navbar.html">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 17:02:22</publishTime>
     </File>
     <File Include="views/Notice.aspx">
-      <publishTime>12/25/2017 00:02:16</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/OtherNoticeEdit.aspx">
-      <publishTime>12/19/2017 10:10:52</publishTime>
+      <publishTime>01/11/2018 10:56:51</publishTime>
     </File>
     <File Include="views/Passwordchange.aspx">
-      <publishTime>12/15/2017 11:18:52</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/PayType.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:32</publishTime>
     </File>
     <File Include="views/PlayerData.aspx">
-      <publishTime>12/25/2017 00:02:16</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
     </File>
     <File Include="views/PlayerHistory.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
     </File>
     <File Include="views/PlayerRechargeLook.aspx">
-      <publishTime>12/25/2017 00:02:14</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
     </File>
     <File Include="views/RunandFixManage.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/11/2018 10:56:51</publishTime>
     </File>
     <File Include="views/SectionServer.aspx">
-      <publishTime>12/25/2017 00:02:16</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
     </File>
     <File Include="views/SectionServerList.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
+    </File>
+    <File Include="views/ServerConfig.aspx">
+      <publishTime>01/16/2018 20:23:49</publishTime>
     </File>
     <File Include="views/ServerData.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
     </File>
     <File Include="views/User.aspx">
-      <publishTime>12/26/2017 17:16:29</publishTime>
+      <publishTime>01/16/2018 10:40:33</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/26/2017 17:23:33</publishTime>
+      <publishTime>01/16/2018 20:34:30</publishTime>
     </File>
   </ItemGroup>
 </Project>

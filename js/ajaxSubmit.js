@@ -155,11 +155,13 @@ var AJAXSubmit = (function () {
 
     return function (oFormElement, param) {
         if (!oFormElement.action) { return; }
-        onEventProgress = param.onProgress;
-        onEventLoad = param.onLoad;
-        onEventError = param.onError;
-        onEventAbort = param.onAbort;
-        onEventLoadEnd = param.onLoadEnd;
+        if (param) {
+            onEventProgress = param.onProgress;
+            onEventLoad = param.onLoad;
+            onEventError = param.onError;
+            onEventAbort = param.onAbort;
+            onEventLoadEnd = param.onLoadEnd;
+        }
         new SubmitRequest(oFormElement);
     };
 

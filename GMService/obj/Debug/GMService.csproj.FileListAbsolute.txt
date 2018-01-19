@@ -3,7 +3,15 @@ C:\Game\gmt\GMService\obj\Debug\GMService.ProjectInstaller.resources
 C:\Game\gmt\GMService\obj\Debug\GMService.csproj.GenerateResource.Cache
 C:\Game\gmt\GMService\obj\Debug\GMService.exe
 C:\Game\gmt\GMService\obj\Debug\GMService.pdb
+E:\STProject\gmt\GMService\obj\Debug\GMService.csprojResolveAssemblyReference.cache
 E:\STProject\gmt\GMService\obj\Debug\GMService.ProjectInstaller.resources
 E:\STProject\gmt\GMService\obj\Debug\GMService.csproj.GenerateResource.Cache
 E:\STProject\gmt\GMService\obj\Debug\GMService.exe
 E:\STProject\gmt\GMService\obj\Debug\GMService.pdb
+E:\STProject\gmt\GMService\bin\Debug\GMService.exe.config
+E:\STProject\gmt\GMService\bin\Debug\GMService.exe.manifest
+E:\STProject\gmt\GMService\bin\Debug\GMService.application
+E:\STProject\gmt\GMService\bin\Debug\GMService.exe
+E:\STProject\gmt\GMService\bin\Debug\GMService.pdb
+E:\STProject\gmt\GMService\obj\Debug\GMService.exe.manifest
+E:\STProject\gmt\GMService\obj\Debug\GMService.application

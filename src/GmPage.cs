@@ -34,9 +34,8 @@ namespace gmt
         {
             string account = Session["user"] as string;
             UserInfo data;
-            //Server server	= gmt.Server.GetServerAt(gmt.Server.Count - 1);
-            if ((!string.IsNullOrEmpty(account) && UserManager.UserTable.TryGetValue(account, out data) && (data.privilege & this.needPrivilege) == this.needPrivilege)/* ||
-				(server != null && server.GmAddress == "do_not_need_Login")*/)
+            if ((!string.IsNullOrEmpty(account) && UserManager.UserTable.TryGetValue(account, out data)
+                    && (data.account == "admin" || (data.privilege & this.needPrivilege) == this.needPrivilege)))
             {
                 data.language = "zh-CN";
                 if (null != Request.Cookies["lan"])
@@ -164,6 +163,50 @@ namespace gmt
             }
         }
 
+        internal static bool ExecuteGmCommand(STServerInfo server, string playerId, byte[] command, byte[] operate, bool needReturn, Action<string> reportProcess)
+        {
+            if (server == null)
+            {
+                return false;
+            }
+
+            HttpWebRequest request = null;
+            HttpWebResponse respone = null;
+
+            try
+            {
+                request = WebRequest.Create(server.authGMHttp) as HttpWebRequest;
+                request.KeepAlive = false;
+                request.Headers["svr"] = server.svrID;
+                request.Headers["uid"] = playerId;
+                request.Headers["cmd"] = Convert.ToBase64String(command);
+                request.Headers["opt"] = Convert.ToBase64String(operate);
+                request.Timeout = 4000;
+
+                respone = request.GetResponse() as HttpWebResponse;
+                if (needReturn && reportProcess != null)
+                {
+                    using (StreamReader reader = new StreamReader(respone.GetResponseStream()))
+                    {
+                        reportProcess(reader.ReadToEnd());
+                    }
+                }
+                return true;
+            }
+
+            catch (Exception exception)
+            {
+                DatabaseAssistant.ReportException(exception);
+                if (reportProcess != null) { reportProcess(exception.Message + "\n"); }
+                return false;
+            }
+
+            finally
+            {
+                if (request != null) { request.Abort(); }
+                if (respone != null) { respone.Close(); }
+            }
+        }
         /// <summary>
         /// 执行数据库
         /// </summary>

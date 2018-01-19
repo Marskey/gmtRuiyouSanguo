@@ -15,186 +15,48 @@ namespace gmt
     public enum ERequestType
     {
         e_task_info_type_db_start,                                          ///0
-        e_task_info_type_login_count,                                       ///1	连续登录
-        e_task_info_type_sign_count,                                        ///2	签到次数
-        e_task_info_type_yuanbao_in,                                        ///3	元宝充值数
-        e_task_info_type_yuanbao_out,                                       ///4	元宝消费数
-        e_task_info_type_yuanbao_get_pre_day_1,                             ///5	元宝连续每日充值档位1
-        e_task_info_type_yuanbao_get_pre_day_2,                             ///6	元宝连续每日充值档位2
-        e_task_info_type_yuanbao_get_pre_day_3,                             ///7	元宝连续每日充值档位3
-        e_task_info_type_yuanbao_get_pre_day_4,                             ///8	元宝连续每日充值档位4
-        e_task_info_type_yuanbao_get_pre_day_5,                             ///9	元宝连续每日充值档位5
-        e_task_info_type_yuanbao_get_pre_day_6,                             ///10	元宝连续每日充值档位6
-        e_task_info_type_task_count,                                        ///11	任务数量
-        e_task_info_type_achieve_count,                                     ///12	成就数量
-        e_task_info_type_yuanbao_count,                                     ///13	元宝数量
-        e_task_info_type_spe_ins_type_quality_count,                        ///14	进阶丹副本次数
-        e_task_info_type_spe_ins_type_skill_count,                          ///15	兵法副本次数
-        e_task_info_type_spe_ins_type_stone_count,                          ///16	饰品精炼石副本次数
-        e_task_info_type_active_count,                                      ///17	活跃点
-        e_task_info_type_team_lvl_up,                                       ///18	团队升级次数
-        e_task_info_type_hero_lvl_up,                                       ///19	英雄升级次数
-        e_task_info_type_group_instance_count,                              ///20	团队本次数
-        e_task_info_type_login_count_no_clear,                              ///21	累计登录	
-        e_task_info_type_hero_skill,                                        ///22	英雄技能升级次数
-        e_task_info_type_challenge_count,                                   ///23	挑战千机楼次数
-        e_task_info_type_common_instance_count,                             ///24	完成普通副本
-        e_task_info_type_hard_instance_count,                               ///25	完成精英副本
-        e_task_info_type_spe_instance_count,                                ///26	完成每日副本次数
-        e_task_info_type_soul_ex_lv_up_coutn,                               ///27	煉魂次數
-        e_task_info_type_pet_stone_lv_up_count,                             ///28   晶石強化次數
-        e_task_info_type_fight_stone_lv_up_count,                           ///29   裝備強化次數
-        e_task_info_type_pvp,                                               ///30	完成pvp竞技场
-        e_task_info_type_item_equip_count,                                  ///31   物品装备次数
-        e_task_info_type_star_active_count,                                 ///32   星阵激活次数
-        e_task_info_type_stone_equip_count,                                 ///33   灵石镶嵌次数
-        e_task_info_type_stone_lvl_up_count,                                ///34	飾品精炼次数
-        e_task_info_type_hero_equip_lvl_up,                                 ///35	专属装备强化次数
-        e_task_info_type_give_active_count,                                 ///36   赠送好友体力次数
-        e_task_info_type_get_active_count,                                  ///37   领取好友体力次数
-        e_task_info_type_buy_money_count,                                   ///38   购买金币次数
-        e_task_info_type_buy_active_count,                                  ///39   购买体力次数
-        e_task_info_type_xunbao_count,                                      ///40   万宝楼寻宝次数
-        e_task_info_type_linglong_buy_count,                                ///41   玲珑阁购买物品次数
-        e_task_info_type_monopoly_roll_count,                               ///42   大富翁摇色子次数
-        e_task_info_type_wboss_money_inspire_count,                         ///43	豪杰试炼金币鼓舞次数
-        e_task_info_type_wboss_yuanbao_inspire_count,                       ///44	豪杰试炼元宝鼓舞次数
-        e_task_info_type_wboss_count,                                       ///45   豪杰试炼次数
-        e_task_info_type_jiebiao_count,                                     ///46   木牛流马劫镖次数
-        e_task_info_type_activity_roll_count,                               ///47   抽奖活动抽奖次数
-        e_task_info_type_vshundred_count,                                   ///48   百战千军次数
-        e_task_info_type_guild_devote_count,                                ///49	帮派捐献次数
-        e_task_info_type_guild_instance_count,                              ///50	帮派禁地战斗次数
-        e_task_info_type_treasury_rob_count,                                ///51	诸侯割据掠夺次数
-        e_task_info_type_treasuy_patrol_count,                              ///52	诸侯割据巡城次数
-        e_task_info_type_treasuy_patrol_hours,                              ///53	诸侯割据巡城时间小时
-        e_task_info_type_yb_roll_b_count_10,                                ///54	进行万宝楼元宝大额10连抽次数
-        e_task_info_type_baoku_roll_count,                                  ///55	进行幸运抽奖次数
-        e_task_info_type_treasury_rescue_other_count,                       ///56   诸侯割据救援他人次数
-        e_task_info_type_yb_roll_s_count,                                   ///57	进行万宝楼元宝小额抽奖次数
-        e_task_info_type_yb_roll_b_count,                                   ///58   进行万宝楼元宝大额抽奖次数
-        e_task_info_type_get_free_active_count,                             ///59	领取免费体力的次数
-        e_task_info_type_vshundred_win_count,                               ///60   百战千军胜利次数
-        e_task_info_type_linglong_refresh_count,                            ///61   残兵阁刷新次数
-        e_task_info_type_hero_equip_soul_lv_up_count,                       ///62   完成专属装备铸魂次数
-        e_task_info_type_rmb_rank_receipt_val,                              ///63   充值排行榜活动累计值
-        e_task_info_type_spe_ins_type_money_count,                          ///64	完成铜钱副本的次数
-        e_task_info_type_spe_ins_type_exp_count,                            ///65	完成经验丹副本的次数
-        e_task_info_type_green_escort_yabiao_count,                         ///66	完成含绿色以上的押票次数
-        e_task_info_type_blue_escort_yabiao_count,                          ///67	完成含蓝色以上的押票次数
-        e_task_info_type_purple_escort_yabiao_count,                        ///68	完成含紫色以上的押票次数
-        e_task_info_type_orange_escort_yabiao_count,                        ///69	完成含橙色以上的押票次数
-        e_task_info_type_jiebiao_win_count,                                 ///70   木牛流马劫镖胜利次数
-        e_task_info_type_linglong_buy_hero_soul_count,                      ///71   玲珑阁购买英雄武魂的数量
-        e_task_info_type_yigu_instance_count,                               ///72   进行一孤侠道的次数
-        e_task_info_type_linglong_hero_soul_buy_count,                      ///73   残兵阁英雄武魂的购买次数
-        e_task_info_type_escort_credits,                                    ///74	押劫鏢積分
-        e_task_info_type_equip_instance_count,                              ///75   觉醒副本次数
-        e_task_info_type_pet_s_roll_count,                                  ///76	宠物普通召唤次数   
-        e_task_info_type_pet_b_roll_count,                                  ///77   宠物高级召唤次数
-        e_task_info_type_pet_ex_roll_count,                                 ///78	宠物神宠召唤次数
-        e_task_info_type_pet_summon_count,                                  ///79   宠物召唤次数
-        e_task_info_type_challenge_box_open_count,                          ///80	八阵图开启隐藏宝箱次数
-        e_task_info_type_normal_box_open_count,                             ///81	突破宝箱开启次数
-        e_task_info_type_task_count_week_0,                                 ///82   开服活动1任务完成数
-        e_task_info_type_task_count_week_1,                                 ///83   开服活动2任务完成数
-        e_task_info_type_task_rmb_shop_index_min,                           ///84	充值成就项
-        e_task_info_type_task_rmb_shop_index_max = e_task_info_type_task_rmb_shop_index_min + 15, ///99	充值成就项
-        e_task_info_type_task_challenge_reset_count,                        ///100  八阵图累计重置次数
-        e_task_info_type_spe_ins_type_pet_count,                            ///101	晶石经验石副本
-        e_task_info_type_spe_ins_type_equip_count,                          ///102	神兵精炼石副本
-        e_task_info_type_spe_ins_type_stone_quality_count,                  ///103	饰品附魔石副本
-        e_task_info_type_shengpin_shop_refresh_count,                       ///104	锻造商店刷新次数
-        e_task_info_type_shengpin_shop_buy_count,                           ///105	锻造商店购买次数
-        e_task_info_type_energy,                                            ///106	体力值消耗
-        e_task_info_type_yuanbao_open_count,                                ///107 聚宝盆聚宝次数
-        e_task_info_type_yuanbao_in_of_mystic_shop,                         ///108 神秘商店的累计充值
-        e_task_info_type_yb_roll_b_10_per_day,                              ///109 每日大抽奖档位1
-        e_task_info_type_yb_roll_b_count_yuanbao_only,                      ///110 武将占星次数(只算元宝)
-        e_task_info_type_activity_yuanbao_in,                               ///111	活动元宝充值数
-        e_task_info_type_activity_yuanbao_out,                              ///112	活动元宝消费数
-        e_task_info_type_task_8_14_open_task_treasury_patrol_count,         ///113  8至14日累计诸侯巡城次数
-        e_task_info_type_task_8_14_open_task_treasury_rob_count,            // 114  8至14日累计诸侯掠夺次数
-        e_task_info_type_task_king_all_attend_cnt,                          // 115  参加最强之战次数
-        e_task_info_type_task_king_attend_cnt,                              // 116  参加王者之战次数
-        e_task_info_type_task_guild_war_attend_cnt,                         // 117  参加军团资源战次数
-        e_task_info_type_task_group_ins_type_0_attend_cnt,                  // 118  组队副本类型1次数
-        e_task_info_type_task_group_ins_type_1_attend_cnt,                  // 119  组队副本类型2次数
-        e_task_info_type_task_8_14_open_task_purple_escort_count,           // 120  NULL
-        e_task_info_type_task_8_14_open_task_orange_escort_count,           // 121  NULL
-        e_task_info_type_task_discount_shop_buy_energy_count,               // 122  折扣商店购买体力的次数
-        e_task_info_type_task_join_guild_count,                             // 123  加入帮派的次数
-        e_task_info_type_activity_yuanbao_3rd,                              ///124	3倍元宝充值数
-        e_task_info_type_worship,                                           ///125  膜拜次数
-        e_task_info_type_online_time,                                       ///126  在线时长
+        e_task_info_type_yuanbao_in = 3,                                    ///3	元宝充值数
+        e_task_info_type_yuanbao_out = 4,                                   ///4	元宝消费数
+        e_task_info_type_group_instance_count = 20,                         ///20	组队副本完成次数
+        e_task_info_type_login_count_no_clear = 21,                         ///21	累计登录	
+        e_task_info_type_challenge_count = 23,                              ///23	八阵图完成次数
+        e_task_info_type_common_instance_count = 24,                        ///24	主线副本完成次数
+        e_task_info_type_hard_instance_count = 25,                          ///25	军武校场完成次数
+        e_task_info_type_spe_instance_count = 26,                           ///26	日常挑战完成次数
+        e_task_info_type_pvp = 30,                                          ///30	演武场完成次数
+        e_task_info_type_give_active_count = 36,                            ///36   赠送好友体力次数
+        e_task_info_type_buy_money_count = 38,                              ///38   购买铜钱次数
+        e_task_info_type_buy_active_count = 39,                             ///39   购买体力次数
+        e_task_info_type_wboss_count = 45,                                  ///45   无尽挑战次数
+        e_task_info_type_jiebiao_count = 46,                                ///46   木牛流马劫粮次数
+        e_task_info_type_treasury_rob_count = 51,                           ///51	诸侯割据掠夺次数
+        e_task_info_type_treasuy_patrol_count = 52,                         ///52	诸侯割据巡城次数
+        e_task_info_type_yb_roll_b_count_10 = 54,                           ///54	武将占星10连抽次数
+        e_task_info_type_yb_roll_b_count = 58,                              ///58   武将占星次数
+        e_task_info_type_vshundred_win_count = 60,                          ///60   过关斩将胜利次数【小关】
+        e_task_info_type_spe_ins_type_money_count = 64,                     ///64	完成日常挑战-铜钱的次数
+        e_task_info_type_spe_ins_type_exp_count = 65,                       ///65	完成日常挑战-经验丹的次数数
+        e_task_info_type_green_escort_yabiao_count = 66,                    ///66	完成木牛流马含绿色以上的押运次数
+        e_task_info_type_blue_escort_yabiao_count = 67,                     ///67	完成木牛流马含蓝色以上的押运次数
+        e_task_info_type_purple_escort_yabiao_count = 68,                   ///68	完成木牛流马含紫色以上的押运次数
+        e_task_info_type_orange_escort_yabiao_count = 69,                   ///69	完成木牛流马含橙色以上的押运次数
+        e_task_info_type_jiebiao_win_count = 70,                            ///70   木牛流马劫粮成功次数
+        e_task_info_type_yigu_instance_count = 72,                          ///72   进行千里单骑的次数
+        e_task_info_type_pet_s_roll_count = 76,                             ///76	普通寻宝次数
+        e_task_info_type_pet_b_roll_count = 77,                             ///77   高级寻宝次数
+        e_task_info_type_pet_summon_count = 79,                             ///79   寻宝次数
+        e_task_info_type_normal_box_open_count = 81,                        ///81	突破宝箱开启次数
+        e_task_info_type_yb_roll_b_count_yuanbao_only = 110,                ///110  武将占星次数【元宝】
+        e_task_info_type_task_king_attend_cnt = 116,                        ///116  参加王者之战次数
+        e_task_info_type_task_guild_war_attend_cnt = 117,                   ///117  参加军团资源战次数
+        e_task_info_type_task_group_ins_type_0_attend_cnt = 118,            ///118  组队副本群雄争霸次数
+        e_task_info_type_task_group_ins_type_1_attend_cnt = 119,            ///119  组队副本晶石挑战次数
 
         e_task_info_type_db_end = 127,
         e_task_info_type_common = e_task_info_type_db_end,
-        e_task_info_type_team_level,                                        ///128 团队等级
-        e_task_info_type_hero_level,                                        ///129 阵容英雄最大等级
-        e_task_info_type_friend_count,                                      ///130 好友数量
-        e_task_info_type_vip_level,                                         ///131 vip等级
-        e_task_info_type_hero_type,                                         ///132 拥有英雄
-        e_task_info_type_hero_count,                                        ///133 拥有英雄数量
-        e_task_info_type_challenge_take_to_chapter_b_level_a,               ///134 八阵图挑战到b章a关
-        e_task_info_type_instance_comm,                                     ///135 副本通关
-        e_task_info_type_instance_hard,                                     ///136 精英通关
-        e_task_info_type_instance_comm_star_max,                            ///137 普通章节满星通关
-        e_task_info_type_instance_hard_star_max,                            ///138 精英章节满星通关
-        e_task_info_type_x_lv_hero_count,                                   ///139 等级b的英雄a个
-        e_task_info_type_x_star_hero_count,                                 ///140 星级b的英雄a个
-        e_task_info_type_x_quality_hero_count,                              ///141 品质b的英雄a个
-        e_task_info_type_x_lv_hero_skill_count,                             ///142 等级b的英雄技能a个
-        e_task_info_type_x_yang_stone_x_qua_hero_count,                     ///143 c品质的装备b个的英雄a个
-        e_task_info_type_x_yin_stone_x_qua_hero_count,                      ///144 c品质的饰品b个的英雄a个
-        e_task_info_type_x_star_rlv_hero_count,                             ///145 b等级星阵共鸣的英雄a个
-        e_task_info_type_x_yang_stone_resonance_hero_count,                 ///146 阳灵石共鸣等级b的英雄a个
-        e_task_info_type_x_yin_stone_resonance_hero_count,                  ///147 阴灵石共鸣等级b的英雄a个
-        e_task_info_type_b_equip_rlvex_a,                                   ///148 b进化共鸣神兵a个
-        e_task_info_type_x_qua_stone_x_lvex_count,                          ///149 突破至b级的饰品a颗
-        e_task_info_type_challenge_rank_level_max,                          ///150 八阵图历史最高排名
-        e_task_info_type_wboss_rank_level_max,                              ///151 豪杰试炼历史最高排名
-        e_task_info_type_jjc_rank_level_max,                                ///152 竞技场历史最高排名
-        e_task_info_type_team_zdl,                                          ///153 团队战力
-        e_task_info_type_invest,                                            ///154 购买理财计划
-        e_task_info_type_guild_active_count,                                ///155 帮派活跃值
-        e_task_info_type_buy_invest_player_count,                           ///156 购买理财计划的玩家人数(全民福利)
-        e_task_info_type_craft_soul_level,                                  ///157 官职等级
-        e_task_info_type_instance_equip_star_max,                           ///158 神兵本章节满星通关
-        e_task_info_type_ex_month_card,                                     ///159 大月卡(1表示需要)
-        e_task_info_type_instance_yigu_star_max,                            ///160 一孤本章节满星通关
-        e_task_info_type_instance_eqip,                                     ///161 神兵通关
-        e_task_info_type_instance_yigu,                                     ///162 一孤通关
-        e_task_info_type_x_qua_fight_stone_x_lvex_count,                    ///163 突破至b级的装备a颗
-        e_task_info_type_b_roll_val,                                        ///164 占星大成就
-        e_task_info_type_guild_instance_index_a,                            ///165 完成帮派副本a章节
-        e_task_info_type_guild_instance_index_a_no_clear,                   ///166 首次完成帮派副本a章节
-        e_task_info_type_new_invest_0,                                      ///167 新手理财0
-        e_task_info_type_a_pos_equip_b_quality_pet,                         ///168 a个战位上装备了b品质的灵宝
-        e_task_info_type_fight_pet_equip_a_pet_stone_with_b_quality,        ///169 战位上的宠物装备a个b品质的晶石
-        e_task_info_type_a_hero_has_b_levelex_equip,                        ///170 a名武将有觉醒等级b的神兵
-        e_task_info_type_week_yuanbao_in,                                   ///171 周元宝充值
-        e_task_info_type_new_invest_1,                                      ///172 新手理财1
-        e_task_info_type_new_invest_2,                                      ///173 新手理财2
-        e_task_info_type_new_invest_3,                                      ///174 新手理财3
-        e_task_info_type_week_roll_10,                                      ///175 周10连抽
-        e_task_info_type_craft_soulex_level,                                ///176 炼魂等级
-        e_task_info_type_b_qua_fight_stone_a_count,                         ///177 b品质的装备a个
-        e_task_info_type_hero_id_b_star_level_a,                            ///178 ID为b的英雄a星级
-        e_task_info_type_b_sub_equip_lvex_a,                                // 179 b进化等级的神兵兵魂a个
-        e_task_info_type_s_month_flag,                                      ///180 小月卡
-        e_task_info_type_b_month_flag,                                      ///181 大月卡
-        e_task_info_type_ex_month_flag,                                     ///182 至尊卡
-        e_task_info_type_sb_month_flag,                                     ///183 大小月卡
-        e_task_info_type_sex_month_flag,                                    ///184 至尊小月卡
-        e_task_info_type_bex_month_flag,                                    ///185 至尊大月卡
-        e_task_info_type_all_month_flag,                                    ///186 所有月卡
-        e_task_info_type_review_done,                                       ///187 完成一次评价
-        e_task_info_type_zdl_rank_level_max,                                ///188 战力榜历史最高排名
-        e_task_info_type_zdl_all_rank_level_max,                            ///189 全区战力榜历史最高排名
-        e_task_info_type_share_done,                                        ///190 完成一次分享
-        e_task_info_type_b_color_hero_a_count,                              ///191 b颜色的英雄a个
-        e_task_info_type_b_level_mount_a_count,								///192 b等级的坐骑a个
+        e_task_info_type_team_level = 128,                                  ///128 团队等级
+        e_task_info_type_team_zdl = 153,                                    ///153 团队战力
+        e_task_info_type_hero_id_b_star_level_a = 178,                      ///178 ID为b的英雄a星级
 
         e_task_info_type_max,
     }
@@ -327,8 +189,8 @@ namespace gmt
             int descTextId = 0;
             if (!string.IsNullOrEmpty(desc))
             {
-                TextManager.SetText(descTextId, desc);
                 descTextId = TextManager.CreateText();
+                TextManager.SetText(descTextId, desc);
             }
 
             foreach (var ach in listAchieve)
@@ -793,7 +655,7 @@ namespace gmt
             act.title = TextManager.GetText(titleTextId);
 
             int descTextId = listAchieve[0].txt;
-            act.desc = TextManager.GetText(titleTextId);
+            act.desc = TextManager.GetText(descTextId);
 
             act.firstmark = (config.NeedFlag==1);
             act.order = config.sortvalue;

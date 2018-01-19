@@ -8,6 +8,7 @@
     <title></title>
     <link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link href="../mycss/docs.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="../mycss/style.css" />
     <script type="text/javascript" src="../bootstrap/js/jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/global.js"></script>

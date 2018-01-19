@@ -103,7 +103,9 @@ namespace gmt
             {
                 for (int i = 0; i < rmbShopList.Count; i++)
                 {
-                    TableManager.RmbShopTable.Add(rmbShopList[i].goods_RegisterId, rmbShopList[i]);
+                    string index = string.Format("{0}-{1}", rmbShopList[i].channel, rmbShopList[i].goods_RegisterId);
+                    
+                    TableManager.RmbShopTable.Add(index, rmbShopList[i]);
                 }
             }
 
@@ -487,6 +489,10 @@ namespace gmt
             if (lang == "ko-KR")
             {
                 return GMTDescTable[descIdx].desc_kr;
+            }
+            else if (lang == "vi-VN")
+            {
+                return GMTDescTable[descIdx].desc_vn;
             }
 
             return GMTDescTable[descIdx].desc_cn;

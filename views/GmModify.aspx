@@ -10,6 +10,7 @@
     <link href="../bootstrap/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen" />
     <link href="../bootstrap/css/bootstrap-table.min.css" rel="stylesheet" media="screen" />
     <link href="../mycss/docs.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="../mycss/style.css" />
     <script type="text/javascript" src="../bootstrap/js/jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/global.js"></script>
@@ -157,45 +158,6 @@
                         </tr>
                         <tr>
                             <td><b>
-                                <label data-lan-id="White_List"></label></b></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label data-lan-id="Input"></label>
-                                <asp:TextBox ID="whileListTextBox" runat="server"
-                                    Width="200"></asp:TextBox></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:Button ID="whiteListButton" data-lan-id="Add" data-lan-type="text" runat="server"
-                                    OnClick="whiteListButton_Click" UseSubmitBehavior="false" Text="" ForeColor="White"
-                                    BackColor="Blue" Width="100" Height="30" Font-Bold="true" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:Button ID="stopInButton" data-lan-id="Stop_In" data-lan-type="text" runat="server"
-                                    OnClick="stopButton_Click" UseSubmitBehavior="false" Text="" ForeColor="White"
-                                    BackColor="Blue" Width="150" Height="30" Font-Bold="true" />
-                            </td>
-                            <td>
-                                <asp:Button ID="allowInButton" data-lan-id="Allow_In" data-lan-type="text" runat="server"
-                                    OnClick="notStopButton_Click" UseSubmitBehavior="false" Text="" ForeColor="White"
-                                    BackColor="Blue" Width="150" Height="30" Font-Bold="true" />
-                            </td>
-                            <td>
-                                <asp:Button ID="stopRegisterButton" data-lan-id="Stop_Register" data-lan-type="text" runat="server"
-                                    UseSubmitBehavior="false" Text="" ForeColor="White"
-                                    BackColor="Blue" Width="150" Height="30" Font-Bold="true" OnClick="stopRegisterButton_Click" />
-                            </td>
-                            <td>
-                                <asp:Button ID="allowRegisterButton" data-lan-id="Allow_Register" data-lan-type="text" runat="server"
-                                    UseSubmitBehavior="false" Text="" ForeColor="White"
-                                    BackColor="Blue" Width="150" Height="30" Font-Bold="true" OnClick="allowRegisterButton_Click" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><b>
                                 <label data-lan-id="Senior_Code"></label></b></td>
                         </tr>
                         <tr>
@@ -203,31 +165,6 @@
                                 <label data-lan-id="Input"></label>
                                 <asp:TextBox ID="gmTextBox" runat="server"
                                     Width="200"></asp:TextBox></td>
-                        </tr>
-                        <tr>
-                            <td colspan="6">
-                                <asp:Button ID="gmButton" data-lan-id="Confirm_Code" data-lan-type="text" runat="server" OnClick="gmButton_Click" UseSubmitBehavior="false" Text="" ForeColor="White" BackColor="Blue" Width="100" Height="30" Font-Bold="true" />
-                                <asp:Button ID="fcOpenButton" data-lan-id="Open_Fight_Check" data-lan-type="text" runat="server" UseSubmitBehavior="false" Text="" ForeColor="White" BackColor="Blue" Width="150" Height="30" Font-Bold="true" OnClick="fcOpenButton_Click" />
-                                <asp:Button ID="fcCloseButton" data-lan-id="Close_Fight_Check" data-lan-type="text" runat="server" UseSubmitBehavior="false" Text="" ForeColor="White" BackColor="Blue" Width="150" Height="30" Font-Bold="true" OnClick="fcCloseButton_Click" />
-                                <asp:Button ID="CICButton" data-lan-id="CIC" data-lan-type="text" runat="server" UseSubmitBehavior="false" Text="" ForeColor="White" BackColor="Blue" Width="200" Height="30px" Font-Bold="true" OnClientClick="return confirm(GetContentMsg('GmModify_CIC'))" OnClick="CICButton_Click" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="6">
-                                <asp:Button ID="shutdownButton" data-lan-id="Close_Server" data-lan-type="text" runat="server" Text=""
-                                    OnClientClick="if (!confirm(GetContentMsg('GmModify_shutdown1')) || !confirm(GetContentMsg('GmModify_shutdown2'))) return;"
-                                    UseSubmitBehavior="False" OnClick="shutdownButton_Click" ForeColor="White"
-                                    BackColor="Blue" Width="100" Height="30" Font-Bold="true" />
-                                <asp:Button ID="downloadLogButton" data-lan-id="Download_Log" data-lan-type="text" runat="server" Text=""
-                                    OnClientClick="window.open('DownloadLog.aspx', 'newwindow');" ForeColor="White" BackColor="Blue"
-                                    Width="150" Height="30" Font-Bold="true" />
-                                <asp:Button ID="InputNotActivityButton" data-lan-id="Import_Not_Activity" data-lan-type="text" runat="server" Text=""
-                                    OnClientClick="if (!confirm(GetContentMsg('GmModify_inputNotActivity'))) return;" UseSubmitBehavior="False"
-                                    OnClick="InputNotActivityButton_Click" ForeColor="White" BackColor="Blue" Width="150" Height="30" Font-Bold="true" />
-                                <asp:Button ID="InputAllButton" data-lan-id="Import_All" data-lan-type="text" runat="server" Text=""
-                                    OnClientClick="if (!confirm(GetContentMsg('GmModify_inputAll'))) return;" UseSubmitBehavior="False"
-                                    OnClick="InputAllButton_Click" ForeColor="White" BackColor="Blue" Width="200" Height="30" Font-Bold="true" />
-                            </td>
                         </tr>
 <%--                        <tr>
                             <td colspan="7">

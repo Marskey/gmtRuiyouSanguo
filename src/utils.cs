@@ -79,5 +79,16 @@ namespace gmt
         {
             return (((uint)high << 16) | low);
         }
+        public static uint idatoi(string svr_id)
+        {
+            string[] str = svr_id.Split('-');
+            byte[] bytes = new byte[str.Length];
+            for (int i = 0; i < str.Length; ++i)
+            {
+                bytes[i] = Convert.ToByte(str[i]);
+            }
+
+            return BitConverter.ToUInt32(bytes, 0);
+        }
     }
 }

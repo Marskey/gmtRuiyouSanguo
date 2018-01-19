@@ -4,7 +4,7 @@ function loadDict() {
     $.ajax({
         async: false,
         type: "GET",
-        url: "../Json/LanguageData.json",
+        url: "../Json/locale." + language_type +".json",
         dataType: "json",
         success: function (msg) {
             language_json = msg;
@@ -20,7 +20,7 @@ if (!language_type) language_type = language_default;
 
 function GetContentMsg(msgId) {
     if (language_json[msgId])
-        return language_json[msgId][language_type];
+        return language_json[msgId];
     else
         return undefined;
 }
